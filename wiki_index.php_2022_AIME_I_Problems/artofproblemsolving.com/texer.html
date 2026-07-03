@@ -1,0 +1,1117 @@
+<!DOCTYPE html>
+<html>
+	
+<!-- Mirrored from artofproblemsolving.com/texer by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 03 Jul 2026 02:54:09 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+		<script type="text/javascript">
+	// disable react developer tools
+	// NOTE: this only works if executed before React is loaded onto the page
+	if (window.__REACT_DEVTOOLS_GLOBAL_HOOK__) {
+		window.__REACT_DEVTOOLS_GLOBAL_HOOK__.inject = function () {};
+	}
+</script>
+
+<script>
+	AoPS = {
+		start_time: new Date().getTime()
+	};
+
+		window.HELP_IMPROVE_VIDEOJS = false;
+</script>
+
+<script>
+	AoPS.repo = 'aops';
+	AoPS.analytics_app_name = 'aops';
+	// ignore-security-checks
+	AoPS.bootstrap_data = {"user_info":{"logged_in":false,"user_type":"Not Logged In","campus_id":"web"},"collect_missing_info_logged_in":true,"has_new_parent_portal":true,"frozenTime":false,"serverTime":"2026-07-02T22:49:51-04:00","traceparent":"00-6a47234f00000000e06d6f2ec892848e-16171704083681543310-01","ga":{"GTM_container":"GTM-59JWRGZ","ga4":"G-NVWC1BELMR"},"fbq":"136949896895236","mixpanel_token":"bc09bbd0948cece151490b637145edf2","token":"qibnbdca","siteUrl":"https:\/\/artofproblemsolving.com\/"};
+	AoPS.bd = AoPS.bootstrap_data; // Alias!
+	// ignore-security-checks
+	AoPS.session = {"id":"21d6f40cfb511982e4424e0e250a9557","user_id":1,"platform_user_id":null,"username":"Anonymous","email":null,"avatar":"","logged_in":false,"initialized":false,"logged_in_and_initialized":false,"needs_coppa_approval":false,"is_coppa_approved":false,"role":"unregistered_user","admin":false,"national_staff":false,"show_privacy":null,"cmty_collection":"","has_missing_info":null,"missing_info_base_url":null};
+	AoPS.bd.environment = 'production';
+	AoPS.protected_url = 'index.html';
+	AoPS.aops_url = 'index.html';
+	AoPS.academy_url = 'https://aopsacademy.org/';
+	AoPS.beast_url = 'https://beastacademy.com/';
+	AoPS.register_url = 'https://accounts.artofproblemsolving.com/register';
+	AoPS.enroll_url = 'https://accounts.artofproblemsolving.com/';
+	AoPS.isProduction = true;
+</script>
+
+	
+					<script src="https://artofproblemsolving.com/assets/js/gtm.js?_v_=4266"></script>
+						<script src="https://artofproblemsolving.com/numbers/dist/v1805/lib.js?_v_=4266"></script>
+						<script src="https://artofproblemsolving.com/assets/js/mixpanel.js?_v_=4266"></script>
+		
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="initial-scale=1">
+		<meta name="referrer" content="origin">
+
+					<meta name="facebook-domain-verification" content="zmmwg7oqqsqvf8ihckwvzoo85b08gx" />
+		
+				<title>TeXeR</title>
+
+					<link rel="canonical" href="texer.html">
+		
+				
+		<link rel="stylesheet" href="https://artofproblemsolving.com/assets/fonts/font-awesome/css/all.css?_v_=4266">
+
+					<link rel="stylesheet" href="https://artofproblemsolving.com/assets/dist/v1805/css/main-head.css?_v_=4266">
+			<link rel="stylesheet" href="https://artofproblemsolving.com/assets/dist/v1805/css/sharedsite.css?_v_=4266">
+			<link rel="stylesheet" href="https://artofproblemsolving.com/assets/dist/v1805/css/navheader.css?_v_=4266">
+			<link rel="stylesheet" href="https://artofproblemsolving.com/assets/dist/v1805/css/footer.css?_v_=4266">
+		
+					<link rel="icon" type="image/x-icon" sizes="16x16 32x32 64x64" href="https://artofproblemsolving.com/assets/images/favicons/online/online-favicon.ico?v=4" />
+			<link rel="icon" type="image/png" sizes="192x192" href="https://artofproblemsolving.com/assets/images/favicons/online/online-android-chrome-192x192.png?v=4">
+			<link rel="apple-touch-icon" href="https://artofproblemsolving.com/assets/images/favicons/online/online-apple-touch-icon.png?v=4">
+		
+				<link rel="stylesheet" href="https://artofproblemsolving.com/assets/vendor/codemirror5/codemirror.css?_v_=4266"><link rel="stylesheet" href="https://artofproblemsolving.com/m/texer/css/texer.css?_v_=4266"><link rel="stylesheet" href="https://artofproblemsolving.com/assets/dist/v1805/css/community_common.css"><link rel="stylesheet" href="https://artofproblemsolving.com/assets/dist/v1805/css/prism/prism-vs.css"><link rel="stylesheet" href="http://artofproblemsolving.com/assets/vendor/highlight/styles/github.css?_v_=4266">
+		<script>
+  if (!window.console) console = {log: function() {}, dir: function() {}};
+  $$ = function( selector ) { return document.getElementById( selector ); }
+</script>
+
+		
+					<script src="http://assets.artofproblemsolving.com/js/jquery360.min.js"></script>
+			<script src="http://artofproblemsolving.com/assets/vendor/jquery/3.6.0/jquery-migrate.min.js"></script>
+		
+						<meta name="description" content="Practice your LaTeX and Asymptote skills in the TeXeR, a free tool from the Art of Problem Solving. Become a mathematical notation whiz!"> 
+<title>Practice LaTeX Mathematical Notation in the TeXeR | AoPS</title>
+<meta property="og:title" content="Practice LaTeX Mathematical Notation in the TeXeR | AoPS">
+<meta property="og:image" content="https://data.artofproblemsolving.com/images/school/aops%20online%20logo.jpg">
+<meta property="og:description" content="Practice your LaTeX and Asymptote skills in the TeXeR, a free tool from the Art of Problem Solving. Become a mathematical notation whiz!">
+<meta property="og:url" content="https://artofproblemsolving.com/texer">
+	</head>
+		<body class="production resources texer small-footer footer-fixed">
+
+								<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-59JWRGZ"
+			height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		
+				<noscript>
+			<img height="1" width="1"
+				src="https://www.facebook.com/tr?id=136949896895236&amp;ev=PageView&amp;noscript=1"/>
+		</noscript>
+		
+		<div id="page-wrapper">
+
+			<!-- search:off -->
+			
+			<!-- The gray bar at top -->
+			<!-- see shared-site.css -->
+			<div id="top-bar" class="sharedsite-wrapper no-select">
+				<div class="sharedsitebar">
+					<a href="index.html" class="mobile-title"></a>
+					<div class="sharedsite-links">
+																							<a class="site-link main" href="company.html">
+													Art of Problem Solving
+						</a>
+						<div class="site" name="online-tab">
+													<a class="site-link selected" href="index.html">
+														<img src="assets/images/logos/icon-online.svg" class="site-icon" alt="AoPS Online">
+								<span class="site-name">AoPS Online</span>
+							</a>
+							<!-- Rich dropdown -->
+							<div class="site-dropdown-wrapper">
+								<div class="site-dropdown">
+									<div class="site-info">
+										<div class="site-logo">
+											<img src="assets/images/logos/aops-online.svg"  alt="AoPS Online"/>
+										</div>
+										<div class="site-snippet">
+											Math texts, online classes, and more
+											<br/>for students in grades 5-12.
+										</div>
+										<a target="_blank" class="site-visit aops-primary" href="index.html">
+											Visit AoPS Online <span class="aops-font">‚</span>
+										</a>
+									</div>
+									<div class="site-quick-nav">
+										<a target="_blank" href="store.html" class="btn btn-primary aops-btn">
+											Books for Grades 5-12
+										</a>
+										<a target="_blank" href="school.html" class="btn btn-primary aops-btn">
+											Online Courses
+										</a>
+									</div>
+								</div>
+							</div>
+							<!-- End rich dropdown -->
+						</div>
+						<div class="site" name="ba-tab">
+							<a class="site-link" href="https://beastacademy.com/">
+								<img src="assets/images/logos/icon-ba.svg" class="site-icon" alt="Beast Academy">
+								<span class="site-name">Beast Academy</span>
+							</a>
+							<div class="site-dropdown-wrapper">
+								<div class="site-dropdown">
+									<div class="site-info">
+										<div class="site-logo">
+											<img src="assets/images/logos/aops-ba.svg" alt="Beast Academy"/>
+										</div>
+										<div class="site-snippet">
+											Engaging math books and online learning
+											<br/>for students ages 6-13.
+										</div>
+										<a target="_blank" class="site-visit ba-primary" href="https://beastacademy.com/">
+											Visit Beast Academy <span class="aops-font">‚</span>
+										</a>
+									</div>
+									<div class="site-quick-nav">
+										<a target="_blank" href="https://beastacademy.com/books" class="btn btn-primary ba-btn">
+											Books for Ages 6-13
+										</a>
+										<a target="_blank" href="https://beastacademy.com/online" class="btn btn-primary ba-btn">
+											Beast Academy Online
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="site" name="academy-tab">
+							<a class="site-link" href="http://aopsacademy.org/">
+								<img src="assets/images/logos/icon-academy.svg" class="site-icon" alt="AoPS Academy">
+								<span class="site-name">AoPS Academy</span>
+							</a>
+							<div class="site-dropdown-wrapper">
+								<div class="site-dropdown">
+									<div class="site-info">
+										<div class="site-logo">
+											<img src="assets/images/logos/aops-academy.svg" alt="AoPS Academy"/>
+										</div>
+										<div class="site-snippet">
+											 Small live classes for advanced math
+<br/>and language arts learners in grades 1-12.										</div>
+										<a target="_blank" class="site-visit academy-primary" href="http://aopsacademy.org/">
+											Visit AoPS Academy <span class="aops-font">‚</span>
+										</a>
+									</div>
+									<div class="site-quick-nav">
+										<a target="_blank" href="http://aopsacademy.org/campuses" class="btn btn-primary academy-btn">
+											Find a Physical Campus
+										</a>
+										<a target="_blank" href="https://virtual.aopsacademy.org/" class="btn btn-primary academy-btn">
+										Visit the Virtual Campus
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+										</div>
+				</div>
+			</div>
+
+			<div id="header-wrapper" class="no-select">
+				<div class="header-underlay">
+					<div id="header">
+
+						<!-- The white area where main menu options appear -->
+
+						<!-- The menu links -->
+													<div id="main-menubar">
+								<div class="menubar-content">
+									<div class="menubar-logo online">
+										<img class="menubar-hamburger" src="assets/images/hamburger.svg" alt="Menu"/>
+										<a class="logo-img-link" href="online.html">
+											<img class="logo-img" src="assets/images/logos/aops-online.svg" alt="AoPS"/>
+											<img class="logo-img-mobile" src="assets/images/logos/aops-online-mobile.svg" alt="AoPS"/>
+											<img class="logo-img-small" src="assets/images/logos/aops-online-mobile.svg" alt="AoPS"/>
+										</a>
+									</div>
+									<div class="menubar-links-outer">
+										<!-- The login links -->
+										<div class="menu-login-wrapper online">
+											
+											<div class="menu-login-item">
+															<div id="header-login" class="no-select not-signed-in">
+			<div class="online-login-button solid-rounded-button">Sign&nbsp;In</div><div class="online-register-button">Register</div>
+		</div>
+												</div>
+
+											
+											
+										</div>
+										<div class="menubar-labels online">
+																						<div class="menubar-label school">
+												<div class="menubar-label-link-outer">
+													<a class="menubar-label-link " href="school.html">
+														online school
+													</a>
+												</div>
+												<div class="menubar-dropdown">
+													<div class="triangle"></div>
+													<div class="dropdown-content">
+																												<a id="online-school-menu-schedule" href="school/schedule.html"> Class Schedule </a>
+														<a id="online-school-menu-recommmendations" href="school/recommendations.html"> Recommendations </a>
+														<a id="online-school-menu-woot-courses" href="https://artofproblemsolving.com/woot?gtmlist=School_Nav"> Olympiad Courses </a>
+														<a id="online-school-menu-mathjams" href="school/mathjams.html"> Free Sessions/Math Jams </a>
+																																										<a target="_blank" href="https://virtual.aopsacademy.org/?utm_source=aopsonline&amp;utm_medium=onlineschoolmenu&amp;utm_campaign=os_vc">
+															Video Classes
+														</a>
+													</div>
+												</div>
+											</div>
+											<div class="menubar-label store">
+												<div class="menubar-label-link-outer">
+													<a class="menubar-label-link " href="store.html">
+														books<span class="menubar-link-ext">tore </span>
+													</a>
+												</div>
+												<div class="menubar-dropdown">
+													<div class="triangle"></div>
+													<div class="dropdown-content">
+																																																								<a href="store/list/aops-curriculum.html">Middle/High School</a>
+														<a href="store/list/beast-academy.html">Elementary School</a>
+														<a href="store/online.html">Online Books</a>
+														<a href="store/recommendations.html">Recommendations</a>
+														<a href="store/list/other-products.html">Other Books &amp; Gear</a>
+														<a href="store/list/all-products.html">All Products</a>
+														<a href="https://artofproblemsolving.com/store/gift-certificates?gtmlist=Bookstore_Nav">Gift Certificates</a>
+																											</div>
+												</div>
+											</div>
+											<div class="menubar-label community">
+												<div class="menubar-label-link-outer">
+													<a class="menubar-label-link " href="community.html">
+														community
+													</a>
+												</div>
+												<div class="menubar-dropdown">
+													<div class="triangle"></div>
+													<div class="dropdown-content">
+																												<a data-cmty href="community.html">Forums</a>
+														<a data-cmty href="community/c13_contests.html">Contests</a>
+														<a data-cmty href="community/search.html">Search</a>
+														<a data-cmty href="community/faq.html">Help</a>
+																																																							</div>
+												</div>
+											</div>
+											<div class="menubar-label resources">
+												<div class="menubar-label-link-outer">
+													<a class="menubar-label-link selected" href="resources.html">
+														resources
+													</a>
+												</div>
+												<div class="menubar-dropdown">
+													<div class="triangle"></div>
+													<div class="dropdown-content">
+														<div class="dropdown-columns">
+															<div class="dropdown-category">
+																<span class="dropdown-category-label">math training & tools</span>
+																<a href="alcumus.html">Alcumus</a>
+																<a href="videos.html">Videos</a>
+																<a href="ftw.html">For the Win!</a>
+																<a href="mathcounts_trainer.html">MATHCOUNTS Trainer</a>
+																<a href="contests/practice.html">AoPS Practice Contests</a>
+																<a href="wiki/index4875.html?title=Main_Page">AoPS Wiki</a>
+																<a href="texer.html">LaTeX TeXeR</a>
+																<a href="polymath.html">MIT PRIMES/CrowdMath</a>
+																<a href="keeplearning.html">Keep Learning</a>
+																<a href="https://beastacademy.com/all-ten?utm_source=aopsonline&amp;utm_medium=all_ten_menu&amp;utm_campaign=os_beast">All Ten</a>
+																															</div>
+															<div class="dropdown-column">
+																																<div class="dropdown-category category-in-column">
+																	<span class="dropdown-category-label">contests on aops</span>
+																	<a href="contests/practice.html">Practice Math Contests</a>
+																</div>
+																<div class="dropdown-category category-in-column">
+																	<span class="dropdown-category-label">for schools</span>
+																	<a href="https://www.beastclassroom.com/">Beast Classroom</a>
+																</div>
+																<div class="dropdown-category category-in-column">
+																	<span class="dropdown-category-label">news</span>
+																	<a href="https://artofproblemsolving.com/blog">AoPS Blog</a>
+																	<a href="blog/webinars/aopswebinars.html">Webinars</a>
+																</div>
+															</div>
+														</div>
+														<div class="dropdown-view-more-link-container">
+															<a href="resources.html" class="dropdown-view-more-link">view all <span class="aops-icon">0</span></a>
+														</div>
+													</div>
+												</div>
+											</div>
+																						<div class="menubar-label menu-login-item">
+															<div id="header-login" class="no-select not-signed-in">
+			<div class="online-login-button solid-rounded-button">Sign&nbsp;In</div><div class="online-register-button">Register</div>
+		</div>
+												</div>
+																					</div>
+									</div>
+								</div>
+							</div>
+											</div>
+				</div>
+
+									<!-- ignore-security-checks -->
+					<div class="infobar " data-key="july-a-vc3bs"
+						style="background-color: #1b365d">
+						<span class="infobar-text"><p>Happy 4th of July! Please note that AoPS Online is closed July 3 -5.</p></span><span class="infobar-hide"><i class="fas fa-times infobar-hide"></i></span>					</div>
+								<noscript>
+					<div class="infobar">JavaScript is not enabled. JavaScript is required to fully utilize the site.</div>
+				</noscript>
+
+
+									<div id="breadcrumbs-wrapper">
+						<div id="submenu-icon"></div>
+						<div id="breadcrumbs">
+														<!-- ignore-security-checks -->
+							<div class="title-wrapper"><div class="title">TeXeR</div></div>
+														<div class="crumb-wrapper">
+																										<span class="crumb crumb-1">
+																																					</span>
+															</div>
+						</div>
+					</div>
+							</div>
+
+			<!-- search icon script lives in footer.phtml-->
+
+			<!-- /search:off -->
+<style type="text/css">
+	.bbcode_img { max-width : 100%; }
+</style>
+
+<script type="text/x-mathjax-config">
+	MathJax.Hub.Config( {
+		tex2jax: {
+			inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+			displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+			processEscapes: true,
+		},
+		TeX: {
+			Macros: {
+				newcommand: null,
+				renewcommand: null,
+				newenvironment: null,
+				renewenvironment: null,
+				def: null,
+				let: null
+			}
+		},
+		Safe: {
+			allow: {
+				styles: "none"
+			}
+		}
+	} );
+</script>
+
+<noscript>
+	<div style="position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;height:240px;width:70%;background-color:white;z-index:1000;border:10px solid #ddd;">
+		<div style="margin-top:95px;text-align:center;font-size:30px;line-height:30px;">
+			JavaScript must be enabled to use TeXeR.
+		</div>
+	</div>
+</noscript>
+<div id="main-content">
+
+
+	<div id="editor" class="panel" style="position:absolute;left:0;right:0;background-color:blue">
+		<textarea data-hj-suppress="" data-hj-masked="" id="boomer"></textarea>
+	</div>
+
+		<div data-hj-suppress="" data-hj-masked="" id="preview" class="panel" tabindex="0">
+		<p class="mobile-warning">
+			Hey, it looks like you're using a mobile phone or small device!  TeXeR works best on a larger screen, so please visit this page from a desktop or tablet.
+		</p>
+		Enter your LaTeX code in the editor panel on the left.
+		<p>
+			When you are ready to compile your document, click one
+			of the options at the top.
+		</p>
+		<p>
+			<strong>Image:</strong> Renders as a PNG image. Suitable for short equations.
+			Hint: Use Ctrl-Enter to recompile an image after making changes.
+		</p>
+		<p>
+			<strong>bbCode:</strong> Render with bbCode. This is similar to writing
+			posts in the AoPS community or on your AoPS blog. You can use this to test your message
+			before posting to the forum or your blog. bbCode rendering auto-updates if you stop
+			typing for a short period of time.
+					</p>
+		<p>
+			<strong>MathJax:</strong> Render the document with MathJax, a client
+			side LaTeX compiler. MathJax rendering auto-updates if you stop typing for a short
+			period of time. MathJax does not support Asymptote.
+		</p>
+		<p>
+			<strong>PDF:</strong> Render document as a PDF file. You must have a PDF
+			viewer to view the compiled document.
+		</p>
+
+		
+			</div>
+	<div id="tracker" class="panel"><span id="arrows">6 7</span></div>
+</div>
+
+
+<script>
+// Compress at http://lisperator.net/uglifyjs/#demo
+// And then I made a lot of replaces to variable names
+
+(function( window ) {
+	var
+		screen_width = 0,
+		right_ratio = .4,
+		last_compile = "image",
+		rerender_timeout = 0,
+		editor,
+		tracker_width,
+		is_touch;
+
+		var removing_editor_focus = false;
+
+		var is_public = AoPS.bootstrap_data.is_public;
+		var init_public = is_public ? '1' : '0';
+		var save_permissions = AoPS.bootstrap_data.save_permissions;
+
+	$(function() {
+
+		tracker_width = $( "#tracker" ).width();
+		is_touch = window.matchMedia('(pointer: coarse)').matches;
+
+		// Add menu to breadcrumb bar
+		addMenu();
+
+		// Set up drag and drop of images
+    //		setupDragAndDrop();
+
+		// This will set up the panels to their appropiate position.
+		onResize();
+
+		// The preview panel should be 40% of screen, but a minimum of 500
+		// pixels (default size of latex image + padding) to start.
+		var preview_width = $( window ).width() * right_ratio;
+		if ( preview_width < 500 && $( window ).width() >= 800 ) {
+			right_ratio = 500 / $( window ).width();
+		}
+
+		// Set up event handlers
+		$( window ).on( "resize", onResize );
+
+		$( "#tracker" ).on( "mousedown", beginTracking );
+
+		// need this because chrome made touch passive
+		if (is_touch) {
+			document.getElementById("preview").addEventListener("touchstart", function(e) {
+				removing_editor_focus = true;
+				$("#preview").focus();
+			}, {passive: false, capture: true});
+			window.addEventListener("touchstart", beginTouchTracking, {passive: false});
+		}
+
+
+		$( window ).on( "keydown", onKeyDown );
+		$( window ).on( "keyup", onKeyUp );
+
+		$( "#render-image" ).on( "click", renderImage );
+		$( "#render-bbcode" ).on( "click", renderCode );
+		$( "#render-mathjax" ).on( "click", renderMathJax );
+		$( "#render-pdf" ).on( "click", renderPdf );
+		$( "#save" ).on( "click", save );
+		$( "#priv-toggle").on( "click", togglePrivate );
+
+		// Create editor
+		var e = document.getElementById( "boomer" );
+		if ( e ) {
+			editor = CodeMirror.fromTextArea( e, {
+				mode: "stex",
+				lineWrapping : true,
+				lineNumbers : true,
+				dragDrop : false
+			});
+		}
+	});
+
+
+
+	/**
+	 * Create the menu in the breadcrumb bar
+	 */
+	function addMenu() {
+		var items = [
+			'<span id="render-image" class="crumb"></span>',
+			'<span id="render-bbcode" class="crumb"></span>',
+			'<span id="render-mathjax" class="crumb"></span>',
+			'<span id="render-pdf" class="crumb"></span>'
+		];
+
+		if ( AoPS.session.logged_in && ( save_permissions === 'author' || save_permissions === 'admin' ) ) {
+			items.push( '<span id="save" class="crumb">Save</span>' );
+			if (is_public) {
+				items.push( '<span id="priv-toggle" class="crumb">Make Private (Currently public, share via URL)</span>' );
+			} else {
+				items.push( '<span id="priv-toggle" class="crumb">Make Public (Currently private)</span>' );
+			}
+		}
+		$( ".crumb-wrapper" ).html( items.join( "" ) );
+	}
+
+	/**
+	 * Check if touch is within tracker box.
+	 */
+	function isWithinTracker(e) {
+		var rect = document.getElementById("tracker").getBoundingClientRect();
+		var top = rect.top;
+		var bottom = rect.bottom;
+		var left = rect.left;
+		var right = rect.right;
+		var clientX = e.targetTouches[0].clientX;
+		var clientY = e.targetTouches[0].clientY;
+		if (clientX >= left && clientX <= right && clientY >= top && clientY <= bottom) {
+			return true;
+		}
+		return false;
+	}
+
+	/**
+	 * Start tracking of the bar to resize the panels
+	 */
+	function beginTracking()
+	{
+		$( window ).on( "mousemove", track );
+		$( window ).on( "mouseup", endTracking );
+		$( "#tracker" ).off( "mousedown", beginTracking );
+		$( "body" ).css( "cursor", "col-resize" );
+	}
+	function beginTouchTracking(e)
+	{
+		if (isWithinTracker(e)) {
+			window.addEventListener("touchmove", track, {passive: false});
+			window.addEventListener("touchend", endTouchTracking, {passive: false});
+			window.removeEventListener("touchstart", beginTouchTracking, {passive: false});
+			$( "body" ).css( "cursor", "col-resize" );
+		}
+	}
+
+
+	/**
+	 * Track the mouse to resize the panels
+	 *
+	 * @param {Event} e
+	 */
+	function track( e )
+	{
+		var clientX;
+		if (e.touches) {
+			clientX = e.touches[0]["clientX"];
+		} else {
+			clientX = e.clientX;
+		}
+		e.stopPropagation();
+		e.preventDefault();
+
+		var
+			min_width = screen_width * .3,
+			max_width = screen_width * .7;
+
+		// allow panels to completely
+		// collapse on touch screens
+		if(is_touch) {
+			min_width = 0;
+			max_width = screen_width - tracker_width + 1;
+		}
+
+		var preview_width = $( window ).width() - clientX - tracker_width;
+
+		// fix weirdness with touch/drag where bar gets very close to
+		// edge but doesn't quite touch
+		// if (preview_width <= min_width + 5) {
+		// 	preview_width = min_width;
+		// } elseif (max_width - preview_width <= 5) {
+		// 	preview_width = max_width;
+		// }
+
+		if ( preview_width < min_width || preview_width > max_width ) {
+			return;
+		}
+
+		$( "#editor" ).css( "width", clientX + "px" );
+		$( "#preview" ).css( "width", ( preview_width )  + "px" );
+		$( "#tracker" ).css( "left", clientX + "px" );
+
+	}
+
+
+
+	/**
+	 * End tracking
+	 */
+	function endTracking()
+	{
+		$( window ).off( "mousemove", track );
+		$( window ).off( "mouseup", endTracking );
+		$( "#tracker" ).on( "mousedown", beginTracking );
+		$( "body" ).css( "cursor", "inherit" );
+
+		right_ratio = $( "#preview" ).width() / $( window ).width();
+
+		editor.refresh();
+		editor.focus();
+	}
+	function endTouchTracking()
+	{
+		window.removeEventListener("touchmove", track, {passive: false});
+		window.removeEventListener("touchend", endTouchTracking, {passive: false});
+		window.addEventListener("touchstart", beginTouchTracking, {passive: false});
+		$( "body" ).css( "cursor", "inherit" );
+
+		right_ratio = $( "#preview" ).width() / $( window ).width();
+
+		editor.refresh();
+		editor.focus();
+	}
+
+
+	/**
+	 * Resize panels when screen is resized
+	 */
+	function onResize(e)	{
+		setTimeout( function() {
+			var height = $( "#main-content" ).height();
+			$( ".panel" ).height( height );
+			$( "#preview" ).height( height - 20 ); // Take padding in to account.
+
+			screen_width = $( window ).width();
+			var preview_width = screen_width * right_ratio;
+			var editor_width = screen_width - preview_width - tracker_width;
+
+			$( "#editor" ).width( editor_width );
+			$( "#tracker" ).css( "left", editor_width + "px" );
+			$( "#preview" ).width( preview_width - 20 );
+
+			editor.refresh();
+			if (!removing_editor_focus) {
+				editor.focus();
+			}
+			removing_editor_focus = false;
+		}, 1 );
+	}
+
+
+
+	/**
+	 * Render document as an image
+	 *
+	 * @param {object} e
+	 */
+	function renderImage( e ) {
+		last_compile = "image";
+
+		$.post( "https://artofproblemsolving.com/m/texer/ajax.php", {
+			action : "image",
+			token : AoPS.bd.token,
+			tex : Base64.encode( editor.getValue() ),
+			rerender : e !== undefined && AoPS.session.admin && (e.ctrlKey || e.metaKey)
+		}, function( data ) {
+			if ( data.error_code ) {
+				if ( data.response ) {
+					AoPS.Ui.Modal.showButtonsQuick( data.error_msg,
+						[
+							{ text : "View log", value : "view" },
+							{ text : "Close", value : "close" }
+						],
+						function ( value ) {
+							if ( value === "view" ) {
+								AoPS.Ui.Modal.closeAllModals();
+
+								// Without the timeout, the modal won't display :(
+								setTimeout( function() {
+									AoPS.Ui.Modal.show( {
+										body : data.response,
+										scrollable : true
+									} );
+								}, 1 );
+							}
+						}
+					);
+				} else {
+					AoPS.Ui.Modal.showAlertQuick( data.error_msg );
+				}
+			} else {
+				var html = [];
+				for ( var i = 0; i < data.response.urls.length; i++ ) {
+					html.push( '<img src="' + data.response.urls[ i ] + "?time=" + new Date().getTime() + '" width="' + data.response.width[ i ] + '">' );
+				}
+				$( "#preview" ).html( html.join( "" ) );
+			}
+		}, "json" );
+	}
+
+
+
+	/**
+	 * Render document with aops/bb code
+	 *
+	 * @param {object} e
+	 */
+	function renderCode( e ) {
+		last_compile = "code";
+
+		$.post( "https://artofproblemsolving.com/m/texer/ajax.php", {
+			action : "aopscode",
+			token : AoPS.bd.token,
+			tex : Base64.encode( editor.getValue() ),
+			rerender : e !== undefined && AoPS.session.admin && (e.ctrlKey || e.metaKey)
+		}, function( data ) {
+			if ( data.error_code ) {
+				// Turn off re-render so we don't duplicate error
+				if ( rerender_timeout ) {
+					clearTimeout( rerender_timeout );
+				}
+				AoPS.Ui.Modal.showAlertQuick( data.error_msg );
+			} else {
+				var div = document.getElementById( "preview" );
+				div.innerHTML = data.response.html;
+				//$( div ).find( "code" ).each( function( idx, dom ) {
+				//	hljs.highlightBlock( dom );
+				//} );
+				// Rainbow.color( div );
+				if (typeof Prism !== "undefined") {
+					Prism.plugins.autoloader.languages_path =
+						"https://cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/components/";
+					var elements = div.querySelectorAll("pre code");
+					for (var i = 0; i < elements.length; i++) {
+						Prism.highlightElement(elements[i]);
+					}
+				}
+			}
+		}, "json" );
+	}
+
+
+
+	/**
+	 * Render document as a PDF
+	 *
+	 * @param {object} e
+	 */
+	function renderPdf( e ) {
+		last_compile = "pdf";
+
+		$.post( "https://artofproblemsolving.com/m/texer/ajax.php", {
+			action : "pdf",
+			token : AoPS.bd.token,
+			tex : Base64.encode( editor.getValue() ),
+			rerender : e !== undefined && AoPS.session.admin && (e.ctrlKey || e.metaKey)
+		}, function( data ) {
+			if ( data.error_code ) {
+				if ( data.response ) {
+					AoPS.Ui.Modal.showButtonsQuick( data.error_msg,
+						[
+							{ text : "View log", value : "view" },
+							{ text : "Close", value : "close" }
+						],
+						function ( value ) {
+							if ( value === "view" ) {
+								AoPS.Ui.Modal.closeAllModals();
+
+								// Without the timeout, the modal won't display :(
+								setTimeout( function() {
+									AoPS.Ui.Modal.show( {
+										body : data.response,
+										scrollable : true
+									} );
+								}, 1 );
+							}
+						}
+					);
+				} else {
+					if (data.error_msg === 'Error making remote request. No response to HTTP request') {
+						AoPS.Ui.Modal.showAlertQuick('Oh no! Something you tried to do is just way too hard for our servers. Please consider ways to simplify your request.');
+					} else {
+						AoPS.Ui.Modal.showAlertQuick( data.error_msg );
+					}
+				}
+			} else {
+				var url = "//docs.google.com/viewer?embedded=true&url=" + encodeURIComponent( "http:" + data.response.url );
+				url += "?t=" + new Date().getTime();
+				target = data.response.url + "?t=" + new Date().getTime();
+				var html = [
+					'<a target="_blank" href="' + target + '">Open PDF in new tab</a>',
+					'<iframe style="width:100%;height:calc( 100% - 40px )" src="' + url + '">'
+				];
+				$( "#preview" ).html( html.join( "<br>" ) );
+			}
+		}, "json" );
+	}
+
+
+
+	/**
+	 * Render document with MathJax
+	 *
+	 * @returns {undefined}
+	 */
+	function renderMathJax()
+	{
+		last_compile = "mathjax";
+
+		var code = editor.getValue();
+
+		code = _.escape(code);
+		code = code.replace(/\n/g, '<br>' );
+
+		$( "#preview" ).html( code ) ;
+		MathJax.Hub.Queue( [ "Typeset", MathJax.Hub, "preview" ] );
+	}
+
+	/**
+	 * Set document as public or private
+	 * T28851
+	 */
+	function togglePrivate()
+	{
+		if (is_public) {
+			$( '#priv-toggle' ).text('Make Public (Currently private)');
+			is_public = false;
+		} else {
+			$( '#priv-toggle' ).text('Make Private (Currently public, share via URL)');
+			is_public = true;
+		}
+	}
+
+	/**
+	 * Save the document
+	 */
+	function save()
+	{
+		is_public = is_public ? '1' : '0';
+		if ( ! editor.isClean() || is_public != init_public ) {
+			$.post( "https://artofproblemsolving.com/m/texer/ajax.php", {
+				action : "save",
+				token : AoPS.bd.token,
+				tex : Base64.encode( editor.getValue() ),
+				public : is_public
+			}, function( data ) {
+				if ( data.error_code ) {
+					AoPS.Ui.Modal.showAlertQuick( data.error_msg );
+				} else {
+					var url = AoPS.bd.siteUrl + "texer/" + AoPS.bd.token;
+					var msg = "Saved.<p>You can access your LaTeX at:</p>";
+					msg += '<p><a href="' + url + '">' + url + '</a></p>';
+					AoPS.Ui.Flyout.display( msg, { time : 5000 } );
+					editor.markClean();
+				}
+			}, "json" );
+		} else {
+			AoPS.Ui.Flyout.display( "There are no changes since last save.", { time : 3000 } );
+		}
+		init_public = is_public;
+	}
+
+
+
+	/**
+	 * Handler for key down events
+	 *
+	 * @param {Event} e
+	 */
+	function onKeyDown( e ) {
+		// Prevent ctrl-s from initiating the save dialog
+		if ( e.keyCode === 83 && e.ctrlKey ) {
+			e.stopPropagation();
+			e.preventDefault();
+		}
+	}
+
+
+
+	/**
+	 * Handler for key up events. Checks for saving, compiling, and
+	 * also sets up timers for automatic rendering
+	 *
+	 * @param {Event} e
+	 */
+	function onKeyUp( e ) {
+
+
+		// Compile
+		if ( e.keyCode === 13 && (e.ctrlKey || e.metaKey)) {
+			if ( last_compile === "code" ) {
+				renderCode();
+			} else if ( last_compile === "pdf" ) {
+				renderPdf();
+			} else if ( last_compile === "mathjax" ) {
+				renderMathJax();
+			} else {
+				renderImage();
+			}
+		} else if ( e.keyCode === 83 && e.ctrlKey ) {
+			e.stopPropagation();
+			e.preventDefault();
+			save();
+		} else if ( last_compile === "mathjax" ) {
+			setRerenderTimeout( renderMathJax, 500 );
+		} else if ( last_compile === "code" ) {
+			// setRerenderTimeout( renderCode, 2000 );
+		}
+	}
+
+
+
+	/**
+	 * Sets timer for automatic compiling
+	 *
+	 * @param {Function} callback Function to call after user hasn't typed anything
+	 * @param {int} time Time to wait before callback is called, in milliseconds
+	 */
+	function setRerenderTimeout( callback, time ) {
+		if ( rerender_timeout ) {
+			clearTimeout( rerender_timeout );
+		}
+
+		rerender_timeout = setTimeout( function() {
+			callback();
+			rerender_timeout = 0;
+		}, time );
+	}
+}( window ));</script>
+<!-- search:off -->
+	<div class="clearfix"></div>
+
+	
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+											<a href="online.html">
+							<img class="footer-mainLogo"
+							src="assets/images/logos/aops-online-footer.svg"/>
+						</a>
+										<div class="footer-wasc">
+						<span>
+							Art of Problem Solving is an
+							<br class="wasc-break"/>
+							<span class="footer-accredited">ACS WASC Accredited School</span>
+						</span>
+						<img class="footer-wascLogo"
+						src="assets/images/logos/wasc.png"/>
+					</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<div><a class="link" href="online.html">AoPS Online</a></div>
+					<div><a class="link" href="https://beastacademy.com/">Beast Academy</a></div>
+					<div><a class="link" href="http://aopsacademy.org/">AoPS Academy</a></div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<div><a class="link" href="company/about.html">About AoPS</a></div>
+					<div><a class="link" href="company/staff.html">Our Team</a></div>
+					<div><a class="link" href="company/history.html">Our History</a></div>
+					<div><a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a></div>
+					<div><a class="link" href="https://artofproblemsolving.com/school/how-school-works/faqs">FAQ</a></div>
+					<div><a class="link" href="https://artofproblemsolving.com/blog">AoPS Blog</a></div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<div><a class="link" href="company/tos.html">Terms</a></div>
+					<div><a class="link" href="company/privacy.html">Privacy</a></div>
+					<div><a class="link" href="https://artofproblemsolving.com/contact?product=online">Contact Us</a></div>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="assets/images/socialmedia/facebook.svg" class="sm-icon"/>
+							</a>
+							<a class="link" target="_blank" href="https://twitter.com/AoPSNews">
+								<img src="assets/images/socialmedia/twitter.svg" class="sm-icon"/>
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="assets/images/socialmedia/pinterest.svg" class="sm-icon"/>
+							</a>
+											</div>
+				</div>
+									<div class="footer-col subscribe">
+						<div class="footer-colHeader">
+							Subscribe for news and updates
+						</div>
+						<form method="post" action="https://artofproblemsolving.com/mailinglist">
+							<input data-hj-suppress="" data-hj-masked="" type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+							<input type="hidden" name="new-books" value="on">
+							<input type="hidden" name="classes" value="on">
+							<input type="hidden" name="mathjams" value="on">
+							<input type="submit" class="footer-submit" value="">
+							<div class="footer-submit-arrow">
+								<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+									<g>
+										<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z"/>
+									</g>
+								</svg>
+							</div>
+						</form>
+					</div>
+							</div>
+			<div class="copyright">
+				<span>&copy; 2026 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="online.html">
+					<img class="footer-mainLogo"
+					src="assets/images/logos/aops-online-footer.svg"/>
+				</a>
+						<div class="copyright">
+				&copy; 2026 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="company.html">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact?product=online">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="company/tos.html">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="company/privacy.html">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<form id="registration-form" method="post" action="https://artofproblemsolving.com/user/register.php">
+	<input type="hidden" name="username" value="">
+	<input type="hidden" name="password" value="">
+	<input type="hidden" name="from-login" value="true">
+	</form>
+<div id="print-footer" class="printer">Copyright &copy; 2026 Art of Problem Solving</div>
+
+
+<div id="epicfail" class="aops-html-modal-epic-fail" style="display: none">
+	<div class="aops-html-modal-inner-epic-fail">
+		<div class="aops-html-modal-main-epic-fail">
+			<p>Something appears to not have loaded correctly.</p>
+		</div>
+		<div class="aops-html-modal-bottom-epic-fail">
+			<p><a onclick="location.reload(true);return false">Click to refresh</a>.</p>
+		</div>
+	</div>
+</div>
+<link rel="stylesheet" href="https://artofproblemsolving.com/assets/css/epic-fail.css?_v_=4266">
+
+<script src="https://artofproblemsolving.com/assets/vendor/common-combined-2.js"></script>
+
+	<script src="https://artofproblemsolving.com/assets/dist/v1805/aops_core.js?_v_=4266"></script>
+
+
+<script src="https://artofproblemsolving.com/s/sourceRecording/dist/v1805/source_recording.js?_v_=4266"></script>
+
+<script src="http://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS-MML_SVG-full,Safe"></script><script src="https://artofproblemsolving.com/assets/vendor/codemirror5/codemirror.js?_v_=4266"></script><script src="https://artofproblemsolving.com/assets/vendor/codemirror5/mode/stex/stex.js?_v_=4266"></script><script src="https://artofproblemsolving.com/assets/pythonbook/_static/skulpt.min.js?_v_=4266"></script><script src="https://artofproblemsolving.com/assets/pythonbook/_static/skulpt-stdlib.js?_v_=4266"></script><script src="https://artofproblemsolving.com/assets/pythonbook/_static/aopsmods.js?_v_=4266"></script><script src="https://artofproblemsolving.com/assets/js/community_utils.js?_v_=4266"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/prism.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/plugins/autoloader/prism-autoloader.js"></script><script src="http://artofproblemsolving.com/assets/vendor/highlight/highlight.pack.js?_v_=4266"></script>
+<!-- /search:off -->
+
+
+
+<script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"5105596"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","http://bat.bing.com/bat.js","uetq");</script><noscript><img src="http://bat.bing.com/action/0?ti=5105596&amp;Ver=2" height="0" width="0" style="display:none; visibility: hidden;" /></noscript>
+
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a15294527fef1275',t:'MTc4MzA0Njk5MQ=='};var a=document.createElement('script');a.src='https://artofproblemsolving.com/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+
+<!-- Mirrored from artofproblemsolving.com/texer by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 03 Jul 2026 02:54:09 GMT -->
+</html>

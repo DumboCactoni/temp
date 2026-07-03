@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html>
+	
+<!-- Mirrored from artofproblemsolving.com/community/c13_contests by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 03 Jul 2026 02:51:19 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+		<script type="text/javascript">
+	// disable react developer tools
+	// NOTE: this only works if executed before React is loaded onto the page
+	if (window.__REACT_DEVTOOLS_GLOBAL_HOOK__) {
+		window.__REACT_DEVTOOLS_GLOBAL_HOOK__.inject = function () {};
+	}
+</script>
+
+<script>
+	AoPS = {
+		start_time: new Date().getTime()
+	};
+
+		window.HELP_IMPROVE_VIDEOJS = false;
+</script>
+
+<script>
+	AoPS.repo = 'aops';
+	AoPS.analytics_app_name = 'aops';
+	// ignore-security-checks
+	AoPS.bootstrap_data = {"user_info":{"logged_in":false,"user_type":"Not Logged In","campus_id":"web"},"collect_missing_info_logged_in":true,"has_new_parent_portal":true,"frozenTime":false,"serverTime":"2026-07-02T22:49:45-04:00","traceparent":"00-6a47234900000000301b6cee1045a07a-3466484107922743418-01","ga":{"GTM_container":"GTM-59JWRGZ","ga4":"G-NVWC1BELMR"},"fbq":"136949896895236","mixpanel_token":"bc09bbd0948cece151490b637145edf2","preload_cmty_data":{"user_id":0,"category_id":13,"rewrite_url":false},"init_time":1783046985,"server_time":"0.15303700 1783046985","datastore_path":"\/var\/data\/aops3\/","cmty_is_testing":false,"parent_free_resources_opt_in":true,"cmty_status":"active","is_community_active":true,"community_inactive_message":"Community disabled for routine maintenance.","cmty_attachment_path":"\/\/cdn.artofproblemsolving.com\/attachments\/","cmty_toplevel_data":{"3":{"num_topics":53228,"num_posts":757008,"num_users":10,"is_locked":false},"4":{"num_topics":123156,"num_posts":649183,"num_users":2,"is_locked":false},"5":{"num_topics":36505,"num_posts":612955,"num_users":10,"is_locked":false},"6":{"num_topics":330228,"num_posts":1454173,"num_users":11,"is_locked":false},"7":{"num_topics":116224,"num_posts":453175,"num_users":3,"is_locked":false},"10":{"num_topics":19427,"num_posts":166892,"num_users":2,"is_locked":false}},"toplevel_category_permissions":{"2":{"c_can_access_all_tags":false,"c_can_add_item":true,"c_can_add_target":false,"c_can_announce":false,"c_can_change_is_public":false,"c_can_change_sort_type":false,"c_can_delete":false,"c_can_delete_category":false,"c_can_edit":false,"c_can_edit_admin_items":false,"c_can_edit_core_data":false,"c_can_edit_deny":false,"c_can_edit_mod":false,"c_can_edit_own_posts":false,"c_can_edit_owner":false,"c_can_edit_registered_user":false,"c_can_edit_tags":false,"c_can_global_announce":false,"c_can_hard_delete":false,"c_can_hard_delete_cat":false,"c_can_lock_category":false,"c_can_lock_topic":false,"c_can_monitor":false,"c_can_move_topic_out":false,"c_can_nothank":false,"c_can_read":true,"c_can_read_deleted":false,"c_can_remove_item":true,"c_can_remove_target":false,"c_can_reply":false,"c_can_report":false,"c_can_see_real_poster":false,"c_can_settle_report":false,"c_can_shout":false,"c_can_start_topic":false,"c_can_tag_new":false,"c_can_thank":false,"c_can_undelete":false,"c_undo_global_ban":false,"c_can_override_lock":false,"c_can_set_role_inherit":false},"3":{"c_can_access_all_tags":false,"c_can_add_item":true,"c_can_add_target":false,"c_can_announce":false,"c_can_change_is_public":false,"c_can_change_sort_type":false,"c_can_delete":false,"c_can_delete_category":false,"c_can_edit":false,"c_can_edit_admin_items":false,"c_can_edit_contributor":false,"c_can_edit_core_data":false,"c_can_edit_deny":false,"c_can_edit_mod":false,"c_can_edit_own_posts":true,"c_can_edit_owner":false,"c_can_edit_registered_user":false,"c_can_edit_tags":true,"c_can_global_announce":false,"c_can_hard_delete":false,"c_can_hard_delete_cat":false,"c_can_lock_category":false,"c_can_lock_topic":false,"c_can_monitor":false,"c_can_move_topic_out":false,"c_can_nothank":true,"c_can_override_lock":false,"c_can_read":true,"c_can_read_deleted":false,"c_can_remove_item":true,"c_can_remove_target":false,"c_can_reply":true,"c_can_report":true,"c_can_see_real_poster":false,"c_can_set_role_inherit":false,"c_can_settle_report":false,"c_can_shout":false,"c_can_start_topic":true,"c_can_tag_new":true,"c_can_thank":true,"c_can_undelete":false,"c_undo_global_ban":false},"4":{"c_can_access_all_tags":false,"c_can_add_item":true,"c_can_add_target":false,"c_can_announce":false,"c_can_change_is_public":false,"c_can_change_sort_type":false,"c_can_delete":false,"c_can_delete_category":false,"c_can_edit":false,"c_can_edit_admin_items":false,"c_can_edit_contributor":false,"c_can_edit_core_data":false,"c_can_edit_deny":false,"c_can_edit_mod":false,"c_can_edit_own_posts":true,"c_can_edit_owner":false,"c_can_edit_registered_user":false,"c_can_edit_tags":true,"c_can_global_announce":false,"c_can_hard_delete":false,"c_can_hard_delete_cat":false,"c_can_lock_category":false,"c_can_lock_topic":false,"c_can_monitor":false,"c_can_move_topic_out":false,"c_can_nothank":true,"c_can_override_lock":false,"c_can_read":true,"c_can_read_deleted":false,"c_can_remove_item":true,"c_can_remove_target":false,"c_can_reply":true,"c_can_report":true,"c_can_see_real_poster":false,"c_can_set_role_inherit":false,"c_can_settle_report":false,"c_can_shout":false,"c_can_start_topic":true,"c_can_tag_new":true,"c_can_thank":true,"c_can_undelete":false,"c_undo_global_ban":false},"5":{"c_can_access_all_tags":false,"c_can_add_item":true,"c_can_add_target":false,"c_can_announce":false,"c_can_change_is_public":false,"c_can_change_sort_type":false,"c_can_delete":false,"c_can_delete_category":false,"c_can_edit":false,"c_can_edit_admin_items":false,"c_can_edit_contributor":false,"c_can_edit_core_data":false,"c_can_edit_deny":false,"c_can_edit_mod":false,"c_can_edit_own_posts":true,"c_can_edit_owner":false,"c_can_edit_registered_user":false,"c_can_edit_tags":true,"c_can_global_announce":false,"c_can_hard_delete":false,"c_can_hard_delete_cat":false,"c_can_lock_category":false,"c_can_lock_topic":false,"c_can_monitor":false,"c_can_move_topic_out":false,"c_can_nothank":true,"c_can_override_lock":false,"c_can_read":true,"c_can_read_deleted":false,"c_can_remove_item":true,"c_can_remove_target":false,"c_can_reply":true,"c_can_report":true,"c_can_see_real_poster":false,"c_can_set_role_inherit":false,"c_can_settle_report":false,"c_can_shout":false,"c_can_start_topic":true,"c_can_tag_new":true,"c_can_thank":true,"c_can_undelete":false,"c_undo_global_ban":false},"6":{"c_can_access_all_tags":false,"c_can_add_item":true,"c_can_add_target":false,"c_can_announce":false,"c_can_change_is_public":false,"c_can_change_sort_type":false,"c_can_delete":false,"c_can_delete_category":false,"c_can_edit":false,"c_can_edit_admin_items":false,"c_can_edit_contributor":false,"c_can_edit_core_data":false,"c_can_edit_deny":false,"c_can_edit_mod":false,"c_can_edit_own_posts":true,"c_can_edit_owner":false,"c_can_edit_registered_user":false,"c_can_edit_tags":true,"c_can_global_announce":false,"c_can_hard_delete":false,"c_can_hard_delete_cat":false,"c_can_lock_category":false,"c_can_lock_topic":false,"c_can_monitor":false,"c_can_move_topic_out":false,"c_can_nothank":true,"c_can_override_lock":false,"c_can_read":true,"c_can_read_deleted":false,"c_can_remove_item":true,"c_can_remove_target":false,"c_can_reply":true,"c_can_report":true,"c_can_see_real_poster":false,"c_can_set_role_inherit":false,"c_can_settle_report":false,"c_can_shout":false,"c_can_start_topic":true,"c_can_tag_new":true,"c_can_thank":true,"c_can_undelete":false,"c_undo_global_ban":false},"7":{"c_can_access_all_tags":false,"c_can_add_item":true,"c_can_add_target":false,"c_can_announce":false,"c_can_change_is_public":false,"c_can_change_sort_type":false,"c_can_delete":false,"c_can_delete_category":false,"c_can_edit":false,"c_can_edit_admin_items":false,"c_can_edit_contributor":false,"c_can_edit_core_data":false,"c_can_edit_deny":false,"c_can_edit_mod":false,"c_can_edit_own_posts":true,"c_can_edit_owner":false,"c_can_edit_registered_user":false,"c_can_edit_tags":true,"c_can_global_announce":false,"c_can_hard_delete":false,"c_can_hard_delete_cat":false,"c_can_lock_category":false,"c_can_lock_topic":false,"c_can_monitor":false,"c_can_move_topic_out":false,"c_can_nothank":true,"c_can_override_lock":false,"c_can_read":true,"c_can_read_deleted":false,"c_can_remove_item":true,"c_can_remove_target":false,"c_can_reply":true,"c_can_report":true,"c_can_see_real_poster":false,"c_can_set_role_inherit":false,"c_can_settle_report":false,"c_can_shout":false,"c_can_start_topic":true,"c_can_tag_new":true,"c_can_thank":true,"c_can_undelete":false,"c_undo_global_ban":false},"8":{"c_can_access_all_tags":false,"c_can_add_item":true,"c_can_add_target":false,"c_can_announce":false,"c_can_change_is_public":false,"c_can_change_sort_type":false,"c_can_delete":false,"c_can_delete_category":false,"c_can_edit":false,"c_can_edit_admin_items":false,"c_can_edit_contributor":false,"c_can_edit_core_data":false,"c_can_edit_deny":false,"c_can_edit_mod":false,"c_can_edit_own_posts":true,"c_can_edit_owner":false,"c_can_edit_registered_user":false,"c_can_edit_tags":true,"c_can_global_announce":false,"c_can_hard_delete":false,"c_can_hard_delete_cat":false,"c_can_lock_category":false,"c_can_lock_topic":false,"c_can_monitor":false,"c_can_move_topic_out":false,"c_can_nothank":true,"c_can_override_lock":false,"c_can_read":true,"c_can_read_deleted":false,"c_can_remove_item":true,"c_can_remove_target":false,"c_can_reply":true,"c_can_report":true,"c_can_see_real_poster":false,"c_can_set_role_inherit":false,"c_can_settle_report":false,"c_can_shout":false,"c_can_start_topic":true,"c_can_tag_new":true,"c_can_thank":true,"c_can_undelete":false,"c_undo_global_ban":false},"9":{"c_can_access_all_tags":false,"c_can_add_item":true,"c_can_add_target":false,"c_can_announce":false,"c_can_change_is_public":false,"c_can_change_sort_type":false,"c_can_delete":false,"c_can_delete_category":false,"c_can_edit":false,"c_can_edit_admin_items":false,"c_can_edit_core_data":false,"c_can_edit_deny":false,"c_can_edit_mod":false,"c_can_edit_own_posts":false,"c_can_edit_owner":false,"c_can_edit_registered_user":false,"c_can_edit_tags":false,"c_can_global_announce":false,"c_can_hard_delete":false,"c_can_hard_delete_cat":false,"c_can_lock_category":false,"c_can_lock_topic":false,"c_can_monitor":false,"c_can_move_topic_out":false,"c_can_nothank":false,"c_can_read":true,"c_can_read_deleted":false,"c_can_remove_item":true,"c_can_remove_target":false,"c_can_reply":false,"c_can_report":false,"c_can_see_real_poster":false,"c_can_settle_report":false,"c_can_shout":false,"c_can_start_topic":false,"c_can_tag_new":false,"c_can_thank":false,"c_can_undelete":false,"c_undo_global_ban":false,"c_can_override_lock":false,"c_can_set_role_inherit":false},"11":{"c_can_access_all_tags":false,"c_can_add_item":true,"c_can_add_target":false,"c_can_announce":false,"c_can_change_is_public":false,"c_can_change_sort_type":false,"c_can_delete":false,"c_can_delete_category":false,"c_can_edit":false,"c_can_edit_admin_items":false,"c_can_edit_core_data":false,"c_can_edit_deny":false,"c_can_edit_mod":false,"c_can_edit_own_posts":false,"c_can_edit_owner":false,"c_can_edit_registered_user":false,"c_can_edit_tags":false,"c_can_global_announce":false,"c_can_hard_delete":false,"c_can_hard_delete_cat":false,"c_can_lock_category":false,"c_can_lock_topic":false,"c_can_monitor":false,"c_can_move_topic_out":false,"c_can_nothank":false,"c_can_read":true,"c_can_read_deleted":false,"c_can_remove_item":true,"c_can_remove_target":false,"c_can_reply":false,"c_can_report":false,"c_can_see_real_poster":false,"c_can_settle_report":false,"c_can_shout":false,"c_can_start_topic":false,"c_can_tag_new":false,"c_can_thank":false,"c_can_undelete":false,"c_undo_global_ban":false,"c_can_override_lock":false,"c_can_set_role_inherit":false},"10":{"c_can_access_all_tags":false,"c_can_add_item":true,"c_can_add_target":false,"c_can_announce":false,"c_can_change_is_public":false,"c_can_change_sort_type":false,"c_can_delete":false,"c_can_delete_category":false,"c_can_edit":false,"c_can_edit_admin_items":false,"c_can_edit_contributor":false,"c_can_edit_core_data":false,"c_can_edit_deny":false,"c_can_edit_mod":false,"c_can_edit_own_posts":true,"c_can_edit_owner":false,"c_can_edit_registered_user":false,"c_can_edit_tags":true,"c_can_global_announce":false,"c_can_hard_delete":false,"c_can_hard_delete_cat":false,"c_can_lock_category":false,"c_can_lock_topic":false,"c_can_monitor":false,"c_can_move_topic_out":false,"c_can_nothank":true,"c_can_override_lock":false,"c_can_read":true,"c_can_read_deleted":false,"c_can_remove_item":true,"c_can_remove_target":false,"c_can_reply":true,"c_can_report":true,"c_can_see_real_poster":false,"c_can_set_role_inherit":false,"c_can_settle_report":false,"c_can_shout":false,"c_can_start_topic":true,"c_can_tag_new":true,"c_can_thank":true,"c_can_undelete":false,"c_undo_global_ban":false},"12":{"c_can_access_all_tags":false,"c_can_add_item":true,"c_can_add_target":false,"c_can_announce":false,"c_can_change_is_public":false,"c_can_change_sort_type":false,"c_can_delete":false,"c_can_delete_category":false,"c_can_edit":false,"c_can_edit_admin_items":false,"c_can_edit_core_data":false,"c_can_edit_deny":false,"c_can_edit_mod":false,"c_can_edit_own_posts":false,"c_can_edit_owner":false,"c_can_edit_registered_user":false,"c_can_edit_tags":false,"c_can_global_announce":false,"c_can_hard_delete":false,"c_can_hard_delete_cat":false,"c_can_lock_category":false,"c_can_lock_topic":false,"c_can_monitor":false,"c_can_move_topic_out":false,"c_can_nothank":false,"c_can_read":true,"c_can_read_deleted":false,"c_can_remove_item":true,"c_can_remove_target":false,"c_can_reply":false,"c_can_report":false,"c_can_see_real_poster":false,"c_can_settle_report":false,"c_can_shout":false,"c_can_start_topic":false,"c_can_tag_new":false,"c_can_thank":false,"c_can_undelete":false,"c_undo_global_ban":false,"c_can_override_lock":false,"c_can_set_role_inherit":false},"13":{"c_can_access_all_tags":false,"c_can_add_item":true,"c_can_add_target":false,"c_can_announce":false,"c_can_change_is_public":false,"c_can_change_sort_type":false,"c_can_delete":false,"c_can_delete_category":false,"c_can_edit":false,"c_can_edit_admin_items":false,"c_can_edit_core_data":false,"c_can_edit_deny":false,"c_can_edit_mod":false,"c_can_edit_own_posts":false,"c_can_edit_owner":false,"c_can_edit_registered_user":false,"c_can_edit_tags":false,"c_can_global_announce":false,"c_can_hard_delete":false,"c_can_hard_delete_cat":false,"c_can_lock_category":false,"c_can_lock_topic":false,"c_can_monitor":false,"c_can_move_topic_out":false,"c_can_nothank":false,"c_can_read":true,"c_can_read_deleted":false,"c_can_remove_item":true,"c_can_remove_target":false,"c_can_reply":false,"c_can_report":false,"c_can_see_real_poster":false,"c_can_settle_report":false,"c_can_shout":false,"c_can_start_topic":false,"c_can_tag_new":false,"c_can_thank":false,"c_can_undelete":false,"c_undo_global_ban":false,"c_can_override_lock":false,"c_can_set_role_inherit":false},"30":{"c_can_access_all_tags":false,"c_can_add_item":true,"c_can_add_target":false,"c_can_announce":false,"c_can_change_is_public":false,"c_can_change_sort_type":false,"c_can_delete":false,"c_can_delete_category":false,"c_can_edit":false,"c_can_edit_admin_items":false,"c_can_edit_core_data":false,"c_can_edit_deny":false,"c_can_edit_mod":false,"c_can_edit_own_posts":false,"c_can_edit_owner":false,"c_can_edit_registered_user":false,"c_can_edit_tags":false,"c_can_global_announce":false,"c_can_hard_delete":false,"c_can_hard_delete_cat":false,"c_can_lock_category":false,"c_can_lock_topic":false,"c_can_monitor":false,"c_can_move_topic_out":false,"c_can_nothank":false,"c_can_read":true,"c_can_read_deleted":false,"c_can_remove_item":true,"c_can_remove_target":false,"c_can_reply":false,"c_can_report":false,"c_can_see_real_poster":false,"c_can_settle_report":false,"c_can_shout":false,"c_can_start_topic":false,"c_can_tag_new":false,"c_can_thank":false,"c_can_undelete":false,"c_undo_global_ban":false,"c_can_override_lock":false,"c_can_set_role_inherit":false},"31":{"c_can_access_all_tags":false,"c_can_add_item":true,"c_can_add_target":false,"c_can_announce":false,"c_can_change_is_public":false,"c_can_change_sort_type":false,"c_can_delete":false,"c_can_delete_category":false,"c_can_edit":false,"c_can_edit_admin_items":false,"c_can_edit_core_data":false,"c_can_edit_deny":false,"c_can_edit_mod":false,"c_can_edit_own_posts":false,"c_can_edit_owner":false,"c_can_edit_registered_user":false,"c_can_edit_tags":false,"c_can_global_announce":false,"c_can_hard_delete":false,"c_can_hard_delete_cat":false,"c_can_lock_category":false,"c_can_lock_topic":false,"c_can_monitor":false,"c_can_move_topic_out":false,"c_can_nothank":false,"c_can_read":true,"c_can_read_deleted":false,"c_can_remove_item":true,"c_can_remove_target":false,"c_can_reply":false,"c_can_report":false,"c_can_see_real_poster":false,"c_can_settle_report":false,"c_can_shout":false,"c_can_start_topic":false,"c_can_tag_new":false,"c_can_thank":false,"c_can_undelete":false,"c_undo_global_ban":false,"c_can_override_lock":false,"c_can_set_role_inherit":false},"4652593":{"c_can_access_all_tags":false,"c_can_add_item":true,"c_can_add_target":false,"c_can_announce":false,"c_can_change_is_public":false,"c_can_change_sort_type":false,"c_can_delete":false,"c_can_delete_category":false,"c_can_edit":false,"c_can_edit_admin_items":false,"c_can_edit_core_data":false,"c_can_edit_deny":false,"c_can_edit_mod":false,"c_can_edit_own_posts":false,"c_can_edit_owner":false,"c_can_edit_registered_user":false,"c_can_edit_tags":false,"c_can_global_announce":false,"c_can_hard_delete":false,"c_can_hard_delete_cat":false,"c_can_lock_category":false,"c_can_lock_topic":false,"c_can_monitor":false,"c_can_move_topic_out":false,"c_can_nothank":false,"c_can_read":true,"c_can_read_deleted":false,"c_can_remove_item":true,"c_can_remove_target":false,"c_can_reply":false,"c_can_report":false,"c_can_see_real_poster":false,"c_can_settle_report":false,"c_can_shout":false,"c_can_start_topic":false,"c_can_tag_new":false,"c_can_thank":false,"c_can_undelete":false,"c_undo_global_ban":false,"c_can_override_lock":false,"c_can_set_role_inherit":false},"89":{"c_can_access_all_tags":false,"c_can_add_item":true,"c_can_add_target":false,"c_can_announce":false,"c_can_change_is_public":false,"c_can_change_sort_type":false,"c_can_delete":false,"c_can_delete_category":false,"c_can_edit":false,"c_can_edit_admin_items":false,"c_can_edit_core_data":false,"c_can_edit_deny":false,"c_can_edit_mod":false,"c_can_edit_own_posts":false,"c_can_edit_owner":false,"c_can_edit_registered_user":false,"c_can_edit_tags":false,"c_can_global_announce":false,"c_can_hard_delete":false,"c_can_hard_delete_cat":false,"c_can_lock_category":false,"c_can_lock_topic":false,"c_can_monitor":false,"c_can_move_topic_out":false,"c_can_nothank":false,"c_can_read":true,"c_can_read_deleted":false,"c_can_remove_item":true,"c_can_remove_target":false,"c_can_reply":false,"c_can_report":false,"c_can_see_real_poster":false,"c_can_settle_report":false,"c_can_shout":false,"c_can_start_topic":false,"c_can_tag_new":false,"c_can_thank":false,"c_can_undelete":false,"c_undo_global_ban":false,"c_can_override_lock":false,"c_can_set_role_inherit":false},"90":{"c_can_access_all_tags":false,"c_can_add_item":true,"c_can_add_target":false,"c_can_announce":false,"c_can_change_is_public":false,"c_can_change_sort_type":false,"c_can_delete":false,"c_can_delete_category":false,"c_can_edit":false,"c_can_edit_admin_items":false,"c_can_edit_core_data":false,"c_can_edit_deny":false,"c_can_edit_mod":false,"c_can_edit_own_posts":false,"c_can_edit_owner":false,"c_can_edit_registered_user":false,"c_can_edit_tags":false,"c_can_global_announce":false,"c_can_hard_delete":false,"c_can_hard_delete_cat":false,"c_can_lock_category":false,"c_can_lock_topic":false,"c_can_monitor":false,"c_can_move_topic_out":false,"c_can_nothank":false,"c_can_read":true,"c_can_read_deleted":false,"c_can_remove_item":true,"c_can_remove_target":false,"c_can_reply":false,"c_can_report":false,"c_can_see_real_poster":false,"c_can_settle_report":false,"c_can_shout":false,"c_can_start_topic":false,"c_can_tag_new":false,"c_can_thank":false,"c_can_undelete":false,"c_undo_global_ban":false,"c_can_override_lock":false,"c_can_set_role_inherit":false},"91":{"c_can_access_all_tags":false,"c_can_add_item":true,"c_can_add_target":false,"c_can_announce":false,"c_can_change_is_public":false,"c_can_change_sort_type":false,"c_can_delete":false,"c_can_delete_category":false,"c_can_edit":false,"c_can_edit_admin_items":false,"c_can_edit_core_data":false,"c_can_edit_deny":false,"c_can_edit_mod":false,"c_can_edit_own_posts":false,"c_can_edit_owner":false,"c_can_edit_registered_user":false,"c_can_edit_tags":false,"c_can_global_announce":false,"c_can_hard_delete":false,"c_can_hard_delete_cat":false,"c_can_lock_category":false,"c_can_lock_topic":false,"c_can_monitor":false,"c_can_move_topic_out":false,"c_can_nothank":false,"c_can_read":true,"c_can_read_deleted":false,"c_can_remove_item":true,"c_can_remove_target":false,"c_can_reply":false,"c_can_report":false,"c_can_see_real_poster":false,"c_can_settle_report":false,"c_can_shout":false,"c_can_start_topic":false,"c_can_tag_new":false,"c_can_thank":false,"c_can_undelete":false,"c_undo_global_ban":false,"c_can_override_lock":false,"c_can_set_role_inherit":false}},"user_global_cmty_permissions":{"can_access_log":false,"can_create_blog":true,"can_create_category":true,"can_delete_long_topic":false,"can_edit_profile":true,"can_edit_other_profiles":false,"can_exceed_cat_limit":false,"can_add_avatar":true,"can_attach_files":true,"can_post_as_halp":true,"can_view_others_pm":false,"can_pm_anyone":false,"can_pm_as_sheriff":false,"can_read_private":false,"can_send_sheriff_feedback":false,"can_temp_ban":false,"can_post_fast":false,"can_request_friend":true,"can_revert_actions":false,"can_edit_tag_term_map":false,"can_edit_tagspace":false,"can_add_user_notes":false,"can_view_user_notes":false,"can_post_links":true,"can_post_images":true},"user_staff_perms":{"user-general":false,"perms-cmty":false,"one-click-ban":false,"see-full-memberlist":false,"ip-lookup":false,"can-access-log":false,"can-delete-long-topic":false,"can-post-fast":false},"global_feed_settings":{"global_feed_type":"custom","global_feed_fora":[3,4,5,6,7,10,50,63,64,65,66,68,70,71,163,164,172,101841]},"cmtystats":{"num_users":1324166,"num_posts":27713433,"num_topics":2063912},"global_announcements":[{"base_fetched":true,"num_posts":1,"posts_data":[{"post_id":38545477,"topic_id":3859135,"poster_id":483700,"post_rendered":"\u003Cb\u003EPlease note that there are no AoPS Online classes July 3-5.\u003C\/b\u003E\u003Cbr\u003E\n\u003Cbr\u003E\nMOP (Math Olympiad Summer Program) has ended and the IMO (International Mathematical Olympiad) is right around the corner! This year\u2019s IMO will be held in Shanghai, \u003Cb\u003EJuly 10 - 21\u003C\/b\u003E. Congratulations to all the MOP students for reaching this incredible level and best of luck to all selected to represent their countries at this year\u2019s IMO!\u003Cbr\u003E\n\u003Cbr\u003E\nInterested in improving your problem solving skills? Take advantage of our \u003Ca href=\u0022https:\/\/artofproblemsolving.com\/woot\u0022 class=\u0022bbcode_url\u0022 target=\u0022_blank\u0022\u003EWorldwide Online Olympiad Training (WOOT) courses \u003C\/a\u003E and train with the best! \u003Cb\u003EPlease note that early bird pricing ends August 18th!\u003C\/b\u003E\u003Cbr\u003E\n\u003Cbr\u003E\nJoin us on Wednesday, July 29th at 4:30 pm PT\/7:30 pm ET for our new Game Jam: Sum-It!\n\u003Cdiv class=\u0022bbcode_quote\u0022\u003E\n\u003Cdiv class=\u0022bbcode_quote_head\u0022\u003EQuote:\u003C\/div\u003E\n\u003Cdiv class=\u0022bbcode_quote_body\u0022\u003EThis single-player game involves choosing up to 5 number cards that combine with addition or subtraction (in any order) to make target numbers. Can you reach the Sum-It?\u003C\/div\u003E\n\u003C\/div\u003E\n\u003Cbr\u003E\nAs a reminder, we recently launched some new daily \u003Ca href=\u0022https:\/\/beastacademy.com\/puzzles\/daily\u0022 class=\u0022bbcode_url\u0022 target=\u0022_blank\u0022\u003EBeast Academy Puzzles\u003C\/a\u003E. If you want to share your results or talk about them with peers, see the \u003Ca href=\u0022https:\/\/artofproblemsolving.com\/community\/c3142457_beast_academy_daily_puzzles\u0022 class=\u0022bbcode_url\u0022 target=\u0022_blank\u0022\u003EBeast Academy Daily puzzles forum\u003C\/a\u003E!\u003Cbr\u003E\n\u003Cbr\u003E\nIf you haven\u2019t already, please review the \u003Ca href=\u0022https:\/\/artofproblemsolving.com\/community\/faq\u0022 class=\u0022bbcode_url\u0022 target=\u0022_blank\u0022\u003ECommunity Guidelines\u003C\/a\u003E!\u003Cbr\u003E\n\u003Cbr\u003E\nFinally, stay sharp this summer or plan for fall with an AoPS Online class!\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Cb\u003EOur full course list for upcoming classes is below:\u003C\/b\u003E\u003Cbr\u003E\nAll classes run 7:30pm-8:45pm ET\/4:30pm - 5:45pm PT unless otherwise noted.\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Cb\u003E\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/prealgebra-pt1-sp\u0022 class=\u0022bbcode_url\u0022 target=\u0022_blank\u0022\u003EHonors Math 6: Prealgebra (Part 1)\u003C\/a\u003E\u003C\/b\u003E, Self-Paced\u003Cbr\u003E\nScholars Math 6: Prealgebra (Part 1)\u003Cbr\u003E\nThursday, Jul 16 - Oct 29\u003Cbr\u003E\nSunday, Aug 16 - Dec 13\u003Cbr\u003E\nWednesday, Aug 26 - Dec 16\u003Cbr\u003E\nThursday, Sep 10 - Jan 14\u003Cbr\u003E\nTuesday, Sep 15 - Jan 19 (1:30 - 2:45 PM PT\/4:30 - 5:45 PM ET)\u003Cbr\u003E\nMonday, Sep 21 - Jan 25\u003Cbr\u003E\nFriday, Oct 2 - Feb 5\u003Cbr\u003E\nSunday, Oct 18 - Feb 28\u003Cbr\u003E\nTuesday, Oct 27 - Mar 2\u003Cbr\u003E\nSunday, Nov 15 - Mar 28\u003Cbr\u003E\nWednesday, Dec 2 - Mar 31\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/prealgebra2-sp\u0022 class=\u0022bbcode_url\u0022 target=\u0022_blank\u0022\u003E\u003Cb\u003EHonors Math 6: Prealgebra (Part 2)\u003C\/b\u003E\u003C\/a\u003E, Self-Paced\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/prealgebra-pt2\u0022 class=\u0022bbcode_url\u0022 target=\u0022_blank\u0022\u003E\u003Cb\u003EScholars Math 6: Prealgebra (Part 2)\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nSunday, Jul 12 - Nov 1\u003Cbr\u003E\nSunday, Aug 23 - Dec 20\u003Cbr\u003E\nMonday, Sep 14 - Jan 18\u003Cbr\u003E\nFriday, Sep 25 - Jan 29\u003Cbr\u003E\nTuesday, Oct 13 - Feb 16\u003Cbr\u003E\nSunday, Oct 25 - Mar 7\u003Cbr\u003E\nThursday, Nov 12 - Mar 18\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/algebra-pt1-sp\u0022 class=\u0022bbcode_url\u0022 target=\u0022_blank\u0022\u003E\u003Cb\u003EHonors Math 7: Introduction to Algebra (Part 1)\u003C\/b\u003E\u003C\/a\u003E, Self-Paced\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/algebra-pt1\u0022 class=\u0022bbcode_url\u0022 target=\u0022_blank\u0022\u003E\u003Cb\u003EScholars Math 7: Introduction to Algebra (Part 1)\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nWednesday, Jul 15 - Oct 28\u003Cbr\u003E\nSunday, Aug 16 - Dec 13\u003Cbr\u003E\nTuesday, Aug 18 - Dec 8\u003Cbr\u003E\nFriday, Sep 11 - Jan 15\u003Cbr\u003E\nThursday, Sep 24 - Jan 28\u003Cbr\u003E\nMonday, Sep 28 - Feb 1\u003Cbr\u003E\nSunday, Oct 11 - Feb 21\u003Cbr\u003E\nTuesday, Oct 20 - Feb 23\u003Cbr\u003E\nSunday, Nov 8 - Mar 21\u003Cbr\u003E\nWednesday, Dec 2 - Mar 31\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/algebra-pt2-sp\u0022 class=\u0022bbcode_url\u0022 target=\u0022_blank\u0022\u003E\u003Cb\u003EHonors Math 7: Introduction to Algebra (Part 2)\u003C\/b\u003E\u003C\/a\u003E, Self-Paced\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/algebra-pt2\u0022 class=\u0022bbcode_url\u0022 target=\u0022_blank\u0022\u003E\u003Cb\u003EScholars Math 7: Introduction to Algebra (Part 2)\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nSunday, Jul 12 - Nov 1\u003Cbr\u003E\nWednesday, Aug 5 - Nov 18\u003Cbr\u003E\nSunday, Aug 23 - Dec 20\u003Cbr\u003E\nThursday, Sep 10 - Jan 14\u003Cbr\u003E\nTuesday, Sep 29 - Feb 2\u003Cbr\u003E\nSunday, Oct 25 - Mar 7\u003Cbr\u003E\nWednesday, Nov 4 - Mar 10\u003Cbr\u003E\nFriday, Dec 4 - Apr 2\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/intro-counting-sp\u0022 class=\u0022bbcode_url\u0022 target=\u0022_blank\u0022\u003E\u003Cb\u003EScholars Math 7.1: Introduction to Counting \u0026amp; Probability\u003C\/b\u003E\u003C\/a\u003E, Self-Paced\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/intro-counting\u0022 class=\u0022bbcode_url\u0022 target=\u0022_blank\u0022\u003E\u003Cb\u003ESchedule: Scholars Math 7.1: Introduction to Counting \u0026amp; Probability\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nSunday, Jul 26 - Oct 18\u003Cbr\u003E\nWednesday, Aug 26 - Nov 11\u003Cbr\u003E\nMonday, Sep 14 - Dec 7\u003Cbr\u003E\nSunday, Sep 27 - Dec 20\u003Cbr\u003E\nTuesday, Oct 6 - Jan 12\u003Cbr\u003E\nSunday, Oct 25 - Jan 31\u003Cbr\u003E\nSunday, Dec 13 - Mar 21\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/intro-numbertheory\u0022 class=\u0022bbcode_url\u0022 target=\u0022_blank\u0022\u003E\u003Cb\u003E\u003Cbr\u003E\nScholars Math 7.2: Introduction to Number Theory\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nMonday, Jul 13 - Oct 5\u003Cbr\u003E\nFriday, Aug 28 - Nov 13\u003Cbr\u003E\nSunday, Sep 20 - Dec 13\u003Cbr\u003E\nMonday, Oct 19 - Jan 25\u003Cbr\u003E\nSunday, Dec 6 - Mar 14\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/intro-geometry\u0022 class=\u0022bbcode_url\u0022 target=\u0022_blank\u0022\u003E\u003Cb\u003E\u003Cbr\u003E\nScholars Math 8: Introduction to Geometry\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nMonday, Jul 13 - Jan 18\u003Cbr\u003E\nWednesday, Aug 12 - Feb 10\u003Cbr\u003E\nSunday, Sep 13 - Mar 21\u003Cbr\u003E\nMonday, Sep 21 - Mar 29\u003Cbr\u003E\nThursday, Oct 8 - Apr 8\u003Cbr\u003E\nSunday, Nov 8 - May 16\u003Cbr\u003E\nTuesday, Dec 1 - May 25\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/paradoxes-camp\u0022 class=\u0022bbcode_url\u0022 target=\u0022_blank\u0022\u003E\u003Cb\u003ESpecial Seminar: Paradoxes and Infinity\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nMon, Tue, Wed \u0026amp; Thurs, Jul 13 - Jul 16\u003Cbr\u003E\nSat \u0026amp; Sun,Dec 5 - Dec 6 (1:00 - 4:00 PM PT\/4:00 - 7:00 PM ET)\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Cb\u003EIntermediate: Grades 8-12\u003C\/b\u003E\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/intermediate-algebra\u0022 class=\u0022bbcode_url\u0022 target=\u0022_blank\u0022\u003E\u003Cb\u003EScholars Math 9: Intermediate Algebra\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nThursday, Jul 2 - Dec 17\u003Cbr\u003E\nSunday, Jul 26 - Jan 31\u003Cbr\u003E\nThursday, Aug 20 - Feb 18\u003Cbr\u003E\nMonday, Sep 14 - Mar 22\u003Cbr\u003E\nSunday, Sep 27 - Apr 4\u003Cbr\u003E\nTuesday, Oct 6 - Apr 6\u003Cbr\u003E\nSunday, Nov 15 - May 23\u003Cbr\u003E\nFriday, Dec 11 - Jun 4\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/intermediate-counting\u0022 class=\u0022bbcode_url\u0022 target=\u0022_blank\u0022\u003E\u003Cb\u003E\u003Cbr\u003E\nScholars Math 9.1: Intermediate Counting \u0026amp; Probability\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nWednesday, Sep 16 - Feb 3\u003Cbr\u003E\nSunday, Dec 6 - Apr 25\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/intermediate-numbertheory\u0022 class=\u0022bbcode_url\u0022 target=\u0022_blank\u0022\u003E\u003Cb\u003EScholars Math 9.2: Intermediate Number Theory\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nSunday, Sep 27 - Dec 20\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/precalc\u0022 class=\u0022bbcode_url\u0022 target=\u0022_blank\u0022\u003E\u003Cb\u003EScholars Math 10: Precalculus\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nWednesday, Aug 12 - Jan 27\u003Cbr\u003E\nMonday, Sep 14 - Mar 8\u003Cbr\u003E\nSunday, Oct 4 - Mar 28\u003Cbr\u003E\nThursday, Oct 15 - Apr 1\u003Cbr\u003E\nSunday, Dec 13 - Jun 6\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Cb\u003EAdvanced: Grades 9-12\u003C\/b\u003E\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/calculus\u0022 class=\u0022bbcode_url\u0022 target=\u0022_blank\u0022\u003E\u003Cb\u003EScholars Math 11: Calculus\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nTuesday, Sep 8 - Mar 16\u003Cbr\u003E\nSunday, Oct 11 - Apr 25\u003Cbr\u003E\nThursday, Dec 3 - Jun 3\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Cb\u003EContest Preparation: Grades 6-12\u003C\/b\u003E\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/mathcounts-basics\u0022 class=\u0022bbcode_url\u0022 target=\u0022_blank\u0022\u003E\u003Cb\u003EAMC 8\/MATHCOUNTS Basicss\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nTue \u0026amp; Thurs, Jul 7 - Aug 13\u003Cbr\u003E\nSunday, Aug 23 - Nov 15\u003Cbr\u003E\nFriday, Sep 18 - Dec 11\u003Cbr\u003E\nMonday, Sep 21 - Dec 14\u003Cbr\u003E\nSunday, Sep 27 - Dec 20\u003Cbr\u003E\nThursday, Oct 15 - Jan 21\u003Cbr\u003E\nTue, Thurs \u0026amp; Sun, Dec 8 - Jan 17\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/mathcounts-advanced\u0022 class=\u0022bbcode_url\u0022 target=\u0022_blank\u0022\u003E\u003Cb\u003EAMC 8\/MATHCOUNTS Advanced\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nTue \u0026amp; Thurs, Jul 7 - Aug 13\u003Cbr\u003E\nSunday, Aug 23 - Nov 15\u003Cbr\u003E\nWednesday, Aug 26 - Nov 11\u003Cbr\u003E\nFriday, Sep 4 - Dec 10\u003Cbr\u003E\nMonday, Sep 21 - Dec 14\u003Cbr\u003E\nWednesday, Oct 7 - Jan 13\u003Cbr\u003E\nSunday, Oct 11 - Jan 17\u003Cbr\u003E\nTue \u0026amp; Thurs, Oct 27 - Dec 10\u003Cbr\u003E\nMon, Wed \u0026amp; Fri, Dec 7 - Jan 15\u003Cbr\u003E\nTue, Thurs \u0026amp; Sun, Dec 8 - Jan 17\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/maa-amc10\u0022 class=\u0022bbcode_url\u0022 target=\u0022_blank\u0022\u003E\u003Cb\u003EAMC 10 Problem Series\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nTue \u0026amp; Thurs, Jul 7 - Aug 13\u003Cbr\u003E\nSunday, Aug 9 - Nov 1, (3:30 - 5:00 pm ET\/12:30 - 2:00 pm PT)\u003Cbr\u003E\nSunday, Aug 9 - Nov 1\u003Cbr\u003E\nWednesday, Aug 19 - Nov 4\u003Cbr\u003E\nFriday, Aug 21 - Nov 6\u003Cbr\u003E\nMon \u0026amp; Wed, Sep 14 - Oct 21\u003Cbr\u003E\nTue \u0026amp; Thurs, Sep 15 - Oct 22\u003Cbr\u003E\nMon, Wed \u0026amp; Fri, Oct 5 - Oct 30\u003Cbr\u003E\nTue, Thurs \u0026amp; Sun, Oct 6 - Nov 1\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/maa-amc10-final-five\u0022 class=\u0022bbcode_url\u0022 target=\u0022_blank\u0022\u003E\u003Cb\u003EAMC 10 Final Fives\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nFriday, Jul 10 - Jul 31\u003Cbr\u003E\nMonday, Aug 10 - Aug 31\u003Cbr\u003E\nTuesday, Sep 1 - Sep 22\u003Cbr\u003E\nSunday, Sep 13 - Oct 4\u003Cbr\u003E\nWednesday, Sep 16 - Oct 7\u003Cbr\u003E\nSunday, Sep 27 - Oct 18, (3:30 - 5:00 pm ET\/12:30 - 2:00 pm PT)\u003Cbr\u003E\nThursday, Oct 8 - Oct 29\u003Cbr\u003E\nFriday, Oct 9 - Oct 30\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/maa-amc12\u0022 class=\u0022bbcode_url\u0022 target=\u0022_blank\u0022\u003E\u003Cb\u003EAMC 12 Problem Series\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nSunday, Aug 9 - Nov 1\u003Cbr\u003E\nThursday, Aug 20 - Nov 5\u003Cbr\u003E\nTue \u0026amp; Thurs, Sep 15 - Oct 22\u003Cbr\u003E\nMon \u0026amp; Wed, Sep 21 - Oct 28\u003Cbr\u003E\nTue, Thurs \u0026amp; Sun, Oct 6 - Nov 1\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/maa-amc12-final-five\u0022 class=\u0022bbcode_url\u0022 target=\u0022_blank\u0022\u003E\u003Cb\u003EAMC 12 Final Fives\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nThursday, Sep 17 - Oct 8\u003Cbr\u003E\nSunday, Sep 27 - Oct 18\u003Cbr\u003E\nFriday, Oct 9 - Oct 30\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/maa-aimea\u0022 class=\u0022bbcode_url\u0022 target=\u0022_blank\u0022\u003E\u003Cb\u003EAIME Problem Series (Version A)\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nThursday, Sep 17 - Dec 10\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/maa-aimeb\u0022 class=\u0022bbcode_url\u0022 target=\u0022_blank\u0022\u003E\u003Cb\u003EAIME Problem Series (Version B)\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nSunday, Oct 25 - Jan 31\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/fma\u0022 class=\u0022bbcode_url\u0022 target=\u0022_blank\u0022\u003E\u003Cb\u003EF=ma Problem Series\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nMonday, Sep 14 - Dec 7\u003Cbr\u003E\nFriday, Oct 23 - Jan 29\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Cb\u003EProgramming\u003C\/b\u003E\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/python1\u0022 class=\u0022bbcode_url\u0022 target=\u0022_blank\u0022\u003E\u003Cb\u003EIntroduction to Programming with Python\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nThursday, Aug 27 - Nov 12\u003Cbr\u003E\nSunday, Sep 27 - Dec 20\u003Cbr\u003E\nMonday, Nov 30 - Mar 8\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/python2\u0022 class=\u0022bbcode_url\u0022 target=\u0022_blank\u0022\u003E\u003Cb\u003EIntermediate Programming with Python\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nThursday, Sep 17 - Dec 10\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/cs-bronze\u0022 class=\u0022bbcode_url\u0022 target=\u0022_blank\u0022\u003E\u003Cb\u003EUSACO Bronze Comprehensive Training\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nTuesday, Sep 1 - Nov 17\u003Cbr\u003E\nWednesday, Sep 23 - Dec 16\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/cs-silver\u0022 class=\u0022bbcode_url\u0022 target=\u0022_blank\u0022\u003E\u003Cb\u003EUSACO Silver Comprehensive Training\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nMonday, Aug 10 - Dec 7\u003Cbr\u003E\nFriday, Aug 28 - Dec 18\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Cb\u003EPhysics\u003C\/b\u003E\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/ms-physics1\u0022 class=\u0022bbcode_url\u0022 target=\u0022_blank\u0022\u003E\u003Cb\u003EScholars Middle School Physics (Part 1)\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nWednesday, Aug 26 - Dec 16\u003Cbr\u003E\nFriday, Oct 2 - Feb 5\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/physics-foundations\u0022 class=\u0022bbcode_url\u0022 target=\u0022_blank\u0022\u003E\u003Cb\u003EScholars High School Physics: Foundations\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nThursday, Sep 17 - Dec 10\u003Cbr\u003E\nSunday, Nov 1 - Feb 7\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/hs-physics1\u0022 class=\u0022bbcode_url\u0022 target=\u0022_blank\u0022\u003E\u003Cb\u003EScholars High School Physics 1: Mechanics\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nFriday, Sep 11 - Mar 12\u003Cbr\u003E\nSunday, Oct 4 - Apr 11\u003Cbr\u003E\nSunday, Dec 13 - Jun 20\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/woot-math\u0022 class=\u0022bbcode_url\u0022 target=\u0022_blank\u0022\u003E\u003Cb\u003EMathWOOT Levels 1 \u0026amp; 2\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nMathWOOT 1: Sep 8 - Mar 14 (3 weekly class times available)\u003Cbr\u003E\nMathWOOT 2: Sep 8 - Mar 12 (2 weekly class times available)\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/woot-code\u0022 class=\u0022bbcode_url\u0022 target=\u0022_blank\u0022\u003E\u003Cb\u003ECodeWOOT\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nWednesday, Sep 9 - Mar 3\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/woot-physics\u0022 class=\u0022bbcode_url\u0022 target=\u0022_blank\u0022\u003E\u003Cb\u003EPhysicsWOOT\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nThursday, Sep 24 - Mar 4\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/woot-chem\u0022 class=\u0022bbcode_url\u0022 target=\u0022_blank\u0022\u003E\u003Cb\u003EChemWOOT\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nMonday, Sep 21 - Jan 26","post_canonical":"[b]Please note that there are no AoPS Online classes July 3-5.[\/b]\n\nMOP (Math Olympiad Summer Program) has ended and the IMO (International Mathematical Olympiad) is right around the corner! This year\u2019s IMO will be held in Shanghai, [b]July 10 - 21[\/b]. Congratulations to all the MOP students for reaching this incredible level and best of luck to all selected to represent their countries at this year\u2019s IMO! \n\nInterested in improving your problem solving skills? Take advantage of our [url=https:\/\/artofproblemsolving.com\/woot]Worldwide Online Olympiad Training (WOOT) courses [\/url] and train with the best! [b]Please note that early bird pricing ends August 18th![\/b]\n\nJoin us on Wednesday, July 29th at 4:30 pm PT\/7:30 pm ET for our new Game Jam: Sum-It!\n[quote]This single-player game involves choosing up to 5 number cards that combine with addition or subtraction (in any order) to make target numbers. Can you reach the Sum-It?[\/quote]\n\nAs a reminder, we recently launched some new daily [url=https:\/\/beastacademy.com\/puzzles\/daily]Beast Academy Puzzles[\/url]. If you want to share your results or talk about them with peers, see the [url=https:\/\/artofproblemsolving.com\/community\/c3142457_beast_academy_daily_puzzles]Beast Academy Daily puzzles forum[\/url]!\n\nIf you haven\u2019t already, please review the [url=https:\/\/artofproblemsolving.com\/community\/faq]Community Guidelines[\/url]!\n\nFinally, stay sharp this summer or plan for fall with an AoPS Online class!\n\n[b]Our full course list for upcoming classes is below:[\/b]\nAll classes run 7:30pm-8:45pm ET\/4:30pm - 5:45pm PT unless otherwise noted.\n\n[b][url=https:\/\/artofproblemsolving.com\/school\/course\/prealgebra-pt1-sp]Honors Math 6: Prealgebra (Part 1)[\/url][\/b], Self-Paced\nScholars Math 6: Prealgebra (Part 1)\nThursday, Jul 16 - Oct 29\nSunday, Aug 16 - Dec 13\nWednesday, Aug 26 - Dec 16\nThursday, Sep 10 - Jan 14\nTuesday, Sep 15 - Jan 19 (1:30 - 2:45 PM PT\/4:30 - 5:45 PM ET)\nMonday, Sep 21 - Jan 25\nFriday, Oct 2 - Feb 5\nSunday, Oct 18 - Feb 28\nTuesday, Oct 27 - Mar 2\nSunday, Nov 15 - Mar 28\nWednesday, Dec 2 - Mar 31\n\n[url=https:\/\/artofproblemsolving.com\/school\/course\/prealgebra2-sp][b]Honors Math 6: Prealgebra (Part 2)[\/url][\/b], Self-Paced\n\n[url=https:\/\/artofproblemsolving.com\/school\/course\/prealgebra-pt2][b]Scholars Math 6: Prealgebra (Part 2)[\/b][\/url]\nSunday, Jul 12 - Nov 1\nSunday, Aug 23 - Dec 20\nMonday, Sep 14 - Jan 18\nFriday, Sep 25 - Jan 29\nTuesday, Oct 13 - Feb 16\nSunday, Oct 25 - Mar 7\nThursday, Nov 12 - Mar 18\n\n[url=https:\/\/artofproblemsolving.com\/school\/course\/algebra-pt1-sp][b]Honors Math 7: Introduction to Algebra (Part 1)[\/b][\/url], Self-Paced\n\n[url=https:\/\/artofproblemsolving.com\/school\/course\/algebra-pt1][b]Scholars Math 7: Introduction to Algebra (Part 1)[\/b][\/url]\nWednesday, Jul 15 - Oct 28\nSunday, Aug 16 - Dec 13\nTuesday, Aug 18 - Dec 8\nFriday, Sep 11 - Jan 15\nThursday, Sep 24 - Jan 28\nMonday, Sep 28 - Feb 1\nSunday, Oct 11 - Feb 21\nTuesday, Oct 20 - Feb 23\nSunday, Nov 8 - Mar 21\nWednesday, Dec 2 - Mar 31\n\n[url=https:\/\/artofproblemsolving.com\/school\/course\/algebra-pt2-sp][b]Honors Math 7: Introduction to Algebra (Part 2)[\/b][\/url], Self-Paced\n\n[url=https:\/\/artofproblemsolving.com\/school\/course\/algebra-pt2][b]Scholars Math 7: Introduction to Algebra (Part 2)[\/b][\/url]\nSunday, Jul 12 - Nov 1\nWednesday, Aug 5 - Nov 18\nSunday, Aug 23 - Dec 20\nThursday, Sep 10 - Jan 14\nTuesday, Sep 29 - Feb 2\nSunday, Oct 25 - Mar 7\nWednesday, Nov 4 - Mar 10\nFriday, Dec 4 - Apr 2\n\n[url=https:\/\/artofproblemsolving.com\/school\/course\/intro-counting-sp][b]Scholars Math 7.1: Introduction to Counting \u0026 Probability[\/b][\/url], Self-Paced\n\n[url=https:\/\/artofproblemsolving.com\/school\/course\/intro-counting][b]Schedule: Scholars Math 7.1: Introduction to Counting \u0026 Probability[\/b][\/url]\nSunday, Jul 26 - Oct 18\nWednesday, Aug 26 - Nov 11\nMonday, Sep 14 - Dec 7\nSunday, Sep 27 - Dec 20\nTuesday, Oct 6 - Jan 12\nSunday, Oct 25 - Jan 31\nSunday, Dec 13 - Mar 21\n\n[url=https:\/\/artofproblemsolving.com\/school\/course\/intro-numbertheory][b]\nScholars Math 7.2: Introduction to Number Theory[\/b][\/url]\nMonday, Jul 13 - Oct 5\nFriday, Aug 28 - Nov 13\nSunday, Sep 20 - Dec 13\nMonday, Oct 19 - Jan 25\nSunday, Dec 6 - Mar 14\n\n[url=https:\/\/artofproblemsolving.com\/school\/course\/intro-geometry][b]\nScholars Math 8: Introduction to Geometry[\/b][\/url]\nMonday, Jul 13 - Jan 18\nWednesday, Aug 12 - Feb 10\nSunday, Sep 13 - Mar 21\nMonday, Sep 21 - Mar 29\nThursday, Oct 8 - Apr 8\nSunday, Nov 8 - May 16\nTuesday, Dec 1 - May 25\n\n[url=https:\/\/artofproblemsolving.com\/school\/course\/paradoxes-camp][b]Special Seminar: Paradoxes and Infinity[\/url][\/b]\nMon, Tue, Wed \u0026 Thurs, Jul 13 - Jul 16\nSat \u0026 Sun,Dec 5 - Dec 6 (1:00 - 4:00 PM PT\/4:00 - 7:00 PM ET)\n\n[b]Intermediate: Grades 8-12[\/b]\n\n[url=https:\/\/artofproblemsolving.com\/school\/course\/intermediate-algebra][b]Scholars Math 9: Intermediate Algebra[\/b][\/url]\nThursday, Jul 2 - Dec 17\nSunday, Jul 26 - Jan 31\nThursday, Aug 20 - Feb 18\nMonday, Sep 14 - Mar 22\nSunday, Sep 27 - Apr 4\nTuesday, Oct 6 - Apr 6\nSunday, Nov 15 - May 23\nFriday, Dec 11 - Jun 4\n\n[url=https:\/\/artofproblemsolving.com\/school\/course\/intermediate-counting][b]\nScholars Math 9.1: Intermediate Counting \u0026 Probability[\/b][\/url]\nWednesday, Sep 16 - Feb 3\nSunday, Dec 6 - Apr 25\n\n[url=https:\/\/artofproblemsolving.com\/school\/course\/intermediate-numbertheory][b]Scholars Math 9.2: Intermediate Number Theory[\/b][\/url]\nSunday, Sep 27 - Dec 20\n\n[url=https:\/\/artofproblemsolving.com\/school\/course\/precalc][b]Scholars Math 10: Precalculus[\/b][\/url]\nWednesday, Aug 12 - Jan 27\nMonday, Sep 14 - Mar 8\nSunday, Oct 4 - Mar 28\nThursday, Oct 15 - Apr 1\nSunday, Dec 13 - Jun 6\n\n[b]Advanced: Grades 9-12[\/b]\n[url=https:\/\/artofproblemsolving.com\/school\/course\/calculus][b]Scholars Math 11: Calculus[\/b][\/url]\nTuesday, Sep 8 - Mar 16\nSunday, Oct 11 - Apr 25\nThursday, Dec 3 - Jun 3\n\n[b]Contest Preparation: Grades 6-12[\/b]\n\n[url=https:\/\/artofproblemsolving.com\/school\/course\/mathcounts-basics][b]AMC 8\/MATHCOUNTS Basicss[\/b][\/url]\nTue \u0026 Thurs, Jul 7 - Aug 13\nSunday, Aug 23 - Nov 15\nFriday, Sep 18 - Dec 11\nMonday, Sep 21 - Dec 14\nSunday, Sep 27 - Dec 20\nThursday, Oct 15 - Jan 21\nTue, Thurs \u0026 Sun, Dec 8 - Jan 17 \n\n[url=https:\/\/artofproblemsolving.com\/school\/course\/mathcounts-advanced][b]AMC 8\/MATHCOUNTS Advanced[\/b][\/url]\nTue \u0026 Thurs, Jul 7 - Aug 13\nSunday, Aug 23 - Nov 15\nWednesday, Aug 26 - Nov 11\nFriday, Sep 4 - Dec 10\nMonday, Sep 21 - Dec 14\nWednesday, Oct 7 - Jan 13\nSunday, Oct 11 - Jan 17\nTue \u0026 Thurs, Oct 27 - Dec 10\nMon, Wed \u0026 Fri, Dec 7 - Jan 15\nTue, Thurs \u0026 Sun, Dec 8 - Jan 17\n\n[url=https:\/\/artofproblemsolving.com\/school\/course\/maa-amc10][b]AMC 10 Problem Series[\/b][\/url]\nTue \u0026 Thurs, Jul 7 - Aug 13\nSunday, Aug 9 - Nov 1, (3:30 - 5:00 pm ET\/12:30 - 2:00 pm PT)\nSunday, Aug 9 - Nov 1\nWednesday, Aug 19 - Nov 4\nFriday, Aug 21 - Nov 6\nMon \u0026 Wed, Sep 14 - Oct 21\nTue \u0026 Thurs, Sep 15 - Oct 22\nMon, Wed \u0026 Fri, Oct 5 - Oct 30\nTue, Thurs \u0026 Sun, Oct 6 - Nov 1\n\n[url=https:\/\/artofproblemsolving.com\/school\/course\/maa-amc10-final-five][b]AMC 10 Final Fives[\/b][\/url]\nFriday, Jul 10 - Jul 31\nMonday, Aug 10 - Aug 31\nTuesday, Sep 1 - Sep 22\nSunday, Sep 13 - Oct 4\nWednesday, Sep 16 - Oct 7\nSunday, Sep 27 - Oct 18, (3:30 - 5:00 pm ET\/12:30 - 2:00 pm PT)\nThursday, Oct 8 - Oct 29\nFriday, Oct 9 - Oct 30\n\n[url=https:\/\/artofproblemsolving.com\/school\/course\/maa-amc12][b]AMC 12 Problem Series[\/b][\/url]\nSunday, Aug 9 - Nov 1\nThursday, Aug 20 - Nov 5\nTue \u0026 Thurs, Sep 15 - Oct 22\nMon \u0026 Wed, Sep 21 - Oct 28\nTue, Thurs \u0026 Sun, Oct 6 - Nov 1\n\n[url=https:\/\/artofproblemsolving.com\/school\/course\/maa-amc12-final-five][b]AMC 12 Final Fives[\/b][\/url]\nThursday, Sep 17 - Oct 8\nSunday, Sep 27 - Oct 18\nFriday, Oct 9 - Oct 30\n\n[url=https:\/\/artofproblemsolving.com\/school\/course\/maa-aimea][b]AIME Problem Series (Version A)[\/b][\/url]\nThursday, Sep 17 - Dec 10\n\n[url=https:\/\/artofproblemsolving.com\/school\/course\/maa-aimeb][b]AIME Problem Series (Version B)[\/b][\/url]\nSunday, Oct 25 - Jan 31\n\n[url=https:\/\/artofproblemsolving.com\/school\/course\/fma][b]F=ma Problem Series[\/b][\/url]\nMonday, Sep 14 - Dec 7\nFriday, Oct 23 - Jan 29\n\n[b]Programming[\/b]\n\n[url=https:\/\/artofproblemsolving.com\/school\/course\/python1][b]Introduction to Programming with Python[\/b][\/url]\nThursday, Aug 27 - Nov 12\nSunday, Sep 27 - Dec 20\nMonday, Nov 30 - Mar 8\n\n[url=https:\/\/artofproblemsolving.com\/school\/course\/python2][b]Intermediate Programming with Python[\/b][\/url]\nThursday, Sep 17 - Dec 10\n\n[url=https:\/\/artofproblemsolving.com\/school\/course\/cs-bronze][b]USACO Bronze Comprehensive Training[\/b][\/url]\nTuesday, Sep 1 - Nov 17\nWednesday, Sep 23 - Dec 16\n\n[url=https:\/\/artofproblemsolving.com\/school\/course\/cs-silver][b]USACO Silver Comprehensive Training[\/b][\/url]\nMonday, Aug 10 - Dec 7\nFriday, Aug 28 - Dec 18\n\n[b]Physics[\/b]\n[url=https:\/\/artofproblemsolving.com\/school\/course\/ms-physics1][b]Scholars Middle School Physics (Part 1)[\/b][\/url]\nWednesday, Aug 26 - Dec 16\nFriday, Oct 2 - Feb 5\n\n[url=https:\/\/artofproblemsolving.com\/school\/course\/physics-foundations][b]Scholars High School Physics: Foundations[\/b][\/url]\nThursday, Sep 17 - Dec 10\nSunday, Nov 1 - Feb 7\n\n[url=https:\/\/artofproblemsolving.com\/school\/course\/hs-physics1][b]Scholars High School Physics 1: Mechanics[\/b][\/url]\nFriday, Sep 11 - Mar 12\nSunday, Oct 4 - Apr 11\nSunday, Dec 13 - Jun 20\n\n[url=https:\/\/artofproblemsolving.com\/school\/course\/woot-math][b]MathWOOT Levels 1 \u0026 2[\/b][\/url] \nMathWOOT 1: Sep 8 - Mar 14 (3 weekly class times available)\nMathWOOT 2: Sep 8 - Mar 12 (2 weekly class times available)\n\n[url=https:\/\/artofproblemsolving.com\/school\/course\/woot-code][b]CodeWOOT[\/b][\/url]\nWednesday, Sep 9 - Mar 3\n \n[url=https:\/\/artofproblemsolving.com\/school\/course\/woot-physics][b]PhysicsWOOT[\/b][\/url] \nThursday, Sep 24 - Mar 4 \n\n[url=https:\/\/artofproblemsolving.com\/school\/course\/woot-chem][b]ChemWOOT[\/b][\/url] \nMonday, Sep 21 - Jan 26","username":"jwelsh","reported":false,"is_thanked":false,"is_nothanked":false,"attachment":false,"thanks_received":26,"nothanks_received":0,"thankers":"BlackShark28, kamadragon, k3glaucus, RollingPanda4616, bossesboss42, IvoryMonkey21, C4LEricWa, slipperyfish, HacheB2031, WalterMitchell, hockeyfox, OGMATH, DynamicWolf45, byl2048, mathwizz052008, AlienGirl05, AwesomeKittyCat, duke_of_wedgewood, DittoDino, sweetbird108, AlgowheelAZ1, mathbeast180, bashogray, Exponent11, yompapike, WiseTigerJ1","deleted":false,"post_number":1,"post_time":1782916170,"num_edits":0,"post_format":"bbcode","last_edit_time":0,"last_editor_username":"","last_edit_reason":"","admin":true,"is_auto_flagged":false,"avatar":"\/\/avatar.artofproblemsolving.com\/avatar_483700.jpg?t=1564175849","num_posts":1332,"editable":false,"deletable":false,"show_from_start":true,"show_from_end":true}],"topic_id":3859135,"category_id":75,"category_name":"Global Announcements","category_main_color":"#000","category_secondary_color":"#ddd","topic_title":"July Highlights and 2026 AoPS Online Class Information","topic_type":"forum","is_public":true,"roles":{"37932":"owner"},"is_read":false,"first_post_id":38545477,"first_poster_id":483700,"first_poster_name":"jwelsh","first_poster_avatar":"\/\/avatar.artofproblemsolving.com\/avatar_483700.jpg?t=1564175849","real_first_poster_id":483700,"first_post_time":1782916170,"last_post_id":38545477,"last_poster_id":483700,"last_poster_name":"jwelsh","last_poster_avatar":"\/\/avatar.artofproblemsolving.com\/avatar_483700.jpg?t=1564175849","last_post_time":1782916170,"last_update_time":1783045935,"db_mark_time":0,"comment_count":1,"num_deleted":0,"num_reports":0,"num_views":360,"num_watchers":0,"category_num_users":1,"category_num_topics":107,"category_num_posts":9948,"poll_id":0,"source":"","tags":[{"tag_id":91240,"tag_text":"July","is_visible":true},{"tag_id":2657676,"tag_text":"Monthly Highlights","is_visible":true},{"tag_id":3133140,"tag_text":"Happy July 4th","is_visible":true},{"tag_id":1398913,"tag_text":"jwelsh","is_visible":true}],"tags_fetched":false,"can_have_source":false,"locked":true,"forum_locked":0,"announce_type":"global","announce_through":"2026-08-07","announce_factor":2,"preview":"\u003Cb\u003EPlease note that there are no AoPS Online classes July 3-5.\u003C\/b\u003E\u003Cbr\u003E\n\u003Cbr\u003E\nMOP (Math Olympiad Summer Program) has ended and the IMO (International Mathematical Olympiad) is right around the corner! This year\u2019s IMO will be held in Shanghai, \u003Cb\u003EJuly 10 - 21\u003C\/b\u003E. Congratulations to all the MOP students for reaching this incredible level and best of luck to all selected to represent their countries at this year\u2019s IMO!\u003Cbr\u003E\n\u003Cbr\u003E\nInterested in improving your problem solving skills? Take advantage of our \u003Ca href=\u0022https:\/\/artofproblemsolving.com\/woot\u0022 class=\u0022bbcode_url\u0022\u003EWorldwide Online Olympiad Training (WOOT) courses \u003C\/a\u003E and train with the best! \u003Cb\u003EPlease note that early bird pricing ends August 18th!\u003C\/b\u003E\u003Cbr\u003E\n\u003Cbr\u003E\nJoin us on Wednesday, July 29th at 4:30 pm PT\/7:30 pm ET for our new Game Jam: Sum-It!\u003Cbr\u003E\n[quote]This single-player game involves choosing up to 5 number cards that combine with addition or subtraction (in any order) to make target numbers. Can you reach the Sum-It?[\/quote]\u003Cbr\u003E\n\u003Cbr\u003E\nAs a reminder, we recently launched some new daily \u003Ca href=\u0022https:\/\/beastacademy.com\/puzzles\/daily\u0022 class=\u0022bbcode_url\u0022\u003EBeast Academy Puzzles\u003C\/a\u003E. If you want to share your results or talk about them with peers, see the \u003Ca href=\u0022https:\/\/artofproblemsolving.com\/community\/c3142457_beast_academy_daily_puzzles\u0022 class=\u0022bbcode_url\u0022\u003EBeast Academy Daily puzzles forum\u003C\/a\u003E!\u003Cbr\u003E\n\u003Cbr\u003E\nIf you haven\u2019t already, please review the \u003Ca href=\u0022https:\/\/artofproblemsolving.com\/community\/faq\u0022 class=\u0022bbcode_url\u0022\u003ECommunity Guidelines\u003C\/a\u003E!\u003Cbr\u003E\n\u003Cbr\u003E\nFinally, stay sharp this summer or plan for fall with an AoPS Online class!\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Cb\u003EOur full course list for upcoming classes is below:\u003C\/b\u003E\u003Cbr\u003E\nAll classes run 7:30pm-8:45pm ET\/4:30pm - 5:45pm PT unless otherwise noted.\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Cb\u003E\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/prealgebra-pt1-sp\u0022 class=\u0022bbcode_url\u0022\u003EHonors Math 6: Prealgebra (Part 1)\u003C\/a\u003E\u003C\/b\u003E, Self-Paced\u003Cbr\u003E\nScholars Math 6: Prealgebra (Part 1)\u003Cbr\u003E\nThursday, Jul 16 - Oct 29\u003Cbr\u003E\nSunday, Aug 16 - Dec 13\u003Cbr\u003E\nWednesday, Aug 26 - Dec 16\u003Cbr\u003E\nThursday, Sep 10 - Jan 14\u003Cbr\u003E\nTuesday, Sep 15 - Jan 19 (1:30 - 2:45 PM PT\/4:30 - 5:45 PM ET)\u003Cbr\u003E\nMonday, Sep 21 - Jan 25\u003Cbr\u003E\nFriday, Oct 2 - Feb 5\u003Cbr\u003E\nSunday, Oct 18 - Feb 28\u003Cbr\u003E\nTuesday, Oct 27 - Mar 2\u003Cbr\u003E\nSunday, Nov 15 - Mar 28\u003Cbr\u003E\nWednesday, Dec 2 - Mar 31\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/prealgebra2-sp\u0022 class=\u0022bbcode_url\u0022\u003E\u003Cb\u003EHonors Math 6: Prealgebra (Part 2)\u003C\/b\u003E\u003C\/a\u003E, Self-Paced\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/prealgebra-pt2\u0022 class=\u0022bbcode_url\u0022\u003E\u003Cb\u003EScholars Math 6: Prealgebra (Part 2)\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nSunday, Jul 12 - Nov 1\u003Cbr\u003E\nSunday, Aug 23 - Dec 20\u003Cbr\u003E\nMonday, Sep 14 - Jan 18\u003Cbr\u003E\nFriday, Sep 25 - Jan 29\u003Cbr\u003E\nTuesday, Oct 13 - Feb 16\u003Cbr\u003E\nSunday, Oct 25 - Mar 7\u003Cbr\u003E\nThursday, Nov 12 - Mar 18\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/algebra-pt1-sp\u0022 class=\u0022bbcode_url\u0022\u003E\u003Cb\u003EHonors Math 7: Introduction to Algebra (Part 1)\u003C\/b\u003E\u003C\/a\u003E, Self-Paced\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/algebra-pt1\u0022 class=\u0022bbcode_url\u0022\u003E\u003Cb\u003EScholars Math 7: Introduction to Algebra (Part 1)\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nWednesday, Jul 15 - Oct 28\u003Cbr\u003E\nSunday, Aug 16 - Dec 13\u003Cbr\u003E\nTuesday, Aug 18 - Dec 8\u003Cbr\u003E\nFriday, Sep 11 - Jan 15\u003Cbr\u003E\nThursday, Sep 24 - Jan 28\u003Cbr\u003E\nMonday, Sep 28 - Feb 1\u003Cbr\u003E\nSunday, Oct 11 - Feb 21\u003Cbr\u003E\nTuesday, Oct 20 - Feb 23\u003Cbr\u003E\nSunday, Nov 8 - Mar 21\u003Cbr\u003E\nWednesday, Dec 2 - Mar 31\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/algebra-pt2-sp\u0022 class=\u0022bbcode_url\u0022\u003E\u003Cb\u003EHonors Math 7: Introduction to Algebra (Part 2)\u003C\/b\u003E\u003C\/a\u003E, Self-Paced\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/algebra-pt2\u0022 class=\u0022bbcode_url\u0022\u003E\u003Cb\u003EScholars Math 7: Introduction to Algebra (Part 2)\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nSunday, Jul 12 - Nov 1\u003Cbr\u003E\nWednesday, Aug 5 - Nov 18\u003Cbr\u003E\nSunday, Aug 23 - Dec 20\u003Cbr\u003E\nThursday, Sep 10 - Jan 14\u003Cbr\u003E\nTuesday, Sep 29 - Feb 2\u003Cbr\u003E\nSunday, Oct 25 - Mar 7\u003Cbr\u003E\nWednesday, Nov 4 - Mar 10\u003Cbr\u003E\nFriday, Dec 4 - Apr 2\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/intro-counting-sp\u0022 class=\u0022bbcode_url\u0022\u003E\u003Cb\u003EScholars Math 7.1: Introduction to Counting \u0026amp; Probability\u003C\/b\u003E\u003C\/a\u003E, Self-Paced\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/intro-counting\u0022 class=\u0022bbcode_url\u0022\u003E\u003Cb\u003ESchedule: Scholars Math 7.1: Introduction to Counting \u0026amp; Probability\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nSunday, Jul 26 - Oct 18\u003Cbr\u003E\nWednesday, Aug 26 - Nov 11\u003Cbr\u003E\nMonday, Sep 14 - Dec 7\u003Cbr\u003E\nSunday, Sep 27 - Dec 20\u003Cbr\u003E\nTuesday, Oct 6 - Jan 12\u003Cbr\u003E\nSunday, Oct 25 - Jan 31\u003Cbr\u003E\nSunday, Dec 13 - Mar 21\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/intro-numbertheory\u0022 class=\u0022bbcode_url\u0022\u003E\u003Cb\u003E\u003Cbr\u003E\nScholars Math 7.2: Introduction to Number Theory\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nMonday, Jul 13 - Oct 5\u003Cbr\u003E\nFriday, Aug 28 - Nov 13\u003Cbr\u003E\nSunday, Sep 20 - Dec 13\u003Cbr\u003E\nMonday, Oct 19 - Jan 25\u003Cbr\u003E\nSunday, Dec 6 - Mar 14\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/intro-geometry\u0022 class=\u0022bbcode_url\u0022\u003E\u003Cb\u003E\u003Cbr\u003E\nScholars Math 8: Introduction to Geometry\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nMonday, Jul 13 - Jan 18\u003Cbr\u003E\nWednesday, Aug 12 - Feb 10\u003Cbr\u003E\nSunday, Sep 13 - Mar 21\u003Cbr\u003E\nMonday, Sep 21 - Mar 29\u003Cbr\u003E\nThursday, Oct 8 - Apr 8\u003Cbr\u003E\nSunday, Nov 8 - May 16\u003Cbr\u003E\nTuesday, Dec 1 - May 25\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/paradoxes-camp\u0022 class=\u0022bbcode_url\u0022\u003E\u003Cb\u003ESpecial Seminar: Paradoxes and Infinity\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nMon, Tue, Wed \u0026amp; Thurs, Jul 13 - Jul 16\u003Cbr\u003E\nSat \u0026amp; Sun,Dec 5 - Dec 6 (1:00 - 4:00 PM PT\/4:00 - 7:00 PM ET)\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Cb\u003EIntermediate: Grades 8-12\u003C\/b\u003E\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/intermediate-algebra\u0022 class=\u0022bbcode_url\u0022\u003E\u003Cb\u003EScholars Math 9: Intermediate Algebra\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nThursday, Jul 2 - Dec 17\u003Cbr\u003E\nSunday, Jul 26 - Jan 31\u003Cbr\u003E\nThursday, Aug 20 - Feb 18\u003Cbr\u003E\nMonday, Sep 14 - Mar 22\u003Cbr\u003E\nSunday, Sep 27 - Apr 4\u003Cbr\u003E\nTuesday, Oct 6 - Apr 6\u003Cbr\u003E\nSunday, Nov 15 - May 23\u003Cbr\u003E\nFriday, Dec 11 - Jun 4\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/intermediate-counting\u0022 class=\u0022bbcode_url\u0022\u003E\u003Cb\u003E\u003Cbr\u003E\nScholars Math 9.1: Intermediate Counting \u0026amp; Probability\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nWednesday, Sep 16 - Feb 3\u003Cbr\u003E\nSunday, Dec 6 - Apr 25\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/intermediate-numbertheory\u0022 class=\u0022bbcode_url\u0022\u003E\u003Cb\u003EScholars Math 9.2: Intermediate Number Theory\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nSunday, Sep 27 - Dec 20\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/precalc\u0022 class=\u0022bbcode_url\u0022\u003E\u003Cb\u003EScholars Math 10: Precalculus\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nWednesday, Aug 12 - Jan 27\u003Cbr\u003E\nMonday, Sep 14 - Mar 8\u003Cbr\u003E\nSunday, Oct 4 - Mar 28\u003Cbr\u003E\nThursday, Oct 15 - Apr 1\u003Cbr\u003E\nSunday, Dec 13 - Jun 6\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Cb\u003EAdvanced: Grades 9-12\u003C\/b\u003E\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/calculus\u0022 class=\u0022bbcode_url\u0022\u003E\u003Cb\u003EScholars Math 11: Calculus\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nTuesday, Sep 8 - Mar 16\u003Cbr\u003E\nSunday, Oct 11 - Apr 25\u003Cbr\u003E\nThursday, Dec 3 - Jun 3\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Cb\u003EContest Preparation: Grades 6-12\u003C\/b\u003E\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/mathcounts-basics\u0022 class=\u0022bbcode_url\u0022\u003E\u003Cb\u003EAMC 8\/MATHCOUNTS Basicss\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nTue \u0026amp; Thurs, Jul 7 - Aug 13\u003Cbr\u003E\nSunday, Aug 23 - Nov 15\u003Cbr\u003E\nFriday, Sep 18 - Dec 11\u003Cbr\u003E\nMonday, Sep 21 - Dec 14\u003Cbr\u003E\nSunday, Sep 27 - Dec 20\u003Cbr\u003E\nThursday, Oct 15 - Jan 21\u003Cbr\u003E\nTue, Thurs \u0026amp; Sun, Dec 8 - Jan 17\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/mathcounts-advanced\u0022 class=\u0022bbcode_url\u0022\u003E\u003Cb\u003EAMC 8\/MATHCOUNTS Advanced\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nTue \u0026amp; Thurs, Jul 7 - Aug 13\u003Cbr\u003E\nSunday, Aug 23 - Nov 15\u003Cbr\u003E\nWednesday, Aug 26 - Nov 11\u003Cbr\u003E\nFriday, Sep 4 - Dec 10\u003Cbr\u003E\nMonday, Sep 21 - Dec 14\u003Cbr\u003E\nWednesday, Oct 7 - Jan 13\u003Cbr\u003E\nSunday, Oct 11 - Jan 17\u003Cbr\u003E\nTue \u0026amp; Thurs, Oct 27 - Dec 10\u003Cbr\u003E\nMon, Wed \u0026amp; Fri, Dec 7 - Jan 15\u003Cbr\u003E\nTue, Thurs \u0026amp; Sun, Dec 8 - Jan 17\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/maa-amc10\u0022 class=\u0022bbcode_url\u0022\u003E\u003Cb\u003EAMC 10 Problem Series\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nTue \u0026amp; Thurs, Jul 7 - Aug 13\u003Cbr\u003E\nSunday, Aug 9 - Nov 1, (3:30 - 5:00 pm ET\/12:30 - 2:00 pm PT)\u003Cbr\u003E\nSunday, Aug 9 - Nov 1\u003Cbr\u003E\nWednesday, Aug 19 - Nov 4\u003Cbr\u003E\nFriday, Aug 21 - Nov 6\u003Cbr\u003E\nMon \u0026amp; Wed, Sep 14 - Oct 21\u003Cbr\u003E\nTue \u0026amp; Thurs, Sep 15 - Oct 22\u003Cbr\u003E\nMon, Wed \u0026amp; Fri, Oct 5 - Oct 30\u003Cbr\u003E\nTue, Thurs \u0026amp; Sun, Oct 6 - Nov 1\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/maa-amc10-final-five\u0022 class=\u0022bbcode_url\u0022\u003E\u003Cb\u003EAMC 10 Final Fives\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nFriday, Jul 10 - Jul 31\u003Cbr\u003E\nMonday, Aug 10 - Aug 31\u003Cbr\u003E\nTuesday, Sep 1 - Sep 22\u003Cbr\u003E\nSunday, Sep 13 - Oct 4\u003Cbr\u003E\nWednesday, Sep 16 - Oct 7\u003Cbr\u003E\nSunday, Sep 27 - Oct 18, (3:30 - 5:00 pm ET\/12:30 - 2:00 pm PT)\u003Cbr\u003E\nThursday, Oct 8 - Oct 29\u003Cbr\u003E\nFriday, Oct 9 - Oct 30\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/maa-amc12\u0022 class=\u0022bbcode_url\u0022\u003E\u003Cb\u003EAMC 12 Problem Series\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nSunday, Aug 9 - Nov 1\u003Cbr\u003E\nThursday, Aug 20 - Nov 5\u003Cbr\u003E\nTue \u0026amp; Thurs, Sep 15 - Oct 22\u003Cbr\u003E\nMon \u0026amp; Wed, Sep 21 - Oct 28\u003Cbr\u003E\nTue, Thurs \u0026amp; Sun, Oct 6 - Nov 1\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/maa-amc12-final-five\u0022 class=\u0022bbcode_url\u0022\u003E\u003Cb\u003EAMC 12 Final Fives\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nThursday, Sep 17 - Oct 8\u003Cbr\u003E\nSunday, Sep 27 - Oct 18\u003Cbr\u003E\nFriday, Oct 9 - Oct 30\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/maa-aimea\u0022 class=\u0022bbcode_url\u0022\u003E\u003Cb\u003EAIME Problem Series (Version A)\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nThursday, Sep 17 - Dec 10\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/maa-aimeb\u0022 class=\u0022bbcode_url\u0022\u003E\u003Cb\u003EAIME Problem Series (Version B)\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nSunday, Oct 25 - Jan 31\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/fma\u0022 class=\u0022bbcode_url\u0022\u003E\u003Cb\u003EF=ma Problem Series\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nMonday, Sep 14 - Dec 7\u003Cbr\u003E\nFriday, Oct 23 - Jan 29\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Cb\u003EProgramming\u003C\/b\u003E\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/python1\u0022 class=\u0022bbcode_url\u0022\u003E\u003Cb\u003EIntroduction to Programming with Python\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nThursday, Aug 27 - Nov 12\u003Cbr\u003E\nSunday, Sep 27 - Dec 20\u003Cbr\u003E\nMonday, Nov 30 - Mar 8\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/python2\u0022 class=\u0022bbcode_url\u0022\u003E\u003Cb\u003EIntermediate Programming with Python\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nThursday, Sep 17 - Dec 10\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/cs-bronze\u0022 class=\u0022bbcode_url\u0022\u003E\u003Cb\u003EUSACO Bronze Comprehensive Training\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nTuesday, Sep 1 - Nov 17\u003Cbr\u003E\nWednesday, Sep 23 - Dec 16\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/cs-silver\u0022 class=\u0022bbcode_url\u0022\u003E\u003Cb\u003EUSACO Silver Comprehensive Training\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nMonday, Aug 10 - Dec 7\u003Cbr\u003E\nFriday, Aug 28 - Dec 18\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Cb\u003EPhysics\u003C\/b\u003E\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/ms-physics1\u0022 class=\u0022bbcode_url\u0022\u003E\u003Cb\u003EScholars Middle School Physics (Part 1)\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nWednesday, Aug 26 - Dec 16\u003Cbr\u003E\nFriday, Oct 2 - Feb 5\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/physics-foundations\u0022 class=\u0022bbcode_url\u0022\u003E\u003Cb\u003EScholars High School Physics: Foundations\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nThursday, Sep 17 - Dec 10\u003Cbr\u003E\nSunday, Nov 1 - Feb 7\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/hs-physics1\u0022 class=\u0022bbcode_url\u0022\u003E\u003Cb\u003EScholars High School Physics 1: Mechanics\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nFriday, Sep 11 - Mar 12\u003Cbr\u003E\nSunday, Oct 4 - Apr 11\u003Cbr\u003E\nSunday, Dec 13 - Jun 20\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/woot-math\u0022 class=\u0022bbcode_url\u0022\u003E\u003Cb\u003EMathWOOT Levels 1 \u0026amp; 2\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nMathWOOT 1: Sep 8 - Mar 14 (3 weekly class times available)\u003Cbr\u003E\nMathWOOT 2: Sep 8 - Mar 12 (2 weekly class times available)\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/woot-code\u0022 class=\u0022bbcode_url\u0022\u003E\u003Cb\u003ECodeWOOT\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nWednesday, Sep 9 - Mar 3\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/woot-physics\u0022 class=\u0022bbcode_url\u0022\u003E\u003Cb\u003EPhysicsWOOT\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nThursday, Sep 24 - Mar 4\u003Cbr\u003E\n\u003Cbr\u003E\n\u003Ca href=\u0022https:\/\/artofproblemsolving.com\/school\/course\/woot-chem\u0022 class=\u0022bbcode_url\u0022\u003E\u003Cb\u003EChemWOOT\u003C\/b\u003E\u003C\/a\u003E\u003Cbr\u003E\nMonday, Sep 21 - Jan 26","target_url":"","target_url_application":null,"target_text":"","state":"none","watchers_usernames":"","watchers_avatars":"","num_named_watchers":0,"cat_can_target":0,"has_thanks":true,"has_nothanks":false,"permissions":{"c_can_access_all_tags":false,"c_can_add_target":false,"c_can_announce":false,"c_can_delete":false,"c_can_edit":false,"c_can_edit_own_posts":true,"c_can_edit_tags":true,"c_can_global_announce":false,"c_can_hard_delete":false,"c_can_lock_category":false,"c_can_lock_topic":false,"c_can_monitor":false,"c_can_move_topic_out":false,"c_can_nothank":true,"c_can_read":true,"c_can_read_deleted":false,"c_can_remove_target":false,"c_can_reply":true,"c_can_report":true,"c_can_see_real_poster":false,"c_can_settle_report":false,"c_can_shout":false,"c_can_thank":true,"c_can_undelete":false,"c_undo_global_ban":false},"is_bookmarked":false,"in_feed":false,"is_watched":false}],"preload_watchers":{"1258988":{"num_named_watchers":0,"num_watchers":1,"watchers_usernames":"","watchers_avatars":""},"2731212":{"num_named_watchers":0,"num_watchers":0,"watchers_usernames":"","watchers_avatars":""},"3778932":{"num_named_watchers":1,"num_watchers":1,"watchers_usernames":"Awesomeness_in_a_bun","watchers_avatars":"\/\/avatar.artofproblemsolving.com\/avatar_561309.png?t=1716501554"},"3825731":{"num_named_watchers":1,"num_watchers":1,"watchers_usernames":"ninjaish","watchers_avatars":"\/\/avatar.artofproblemsolving.com\/avatar_1363216.png"},"3840481":{"num_named_watchers":2,"num_watchers":2,"watchers_usernames":"chronondecay funintegrationfan","watchers_avatars":"\/\/avatar.artofproblemsolving.com\/avatar_117280.png \/\/avatar.artofproblemsolving.com\/avatar_1360558.png"},"3842823":{"num_named_watchers":0,"num_watchers":1,"watchers_usernames":"","watchers_avatars":""},"3847011":{"num_named_watchers":0,"num_watchers":0,"watchers_usernames":"","watchers_avatars":""},"3848894":{"num_named_watchers":0,"num_watchers":0,"watchers_usernames":"","watchers_avatars":""},"3849349":{"num_named_watchers":0,"num_watchers":0,"watchers_usernames":"","watchers_avatars":""},"3854384":{"num_named_watchers":2,"num_watchers":2,"watchers_usernames":"BlazeSai2 ninjaish","watchers_avatars":"\/\/avatar.artofproblemsolving.com\/avatar_1363216.png \/\/avatar.artofproblemsolving.com\/avatar_1240752.png"},"3855488":{"num_named_watchers":0,"num_watchers":0,"watchers_usernames":"","watchers_avatars":""},"3857768":{"num_named_watchers":0,"num_watchers":0,"watchers_usernames":"","watchers_avatars":""},"3857975":{"num_named_watchers":0,"num_watchers":0,"watchers_usernames":"","watchers_avatars":""},"3858307":{"num_named_watchers":0,"num_watchers":0,"watchers_usernames":"","watchers_avatars":""},"3858336":{"num_named_watchers":0,"num_watchers":0,"watchers_usernames":"","watchers_avatars":""},"3859165":{"num_named_watchers":0,"num_watchers":0,"watchers_usernames":"","watchers_avatars":""},"3859194":{"num_named_watchers":0,"num_watchers":1,"watchers_usernames":"","watchers_avatars":""},"3859198":{"num_named_watchers":0,"num_watchers":0,"watchers_usernames":"","watchers_avatars":""},"3859644":{"num_named_watchers":0,"num_watchers":0,"watchers_usernames":"","watchers_avatars":""},"3859968":{"num_named_watchers":0,"num_watchers":0,"watchers_usernames":"","watchers_avatars":""},"3859970":{"num_named_watchers":0,"num_watchers":0,"watchers_usernames":"","watchers_avatars":""},"3859978":{"num_named_watchers":0,"num_watchers":1,"watchers_usernames":"","watchers_avatars":""},"3860060":{"num_named_watchers":0,"num_watchers":0,"watchers_usernames":"","watchers_avatars":""},"3860069":{"num_named_watchers":1,"num_watchers":2,"watchers_usernames":" DramaticDragonfly29","watchers_avatars":"\/\/avatar.artofproblemsolving.com\/avatar_1304504.png?t=1777149775"}},"logout_url":"\/community"};
+	AoPS.bd = AoPS.bootstrap_data; // Alias!
+	// ignore-security-checks
+	AoPS.session = {"id":"21d6f40cfb511982e4424e0e250a9557","user_id":1,"platform_user_id":null,"username":"Anonymous","email":null,"avatar":"","logged_in":false,"initialized":false,"logged_in_and_initialized":false,"needs_coppa_approval":false,"is_coppa_approved":false,"role":"unregistered_user","admin":false,"national_staff":false,"show_privacy":null,"cmty_collection":"","has_missing_info":null,"missing_info_base_url":null};
+	AoPS.bd.environment = 'production';
+	AoPS.protected_url = '../index.html';
+	AoPS.aops_url = '../index.html';
+	AoPS.academy_url = 'https://aopsacademy.org/';
+	AoPS.beast_url = 'https://beastacademy.com/';
+	AoPS.register_url = 'https://accounts.artofproblemsolving.com/register';
+	AoPS.enroll_url = 'https://accounts.artofproblemsolving.com/';
+	AoPS.isProduction = true;
+</script>
+
+	
+					<script src="https://artofproblemsolving.com/assets/js/gtm.js?_v_=4266"></script>
+						<script src="https://artofproblemsolving.com/numbers/dist/v1805/lib.js?_v_=4266"></script>
+						<script src="https://artofproblemsolving.com/assets/js/mixpanel.js?_v_=4266"></script>
+		
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="initial-scale=1">
+		<meta name="referrer" content="origin">
+
+					<meta name="facebook-domain-verification" content="zmmwg7oqqsqvf8ihckwvzoo85b08gx" />
+		
+				<title>Math Message Boards FAQ & Community Help | AoPS</title>
+
+					<link rel="canonical" href="c13_contests.html">
+		
+				
+		<link rel="stylesheet" href="https://artofproblemsolving.com/assets/fonts/font-awesome/css/all.css?_v_=4266">
+
+					<link rel="stylesheet" href="https://artofproblemsolving.com/assets/dist/v1805/css/main-head.css?_v_=4266">
+			<link rel="stylesheet" href="https://artofproblemsolving.com/assets/dist/v1805/css/sharedsite.css?_v_=4266">
+			<link rel="stylesheet" href="https://artofproblemsolving.com/assets/dist/v1805/css/navheader.css?_v_=4266">
+			<link rel="stylesheet" href="https://artofproblemsolving.com/assets/dist/v1805/css/footer.css?_v_=4266">
+		
+					<link rel="icon" type="image/x-icon" sizes="16x16 32x32 64x64" href="https://artofproblemsolving.com/assets/images/favicons/online/online-favicon.ico?v=4" />
+			<link rel="icon" type="image/png" sizes="192x192" href="https://artofproblemsolving.com/assets/images/favicons/online/online-android-chrome-192x192.png?v=4">
+			<link rel="apple-touch-icon" href="https://artofproblemsolving.com/assets/images/favicons/online/online-apple-touch-icon.png?v=4">
+		
+				<link rel="stylesheet" href="https://artofproblemsolving.com/assets/pythonbook/_static/codemirrorEdited.css?_v_=4266"><link rel="stylesheet" href="https://artofproblemsolving.com/assets/dist/v1805/css/feed.css?v=58"><link rel="stylesheet" href="https://artofproblemsolving.com/assets/dist/v1805/css/community_common.css?v=58j"><link rel="stylesheet" href="https://artofproblemsolving.com/assets/vendor/dropzone/css/dropzone.css?_v_=4266"><link rel="stylesheet" href="https://artofproblemsolving.com/assets/dist/v1805/css/community.css?v=58"><link rel="stylesheet" href="https://artofproblemsolving.com/assets/dist/v1805/css/community_header.css?v=58">
+		<script>
+  if (!window.console) console = {log: function() {}, dir: function() {}};
+  $$ = function( selector ) { return document.getElementById( selector ); }
+</script>
+
+		
+					<script src="http://assets.artofproblemsolving.com/js/jquery360.min.js"></script>
+			<script src="http://artofproblemsolving.com/assets/vendor/jquery/3.6.0/jquery-migrate.min.js"></script>
+		
+							</head>
+		<body class="production community small-footer">
+
+								<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-59JWRGZ"
+			height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		
+				<noscript>
+			<img height="1" width="1"
+				src="https://www.facebook.com/tr?id=136949896895236&amp;ev=PageView&amp;noscript=1"/>
+		</noscript>
+		
+		<div id="page-wrapper">
+
+			<!-- search:off -->
+			
+			<!-- The gray bar at top -->
+			<!-- see shared-site.css -->
+			<div id="top-bar" class="sharedsite-wrapper no-select">
+				<div class="sharedsitebar">
+					<a href="../index.html" class="mobile-title"></a>
+					<div class="sharedsite-links">
+																							<a class="site-link main" href="../company.html">
+													Art of Problem Solving
+						</a>
+						<div class="site" name="online-tab">
+													<a class="site-link selected" href="../index.html">
+														<img src="../assets/images/logos/icon-online.svg" class="site-icon" alt="AoPS Online">
+								<span class="site-name">AoPS Online</span>
+							</a>
+							<!-- Rich dropdown -->
+							<div class="site-dropdown-wrapper">
+								<div class="site-dropdown">
+									<div class="site-info">
+										<div class="site-logo">
+											<img src="../assets/images/logos/aops-online.svg"  alt="AoPS Online"/>
+										</div>
+										<div class="site-snippet">
+											Math texts, online classes, and more
+											<br/>for students in grades 5-12.
+										</div>
+										<a target="_blank" class="site-visit aops-primary" href="../index.html">
+											Visit AoPS Online <span class="aops-font">‚</span>
+										</a>
+									</div>
+									<div class="site-quick-nav">
+										<a target="_blank" href="../store.html" class="btn btn-primary aops-btn">
+											Books for Grades 5-12
+										</a>
+										<a target="_blank" href="../school.html" class="btn btn-primary aops-btn">
+											Online Courses
+										</a>
+									</div>
+								</div>
+							</div>
+							<!-- End rich dropdown -->
+						</div>
+						<div class="site" name="ba-tab">
+							<a class="site-link" href="https://beastacademy.com/">
+								<img src="../assets/images/logos/icon-ba.svg" class="site-icon" alt="Beast Academy">
+								<span class="site-name">Beast Academy</span>
+							</a>
+							<div class="site-dropdown-wrapper">
+								<div class="site-dropdown">
+									<div class="site-info">
+										<div class="site-logo">
+											<img src="../assets/images/logos/aops-ba.svg" alt="Beast Academy"/>
+										</div>
+										<div class="site-snippet">
+											Engaging math books and online learning
+											<br/>for students ages 6-13.
+										</div>
+										<a target="_blank" class="site-visit ba-primary" href="https://beastacademy.com/">
+											Visit Beast Academy <span class="aops-font">‚</span>
+										</a>
+									</div>
+									<div class="site-quick-nav">
+										<a target="_blank" href="https://beastacademy.com/books" class="btn btn-primary ba-btn">
+											Books for Ages 6-13
+										</a>
+										<a target="_blank" href="https://beastacademy.com/online" class="btn btn-primary ba-btn">
+											Beast Academy Online
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="site" name="academy-tab">
+							<a class="site-link" href="http://aopsacademy.org/">
+								<img src="../assets/images/logos/icon-academy.svg" class="site-icon" alt="AoPS Academy">
+								<span class="site-name">AoPS Academy</span>
+							</a>
+							<div class="site-dropdown-wrapper">
+								<div class="site-dropdown">
+									<div class="site-info">
+										<div class="site-logo">
+											<img src="../assets/images/logos/aops-academy.svg" alt="AoPS Academy"/>
+										</div>
+										<div class="site-snippet">
+											 Small live classes for advanced math
+<br/>and language arts learners in grades 1-12.										</div>
+										<a target="_blank" class="site-visit academy-primary" href="http://aopsacademy.org/">
+											Visit AoPS Academy <span class="aops-font">‚</span>
+										</a>
+									</div>
+									<div class="site-quick-nav">
+										<a target="_blank" href="http://aopsacademy.org/campuses" class="btn btn-primary academy-btn">
+											Find a Physical Campus
+										</a>
+										<a target="_blank" href="https://virtual.aopsacademy.org/" class="btn btn-primary academy-btn">
+										Visit the Virtual Campus
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+										</div>
+				</div>
+			</div>
+
+			<div id="header-wrapper" class="no-select">
+				<div class="header-underlay">
+					<div id="header">
+
+						<!-- The white area where main menu options appear -->
+
+						<!-- The menu links -->
+													<div id="main-menubar">
+								<div class="menubar-content">
+									<div class="menubar-logo online">
+										<img class="menubar-hamburger" src="../assets/images/hamburger.svg" alt="Menu"/>
+										<a class="logo-img-link" href="../online.html">
+											<img class="logo-img" src="../assets/images/logos/aops-online.svg" alt="AoPS"/>
+											<img class="logo-img-mobile" src="../assets/images/logos/aops-online-mobile.svg" alt="AoPS"/>
+											<img class="logo-img-small" src="../assets/images/logos/aops-online-mobile.svg" alt="AoPS"/>
+										</a>
+									</div>
+									<div class="menubar-links-outer">
+										<!-- The login links -->
+										<div class="menu-login-wrapper online">
+											
+											<div class="menu-login-item">
+															<div id="header-login" class="no-select not-signed-in">
+			<div class="online-login-button solid-rounded-button">Sign&nbsp;In</div><div class="online-register-button">Register</div>
+		</div>
+												</div>
+
+											
+											
+										</div>
+										<div class="menubar-labels online">
+																						<div class="menubar-label school">
+												<div class="menubar-label-link-outer">
+													<a class="menubar-label-link " href="../school.html">
+														online school
+													</a>
+												</div>
+												<div class="menubar-dropdown">
+													<div class="triangle"></div>
+													<div class="dropdown-content">
+																												<a id="online-school-menu-schedule" href="../school/schedule.html"> Class Schedule </a>
+														<a id="online-school-menu-recommmendations" href="../school/recommendations.html"> Recommendations </a>
+														<a id="online-school-menu-woot-courses" href="https://artofproblemsolving.com/woot?gtmlist=School_Nav"> Olympiad Courses </a>
+														<a id="online-school-menu-mathjams" href="../school/mathjams.html"> Free Sessions/Math Jams </a>
+																																										<a target="_blank" href="https://virtual.aopsacademy.org/?utm_source=aopsonline&amp;utm_medium=onlineschoolmenu&amp;utm_campaign=os_vc">
+															Video Classes
+														</a>
+													</div>
+												</div>
+											</div>
+											<div class="menubar-label store">
+												<div class="menubar-label-link-outer">
+													<a class="menubar-label-link " href="../store.html">
+														books<span class="menubar-link-ext">tore </span>
+													</a>
+												</div>
+												<div class="menubar-dropdown">
+													<div class="triangle"></div>
+													<div class="dropdown-content">
+																																																								<a href="../store/list/aops-curriculum.html">Middle/High School</a>
+														<a href="../store/list/beast-academy.html">Elementary School</a>
+														<a href="../store/online.html">Online Books</a>
+														<a href="../store/recommendations.html">Recommendations</a>
+														<a href="../store/list/other-products.html">Other Books &amp; Gear</a>
+														<a href="../store/list/all-products.html">All Products</a>
+														<a href="https://artofproblemsolving.com/store/gift-certificates?gtmlist=Bookstore_Nav">Gift Certificates</a>
+																											</div>
+												</div>
+											</div>
+											<div class="menubar-label community">
+												<div class="menubar-label-link-outer">
+													<a class="menubar-label-link selected" href="../community.html">
+														community
+													</a>
+												</div>
+												<div class="menubar-dropdown">
+													<div class="triangle"></div>
+													<div class="dropdown-content">
+																												<a data-cmty href="../community.html">Forums</a>
+														<a data-cmty href="c13_contests.html">Contests</a>
+														<a data-cmty href="search.html">Search</a>
+														<a data-cmty href="faq.html">Help</a>
+																																																							</div>
+												</div>
+											</div>
+											<div class="menubar-label resources">
+												<div class="menubar-label-link-outer">
+													<a class="menubar-label-link " href="../resources.html">
+														resources
+													</a>
+												</div>
+												<div class="menubar-dropdown">
+													<div class="triangle"></div>
+													<div class="dropdown-content">
+														<div class="dropdown-columns">
+															<div class="dropdown-category">
+																<span class="dropdown-category-label">math training & tools</span>
+																<a href="../alcumus.html">Alcumus</a>
+																<a href="../videos.html">Videos</a>
+																<a href="../ftw.html">For the Win!</a>
+																<a href="../mathcounts_trainer.html">MATHCOUNTS Trainer</a>
+																<a href="../contests/practice.html">AoPS Practice Contests</a>
+																<a href="../wiki/index4875.html?title=Main_Page">AoPS Wiki</a>
+																<a href="../texer.html">LaTeX TeXeR</a>
+																<a href="../polymath.html">MIT PRIMES/CrowdMath</a>
+																<a href="../keeplearning.html">Keep Learning</a>
+																<a href="https://beastacademy.com/all-ten?utm_source=aopsonline&amp;utm_medium=all_ten_menu&amp;utm_campaign=os_beast">All Ten</a>
+																															</div>
+															<div class="dropdown-column">
+																																<div class="dropdown-category category-in-column">
+																	<span class="dropdown-category-label">contests on aops</span>
+																	<a href="../contests/practice.html">Practice Math Contests</a>
+																</div>
+																<div class="dropdown-category category-in-column">
+																	<span class="dropdown-category-label">for schools</span>
+																	<a href="https://www.beastclassroom.com/">Beast Classroom</a>
+																</div>
+																<div class="dropdown-category category-in-column">
+																	<span class="dropdown-category-label">news</span>
+																	<a href="https://artofproblemsolving.com/blog">AoPS Blog</a>
+																	<a href="../blog/webinars/aopswebinars.html">Webinars</a>
+																</div>
+															</div>
+														</div>
+														<div class="dropdown-view-more-link-container">
+															<a href="../resources.html" class="dropdown-view-more-link">view all <span class="aops-icon">0</span></a>
+														</div>
+													</div>
+												</div>
+											</div>
+																						<div class="menubar-label menu-login-item">
+															<div id="header-login" class="no-select not-signed-in">
+			<div class="online-login-button solid-rounded-button">Sign&nbsp;In</div><div class="online-register-button">Register</div>
+		</div>
+												</div>
+																					</div>
+									</div>
+								</div>
+							</div>
+											</div>
+				</div>
+
+									<!-- ignore-security-checks -->
+					<div class="infobar " data-key="july-a-vc3bs"
+						style="background-color: #1b365d">
+						<span class="infobar-text"><p>Happy 4th of July! Please note that AoPS Online is closed July 3 -5.</p></span><span class="infobar-hide"><i class="fas fa-times infobar-hide"></i></span>					</div>
+								<noscript>
+					<div class="infobar">JavaScript is not enabled. JavaScript is required to fully utilize the site.</div>
+				</noscript>
+
+
+									<div id="breadcrumbs-wrapper">
+						<div id="submenu-icon"></div>
+						<div id="breadcrumbs">
+														<div class="crumb-wrapper">
+																										<span class="crumb crumb-1">
+																			<!-- ignore-security-checks -->
+										<a href="https://artofproblemsolving.com/community/index.php">Community</a>
+																		</span>
+															</div>
+						</div>
+					</div>
+							</div>
+
+			<!-- search icon script lives in footer.phtml-->
+
+			<!-- /search:off -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/default.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/base16/tomorrow.min.css">
+
+<div id="main-content">
+	<div id="main-column-standard">
+
+	</div>
+</div>
+
+<!-- search:off -->
+	<div class="clearfix"></div>
+
+	
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+											<a href="../online.html">
+							<img class="footer-mainLogo"
+							src="../assets/images/logos/aops-online-footer.svg"/>
+						</a>
+										<div class="footer-wasc">
+						<span>
+							Art of Problem Solving is an
+							<br class="wasc-break"/>
+							<span class="footer-accredited">ACS WASC Accredited School</span>
+						</span>
+						<img class="footer-wascLogo"
+						src="../assets/images/logos/wasc.png"/>
+					</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<div><a class="link" href="../online.html">AoPS Online</a></div>
+					<div><a class="link" href="https://beastacademy.com/">Beast Academy</a></div>
+					<div><a class="link" href="http://aopsacademy.org/">AoPS Academy</a></div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<div><a class="link" href="../company/about.html">About AoPS</a></div>
+					<div><a class="link" href="../company/staff.html">Our Team</a></div>
+					<div><a class="link" href="../company/history.html">Our History</a></div>
+					<div><a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a></div>
+					<div><a class="link" href="https://artofproblemsolving.com/school/how-school-works/faqs">FAQ</a></div>
+					<div><a class="link" href="https://artofproblemsolving.com/blog">AoPS Blog</a></div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<div><a class="link" href="../company/tos.html">Terms</a></div>
+					<div><a class="link" href="../company/privacy.html">Privacy</a></div>
+					<div><a class="link" href="https://artofproblemsolving.com/contact?product=online">Contact Us</a></div>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="../assets/images/socialmedia/facebook.svg" class="sm-icon"/>
+							</a>
+							<a class="link" target="_blank" href="https://twitter.com/AoPSNews">
+								<img src="../assets/images/socialmedia/twitter.svg" class="sm-icon"/>
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="../assets/images/socialmedia/pinterest.svg" class="sm-icon"/>
+							</a>
+											</div>
+				</div>
+									<div class="footer-col subscribe">
+						<div class="footer-colHeader">
+							Subscribe for news and updates
+						</div>
+						<form method="post" action="https://artofproblemsolving.com/mailinglist">
+							<input data-hj-suppress="" data-hj-masked="" type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+							<input type="hidden" name="new-books" value="on">
+							<input type="hidden" name="classes" value="on">
+							<input type="hidden" name="mathjams" value="on">
+							<input type="submit" class="footer-submit" value="">
+							<div class="footer-submit-arrow">
+								<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+									<g>
+										<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z"/>
+									</g>
+								</svg>
+							</div>
+						</form>
+					</div>
+							</div>
+			<div class="copyright">
+				<span>&copy; 2026 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="../online.html">
+					<img class="footer-mainLogo"
+					src="../assets/images/logos/aops-online-footer.svg"/>
+				</a>
+						<div class="copyright">
+				&copy; 2026 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="../company.html">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact?product=online">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="../company/tos.html">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="../company/privacy.html">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<form id="registration-form" method="post" action="https://artofproblemsolving.com/user/register.php">
+	<input type="hidden" name="username" value="">
+	<input type="hidden" name="password" value="">
+	<input type="hidden" name="from-login" value="true">
+	</form>
+<div id="print-footer" class="printer">Copyright &copy; 2026 Art of Problem Solving</div>
+
+
+<div id="epicfail" class="aops-html-modal-epic-fail" style="display: none">
+	<div class="aops-html-modal-inner-epic-fail">
+		<div class="aops-html-modal-main-epic-fail">
+			<p>Something appears to not have loaded correctly.</p>
+		</div>
+		<div class="aops-html-modal-bottom-epic-fail">
+			<p><a onclick="location.reload(true);return false">Click to refresh</a>.</p>
+		</div>
+	</div>
+</div>
+<link rel="stylesheet" href="https://artofproblemsolving.com/assets/css/epic-fail.css?_v_=4266">
+
+<script src="https://artofproblemsolving.com/assets/vendor/common-combined-2.js"></script>
+
+	<script src="https://artofproblemsolving.com/assets/dist/v1805/aops_core.js?_v_=4266"></script>
+
+
+<script src="https://artofproblemsolving.com/s/sourceRecording/dist/v1805/source_recording.js?_v_=4266"></script>
+
+<script src="https://artofproblemsolving.com/assets/vendor/jqueryui/1.13.1/jquery-ui.min.js?_v_=4266"></script><script src="https://artofproblemsolving.com/assets/vendor/jquery.editable.js?_v_=4266"></script><script src="https://artofproblemsolving.com/assets/pythonbook/_static/codemirror-compressed.js?_v_=4266"></script><script src="https://artofproblemsolving.com/assets/pythonbook/_static/skulpt.min.js?_v_=4266"></script><script src="https://artofproblemsolving.com/assets/pythonbook/_static/skulpt-stdlib.js?_v_=4266"></script><script src="https://artofproblemsolving.com/assets/pythonbook/_static/aopsmods.js?_v_=4266"></script><script src="http://cache.artofproblemsolving.com/js/community_data.js?v=1783046985&amp;_v_=4266"></script><script src="https://artofproblemsolving.com/assets/dist/v1805/cmty_core.js?_v_=4266"></script><script src="https://artofproblemsolving.com/m/community/dist/v1805/precomp_community_common.js?_v_=4266"></script><script src="https://artofproblemsolving.com/assets/vendor/dropzone/dropzone.js?_v_=4266"></script><script src="https://artofproblemsolving.com/m/community/dist/v1805/precomp_in_community.js?_v_=4266"></script><script src="http://cache.artofproblemsolving.com/js/community_topics.js?r=1783046985&amp;_v_=4266"></script><script src="https://artofproblemsolving.com/m/community/js/CommunityBase.js?v=58&amp;_v_=4266"></script>
+<!-- /search:off -->
+
+
+
+<script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"5105596"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","http://bat.bing.com/bat.js","uetq");</script><noscript><img src="http://bat.bing.com/action/0?ti=5105596&amp;Ver=2" height="0" width="0" style="display:none; visibility: hidden;" /></noscript>
+
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a1529428b86c4cc3',t:'MTc4MzA0Njk4NQ=='};var a=document.createElement('script');a.src='https://artofproblemsolving.com/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+
+<!-- Mirrored from artofproblemsolving.com/community/c13_contests by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 03 Jul 2026 02:51:19 GMT -->
+</html>

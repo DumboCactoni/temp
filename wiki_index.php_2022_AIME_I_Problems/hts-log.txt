@@ -1,0 +1,23 @@
+HTTrack3.49-2 launched on Thu, 02 Jul 2026 22:47:26 at https://artofproblemsolving.com/wiki/index.php/2022_AIME_I_Problems +https://artofproblemsolving.com/*
+(httrack https://artofproblemsolving.com/wiki/index.php/2022_AIME_I_Problems -O /home/peanut/Downloads/wiki_index.php_2022_AIME_I_Problems +https://artofproblemsolving.com/* -r2 )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+22:47:46	Error: 	"Forbidden" (403) at link https://artofproblemsolving.com/wiki/load.php?lang=en&modules=skins.aopsp.css&only=styles&skin=aopsp (from https://artofproblemsolving.com/wiki/index.php/2022_AIME_I_Problems)
+22:47:47	Error: 	"Forbidden" (403) at link https://artofproblemsolving.com/wiki/load.php?lang=en&modules=startup&only=scripts&raw=1&skin=aopsp (from https://artofproblemsolving.com/wiki/index.php/2022_AIME_I_Problems)
+22:48:37	Error: 	"Forbidden" (403) at link https://artofproblemsolving.com/wiki/rest.php/v1/search (from https://artofproblemsolving.com/wiki/index.php/2022_AIME_I_Problems)
+22:49:33	Error: 	"Not Found" (404) at link https://artofproblemsolving.com/online-favicon.ico?v=2 (from https://artofproblemsolving.com/wiki/index.php/2022_AIME_I_Problems)
+22:55:36	Error: 	"Forbidden" (403) at link https://artofproblemsolving.com/wiki/index.php?title=Talk:2022_AIME_I_Problems&action=edit&redlink=1 (from https://artofproblemsolving.com/wiki/index.php/2022_AIME_I_Problems)
+22:56:00	Warning: 	Link https://artofproblemsolving.com/wiki/index.php?title=2022_AIME_I_Problems&action=edit not scanned (follow robots meta tag)
+22:56:12	Warning: 	Link https://artofproblemsolving.com/wiki/index.php?title=2022_AIME_I_Problems&action=history not scanned (follow robots meta tag)
+22:56:24	Warning: 	Link https://artofproblemsolving.com/wiki/index.php?title=Special:RecentChanges not scanned (follow robots meta tag)
+22:56:37	Error: 	"Forbidden" (403) at link https://artofproblemsolving.com/wiki/index.php?title=Special:Random (from https://artofproblemsolving.com/wiki/index.php/2022_AIME_I_Problems)
+22:57:01	Warning: 	Link https://artofproblemsolving.com/wiki/index.php?title=Special:WhatLinksHere/2022_AIME_I_Problems not scanned (follow robots meta tag)
+22:57:13	Warning: 	Link https://artofproblemsolving.com/wiki/index.php?title=Special:SpecialPages not scanned (follow robots meta tag)
+22:58:48	Error: 	"Forbidden" (403) at link https://artofproblemsolving.com/wiki/index.php?title=2022_AIME_I_Problems&oldid=274924 (from https://artofproblemsolving.com/wiki/index.php/2022_AIME_I_Problems)
+
+HTTrack Website Copier/3.49-2 mirror complete in 11 minutes 22 seconds : 100 links scanned, 92 files written (18665947 bytes overall), 42 files updated [2061634 bytes received at 3022 bytes/sec], 15465513 bytes transferred using HTTP compression in 47 files, ratio 11%, 2.0 requests per connection
+(7 errors, 5 warnings, 0 messages)

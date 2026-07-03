@@ -1,0 +1,12 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+login.artofproblemsolving.com	TRUE	/	FALSE	1999999999	platverifier	ca27f95a806949f62ab365626f60346c9eea99616fc029775974729722c69d2df3ae8f2d212782db24090f272e9333349848e81845c746c4b722db2a0f3fb111
+login.artofproblemsolving.com	TRUE	/	FALSE	1999999999	SameSite	Lax
+www.artofproblemsolving.com	TRUE	/	FALSE	1999999999	SameSite	None
+artofproblemsolving.com	TRUE	/	FALSE	1999999999	_cfuvid	GgUx_MqvWQeLF1KMKfRTqf1qxUctkf_0et_WYC39RVU-1783046739.0774329-1.0.1.1-tiNc3u.NukIR_EMRgH6ubiPMi7AMy2NtdGQfBjyLgbA
+blog.artofproblemsolving.com	TRUE	/	FALSE	1999999999	SameSite	None
+.artofproblemsolving.com	TRUE	/	FALSE	1999999999	ajax_token_register_key	356323a6-9521-48b4-aedd-6b9a966bd3ad
+.artofproblemsolving.com	TRUE	/	FALSE	1999999999	f2	f2ec0ddd9066b382d442f49b0c7fb727246eab2a4849c73ad38694e6516c4688bca59b94dca3c7d7dcea984e9016df3a91cc07094001074ac310809bf7c5c1f5
+.artofproblemsolving.com	TRUE	/	FALSE	1999999999	cf_migration_target	current
+artofproblemsolving.com	TRUE	/	FALSE	1999999999	SameSite	None
+
