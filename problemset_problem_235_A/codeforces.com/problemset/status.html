@@ -1,0 +1,3318 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="ru">
+
+<!-- Mirrored from codeforces.com/problemset/status by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 03 Jul 2026 19:20:42 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-743380-5"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-743380-5');
+        </script>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="X-Csrf-Token" content="5c3a727da9c04e3f2ae2e748fadeede5"/>
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=0.01"/>
+    <meta name="robots" content="noai">
+    <meta name="robots" content="noimageai">
+
+    <script type="text/javascript" src="http://codeforces.com/codeforces.org/s/80531/js/jquery-1.8.3.js"></script>
+    <script type="application/javascript">
+        window.locale = "ru";
+        window.standaloneContest = false;
+        function adjustViewport() {
+            var screenWidthPx = Math.min($(window).width(), window.screen.width);
+            var siteWidthPx = 1100; // min width of site
+            var ratio = Math.min(screenWidthPx / siteWidthPx, 1.0);
+            var viewport = "width=device-width, initial-scale=" + ratio;
+            $('#viewport').attr('content', viewport);
+            var style = $('<style>html * { max-height: 1000000px; }</style>');
+            $('html > head').append(style);
+        }
+
+        if ( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
+            adjustViewport();
+        }
+
+        /* Protection against trailing dot in domain. */
+        let hostLength = window.location.host.length;
+        if (hostLength > 1 && window.location.host[hostLength - 1] === '.') {
+            window.location = window.location.protocol + "//" + window.location.host.substring(0, hostLength - 1);
+        }
+    </script>
+
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="expires" content="-1">
+    <meta http-equiv="profileName" content="g2">
+    <meta name="google-site-verification" content="OTd2dN5x4nS4OPknPI9JFg36fKxjqY0i1PSfFPv_J90"/>
+    <meta property="fb:admins" content="100001352546622" />
+    <meta property="og:image" content="//codeforces.com/codeforces.org/s/80531/images/codeforces-sponsored-by-ton.png" />
+    <link rel="image_src" href="http://codeforces.com/codeforces.org/s/80531/images/codeforces-sponsored-by-ton.png" />
+    <meta property="og:title" content="Статус - Codeforces"/>
+    <meta property="og:description" content=""/>
+    
+    <meta property="og:site_name" content="Codeforces"/>
+    
+    
+    <meta name="gc" content="e1f739168d52d8f246c5c583ed75925d628934ee"/>
+    
+    
+    
+    <meta name="utc_offset" content="+03:00"/>
+    <meta name="verify-reformal" content="f56f99fd7e087fb6ccb48ef2" />
+    <title>Статус - Codeforces</title>
+        <meta name="description" content="Codeforces. Соревнования и олимпиады по информатике и программированию, сообщество программистов" />
+        <meta name="keywords" content="программирование информатика контест олимпиада алгоритмы c++ java графы vkcup" />
+    <meta name="robots" content="index, follow" />
+
+    <link rel="stylesheet" href="http://codeforces.com/codeforces.org/s/80531/css/font-awesome.min.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="http://codeforces.com/codeforces.org/s/80531/css/line-awesome.min.css" type="text/css" charset="utf-8" />
+
+        <link rel="preconnect" href="https://challenges.cloudflare.com/">
+        <link rel="dns-prefetch" href="https://challenges.cloudflare.com/">
+        <style type="text/css">@font-face {font-family:PT Sans Narrow;font-style:normal;font-weight:400;src:url(../cf-fonts/s/pt-sans-narrow/5.2.8/cyrillic/400/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:PT Sans Narrow;font-style:normal;font-weight:400;src:url(../cf-fonts/s/pt-sans-narrow/5.2.8/cyrillic-ext/400/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:PT Sans Narrow;font-style:normal;font-weight:400;src:url(../cf-fonts/s/pt-sans-narrow/5.2.8/latin/400/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:PT Sans Narrow;font-style:normal;font-weight:400;src:url(../cf-fonts/s/pt-sans-narrow/5.2.8/latin-ext/400/normal.woff2);unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:PT Sans Narrow;font-style:normal;font-weight:700;src:url(../cf-fonts/s/pt-sans-narrow/5.2.8/cyrillic-ext/700/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:PT Sans Narrow;font-style:normal;font-weight:700;src:url(../cf-fonts/s/pt-sans-narrow/5.2.8/latin-ext/700/normal.woff2);unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:PT Sans Narrow;font-style:normal;font-weight:700;src:url(../cf-fonts/s/pt-sans-narrow/5.2.8/cyrillic/700/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:PT Sans Narrow;font-style:normal;font-weight:700;src:url(../cf-fonts/s/pt-sans-narrow/5.2.8/latin/700/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}</style>
+        <style type="text/css">@font-face {font-family:Cuprum;font-style:normal;font-weight:400;src:url(../cf-fonts/s/cuprum/5.2.8/latin-ext/400/normal.woff2);unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Cuprum;font-style:normal;font-weight:400;src:url(../cf-fonts/s/cuprum/5.2.8/vietnamese/400/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Cuprum;font-style:normal;font-weight:400;src:url(../cf-fonts/s/cuprum/5.2.8/cyrillic/400/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Cuprum;font-style:normal;font-weight:400;src:url(../cf-fonts/s/cuprum/5.2.8/cyrillic-ext/400/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Cuprum;font-style:normal;font-weight:400;src:url(../cf-fonts/s/cuprum/5.2.8/latin/400/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}</style>
+
+
+    <link rel="apple-touch-icon" sizes="57x57" href="http://codeforces.com/codeforces.org/s/80531/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="http://codeforces.com/codeforces.org/s/80531/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="http://codeforces.com/codeforces.org/s/80531/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="http://codeforces.com/codeforces.org/s/80531/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="http://codeforces.com/codeforces.org/s/80531/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="http://codeforces.com/codeforces.org/s/80531/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="http://codeforces.com/codeforces.org/s/80531/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="http://codeforces.com/codeforces.org/s/80531/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="http://codeforces.com/codeforces.org/s/80531/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="http://codeforces.com/codeforces.org/s/80531/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="http://codeforces.com/codeforces.org/s/80531/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="http://codeforces.com/codeforces.org/s/80531/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="http://codeforces.com/codeforces.org/s/80531/favicon-16x16.png">
+    <link rel="manifest" href="../manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="//codeforces.com/codeforces.org/s/80531/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!--CombineResourcesFilter-->
+    <link rel="stylesheet" href="http://codeforces.com/codeforces.org/s/80531/css/prettify.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="http://codeforces.com/codeforces.org/s/80531/css/clear.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="http://codeforces.com/codeforces.org/s/80531/css/style.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="http://codeforces.com/codeforces.org/s/80531/css/ttypography.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="http://codeforces.com/codeforces.org/s/80531/css/problem-statement.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="http://codeforces.com/codeforces.org/s/80531/css/second-level-menu.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="http://codeforces.com/codeforces.org/s/80531/css/roundbox.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="http://codeforces.com/codeforces.org/s/80531/css/datatable.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="http://codeforces.com/codeforces.org/s/80531/css/table-form.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="http://codeforces.com/codeforces.org/s/80531/css/topic.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="http://codeforces.com/codeforces.org/s/80531/css/jquery.jgrowl.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="http://codeforces.com/codeforces.org/s/80531/css/facebox.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="http://codeforces.com/codeforces.org/s/80531/css/jquery.wysiwyg.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="http://codeforces.com/codeforces.org/s/80531/css/jquery.autocomplete.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="http://codeforces.com/codeforces.org/s/80531/css/codeforces.datepick.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="http://codeforces.com/codeforces.org/s/80531/css/colorbox.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="http://codeforces.com/codeforces.org/s/80531/css/jquery.drafts.css" type="text/css" charset="utf-8" />
+        <link rel="stylesheet" href="http://codeforces.com/codeforces.org/s/80531/css/community.css" type="text/css" charset="utf-8" />
+
+    <!-- MathJax -->
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {inlineMath: [['$$$','$$$']], displayMath: [['$$$$$$','$$$$$$']]}
+    });
+    MathJax.Hub.Register.StartupHook("End", function () {
+        Codeforces.runMathJaxListeners();
+    });
+    </script>
+    <script type="text/javascript" async
+            src="../mathjax.codeforces.org/MathJax8331.js?config=TeX-AMS_HTML-full"
+    >
+    </script>
+    <!-- /MathJax -->
+
+    <script type="text/javascript" src="http://codeforces.com/codeforces.org/s/80531/js/prettify/prettify.js"></script>
+    <script type="text/javascript" src="http://codeforces.com/codeforces.org/s/80531/js/moment-with-locales.min.js"></script>
+    <script type="text/javascript" src="http://codeforces.com/codeforces.org/s/80531/js/pushstream.js"></script>
+    <script type="text/javascript" src="http://codeforces.com/codeforces.org/s/80531/js/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="http://codeforces.com/codeforces.org/s/80531/js/jquery.lavalamp.min.js"></script>
+    <script type="text/javascript" src="http://codeforces.com/codeforces.org/s/80531/js/jquery.jgrowl.js"></script>
+    <script type="text/javascript" src="http://codeforces.com/codeforces.org/s/80531/js/jquery.swipe.js"></script>
+    <script type="text/javascript" src="http://codeforces.com/codeforces.org/s/80531/js/jquery.hotkeys.js"></script>
+    <script type="text/javascript" src="http://codeforces.com/codeforces.org/s/80531/js/facebox.js"></script>
+    <script type="text/javascript" src="http://codeforces.com/codeforces.org/s/80531/js/jquery.wysiwyg.js"></script>
+    <script type="text/javascript" src="http://codeforces.com/codeforces.org/s/80531/js/controls/wysiwyg.colorpicker.js"></script>
+    <script type="text/javascript" src="http://codeforces.com/codeforces.org/s/80531/js/controls/wysiwyg.table.js"></script>
+    <script type="text/javascript" src="http://codeforces.com/codeforces.org/s/80531/js/controls/wysiwyg.image.js"></script>
+    <script type="text/javascript" src="http://codeforces.com/codeforces.org/s/80531/js/controls/wysiwyg.link.js"></script>
+    <script type="text/javascript" src="http://codeforces.com/codeforces.org/s/80531/js/jquery.autocomplete.js"></script>
+    <script type="text/javascript" src="http://codeforces.com/codeforces.org/s/80531/js/jquery.datepick.js"></script>
+    <script type="text/javascript" src="http://codeforces.com/codeforces.org/s/80531/js/jquery.ie6blocker.js"></script>
+    <script type="text/javascript" src="http://codeforces.com/codeforces.org/s/80531/js/jquery.colorbox-min.js"></script>
+    <script type="text/javascript" src="http://codeforces.com/codeforces.org/s/80531/js/jquery.ba-bbq.js"></script>
+    <script type="text/javascript" src="http://codeforces.com/codeforces.org/s/80531/js/jquery.drafts.js"></script>
+    <script type="text/javascript" src="http://codeforces.com/codeforces.org/s/80531/js/clipboard.min.js"></script>
+    <script type="text/javascript" src="http://codeforces.com/codeforces.org/s/80531/js/autosize.min.js"></script>
+    <script type="text/javascript" src="http://codeforces.com/codeforces.org/s/80531/js/sjcl.js"></script>
+    <script type="text/javascript" src="https://codeforces.com/scripts/ec683f8b2d1779df61668d5461aef8e5/ru/codeforces-options.js"></script>
+    <script type="text/javascript" src="http://codeforces.com/codeforces.org/s/80531/js/codeforces.js?v=20160131"></script>
+    <script type="text/javascript" src="http://codeforces.com/codeforces.org/s/80531/js/EventCatcher.js?v=20160131"></script>
+    <script type="text/javascript" src="http://codeforces.com/codeforces.org/s/80531/js/preparedVerdictFormats-ru.js"></script>
+    <script type="text/javascript" src="http://codeforces.com/codeforces.org/s/80531/js/confetti.min.js"></script>
+    <script type="text/javascript" src="http://codeforces.com/codeforces.org/s/80531/js/purify.min.js"></script>
+    <!--/CombineResourcesFilter-->
+
+    <link rel="stylesheet" href="http://codeforces.com/codeforces.org/s/80531/markitup/skins/markitup/style.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="http://codeforces.com/codeforces.org/s/80531/markitup/sets/markdown/style.css" type="text/css" charset="utf-8" />
+
+
+    <script type="text/javascript" src="http://codeforces.com/codeforces.org/s/80531/markitup/jquery.markitup.js"></script>
+    <script type="text/javascript" src="http://codeforces.com/codeforces.org/s/80531/markitup/sets/markdown/set.js"></script>
+
+    <!--[if IE]>
+    <style>
+        #sidebar {
+            padding-left: 1em;
+            margin: 1em 1em 1em 0;
+        }
+    </style>
+    <![endif]-->
+
+        <script type="text/javascript" src="http://codeforces.com/codeforces.org/s/80531/js/jquery.datepick-ru.js"></script>
+
+
+
+</head>
+<body class=" "><span style='display:none;' class='csrf-token' data-csrf='5c3a727da9c04e3f2ae2e748fadeede5'>&nbsp;</span>
+
+<!-- .notificationTextCleaner used in Codeforces.showAnnouncements() -->
+<div class="notificationTextCleaner" style="font-size: 0"></div>
+<div class="button-up" style="display: none; opacity: 0.7; width: 50px; height:100%; position: fixed; left: 0; top: 0; cursor: pointer; text-align: center; line-height: 35px; color: #d3dbe4; font-weight: bold; font-size: 3.0rem;"><i class="icon-circle-arrow-up"></i></div>
+<div class="verdictPrototypeDiv" style="display: none;"></div>
+
+<!-- Codeforces JavaScripts. -->
+<script type="text/javascript">
+    String.prototype.hashCode = function() {
+        var hash = 0, i, chr;
+        if (this.length === 0) return hash;
+        for (i = 0; i < this.length; i++) {
+            chr   = this.charCodeAt(i);
+            hash  = ((hash << 5) - hash) + chr;
+            hash |= 0; // Convert to 32bit integer
+        }
+        return hash;
+    };
+
+    var queryMobile = Codeforces.queryString.mobile;
+    if (queryMobile === "true" || queryMobile === "false") {
+        Codeforces.putToStorage("useMobile", queryMobile === "true");
+    } else {
+        var useMobile = Codeforces.getFromStorage("useMobile");
+        if (useMobile === true || useMobile === false) {
+            if (useMobile != false) {
+                Codeforces.redirect(Codeforces.updateUrlParameter(document.location.href, "mobile", useMobile));
+            }
+        }
+    }
+</script>
+
+<script type="text/javascript">
+    if (window.parent.frames.length > 0) {
+        window.stop();
+    }
+</script>
+
+
+
+
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+    (function () {
+        jQuery.expr[':'].containsCI = function(elem, index, match) {
+            return !match || !match.length || match.length < 4 || !match[3] || (
+                    elem.textContent || elem.innerText || jQuery(elem).text() || ''
+            ).toLowerCase().indexOf(match[3].toLowerCase()) >= 0;
+        }
+    }(jQuery));
+
+    $.ajaxPrefilter(function(options, originalOptions, xhr) {
+        var csrf = Codeforces.getCsrfToken();
+
+        if (csrf) {
+            var data = originalOptions.data;
+            if (originalOptions.data !== undefined) {
+                if (Object.prototype.toString.call(originalOptions.data) === '[object String]') {
+                    data = $.deparam(originalOptions.data);
+                }
+            } else {
+                data = {};
+            }
+            options.data = $.param($.extend(data, { csrf_token: csrf }));
+        }
+    });
+
+    window.getCodeforcesServerTime = function(callback) {
+        $.post("/data/time", {}, callback, "json");
+    }
+
+    window.updateTypography = function () {
+        $("div.ttypography code").addClass("tt");
+        $("div.ttypography pre>code").addClass("prettyprint").removeClass("tt");
+        $("div.ttypography table").addClass("bordertable");
+        prettyPrint();
+    }
+
+    $.ajaxSetup({ scriptCharset: "utf-8" ,contentType: "application/x-www-form-urlencoded; charset=UTF-8", headers: {
+        'X-Csrf-Token': Codeforces.getCsrfToken()
+    }, beforeSend: function(jqXHR, settings) {
+        const url = new URL(https://codeforces.com/problemset/settings.url, window.location.href);
+        const urlHref = url.href;
+        url.searchParams.set('rv', Math.random().toString(36).substr(2, 9)); // Generate a random value
+        settings.url = url.href;
+    }});
+
+    window.updateTypography();
+    Codeforces.signForms();
+    Codeforces.applyDatatableJs("Hold Ctrl+Alt and click to hide column. Also, you can drag&drop columns to reorder them.");
+
+    setTimeout(function() {
+        $(".second-level-menu-list").lavaLamp({
+            fx: "backout",
+            speed: 700
+        });
+    }, 100);
+
+
+    Codeforces.countdown();
+    $("a[rel='photobox']").colorbox();
+
+
+    function showAnnouncements(json) {
+        if (json.t === "a") {
+            setTimeout(function() {
+               Codeforces.showAnnouncements(json.d, "ru");
+            }, Math.random() * 500);
+        }
+    }
+
+    function showEventCatcherUserMessage(json) {
+        if (json.t === "s") {
+            var points = json.d[5];
+            var passedTestCount = json.d[7];
+            var judgedTestCount = json.d[8];
+            var verdict = preparedVerdictFormats[json.d[12]];
+            var verdictPrototypeDiv = $(".verdictPrototypeDiv");
+            verdictPrototypeDiv.html(verdict);
+            if (judgedTestCount != null && judgedTestCount != undefined) {
+                verdictPrototypeDiv.find(".verdict-format-judged").text(judgedTestCount);
+            }
+            if (passedTestCount != null && passedTestCount != undefined) {
+                verdictPrototypeDiv.find(".verdict-format-passed").text(passedTestCount);
+            }
+            if (points != null && points != undefined) {
+                verdictPrototypeDiv.find(".verdict-format-points").text(points);
+            }
+            Codeforces.showMessage(verdictPrototypeDiv.text());
+        }
+    }
+
+    $(".clickable-title").each(function() {
+        var title = $(this).attr("data-title");
+        if (title) {
+            var tmp = document.createElement("DIV");
+            tmp.innerHTML = title;
+            $(this).attr("title", tmp.textContent || tmp.innerText || "");
+        }
+    });
+
+    $(".clickable-title").click(function() {
+        const title = $(this).attr("data-title");
+        const clazz = $(this).attr("data-clazz");
+        const props = {};
+        if (typeof (clazz) !== 'undefined') {
+            props['clazz'] = clazz;
+        }
+        if (title) {
+            Codeforces.alert(title, null, null, props);
+        } else {
+            Codeforces.alert($(this).attr("title"), null, null, props);
+        }
+    }).css("position", "relative").css("bottom", "3px");
+
+        Codeforces.showMessage("Недостаточно прав для просмотра запрошенной страницы");
+
+    Codeforces.reformatTimes();
+
+    //Codeforces.initializePubSub();
+    if (window.codeforcesOptions.subscribeServerUrl) {
+        window.eventCatcher = new EventCatcher(
+            window.codeforcesOptions.subscribeServerUrl,
+            [
+                Codeforces.getGlobalChannel(),
+                Codeforces.getUserChannel(),
+                Codeforces.getUserShowMessageChannel(),
+                Codeforces.getContestChannel(),
+                Codeforces.getParticipantChannel(),
+                Codeforces.getTalkChannel()
+            ]
+        );
+
+        if (Codeforces.getParticipantChannel()) {
+            window.eventCatcher.subscribe(Codeforces.getParticipantChannel(), function(json) {
+                showAnnouncements(json);
+            });
+        }
+
+        if (Codeforces.getContestChannel()) {
+            window.eventCatcher.subscribe(Codeforces.getContestChannel(), function(json) {
+                showAnnouncements(json);
+            });
+        }
+
+        if (Codeforces.getGlobalChannel()) {
+            window.eventCatcher.subscribe(Codeforces.getGlobalChannel(), function(json) {
+                showAnnouncements(json);
+            });
+        }
+
+        if (Codeforces.getUserChannel()) {
+            window.eventCatcher.subscribe(Codeforces.getUserChannel(), function(json) {
+                showAnnouncements(json);
+            });
+        }
+
+        if (Codeforces.getUserShowMessageChannel()) {
+            window.eventCatcher.subscribe(Codeforces.getUserShowMessageChannel(), function(json) {
+                showEventCatcherUserMessage(json);
+            });
+        }
+    }
+
+    Codeforces.setupContestTimes("/data/contests");
+    Codeforces.setupSpoilers();
+    Codeforces.setupTutorials("/data/problemTutorial");
+        });
+    </script>
+
+
+<div id="body">
+        
+
+<div class="side-bell" style="visibility: hidden; display: none; opacity: 0.7; width: 40px; position: fixed; right: 0; top: 0; cursor: pointer; text-align: center; line-height: 35px; color: #d3dbe4; font-weight: bold; font-size: 1.5rem;">
+    <span class="icon-stack" style="width: 100%;">
+        <i class="icon-circle icon-stack-base"></i>
+        <i class="icon-bell-alt icon-light"></i>
+    </span>
+    <br/>
+    <span class="side-bell__count" style="position: relative; top: -10px;"></span>
+</div>
+
+
+<div id="header" style="position: relative;">
+
+    <div style="float:left; max-height: 60px;">
+                <a href="../index.html"><img height="65" style="height: 65px;" alt="Codeforces"
+                                                         title="Codeforces"
+                                                         src="http://codeforces.com/codeforces.org/s/80531/images/codeforces-sponsored-by-ton.png"/></a>
+    </div>
+    <div class="lang-chooser">
+            <div style="text-align: right;">
+                <a href="https://codeforces.com/problemset/status?locale=en"><img src="http://codeforces.com/codeforces.org/s/80531/images/flags/24/gb.png" title="In English"
+                                                         alt="In English"/></a>
+                <a href="https://codeforces.com/problemset/status?locale=ru"><img src="http://codeforces.com/codeforces.org/s/80531/images/flags/24/ru.png" title="По-русски"
+                                                         alt="По-русски"/></a>
+            </div>
+
+        <div >
+                        <a href="https://codeforces.com/enter?back=%2Fproblemset%2Fstatus">Войти</a>
+                     | 
+                        <a href="../register.html">Зарегистрироваться</a>
+                    
+        </div>
+
+    </div>
+    <br style="clear: both;"/>
+</div>
+
+        
+
+
+    <div class="roundbox menu-box borderTopRound borderBottomRound" style="">
+    <div class="menu-list-container">
+    <ul class="menu-list main-menu-list">
+                <li class=""><a href="../index.html">Главная</a></li>
+                <li class=""><a href="../top.html">Топ</a></li>
+                <li class=""><a href="../catalog.html">Каталог</a></li>
+                <li class=""><a href="../contests.html">Соревнования</a></li>
+                <li class=""><a href="../gyms.html">Тренировки</a></li>
+                <li class="current"><a href="../problemset.html">Архив</a></li>
+                <li class=""><a href="../groups.html">Группы</a></li>
+                <li class=""><a href="../ratings.html">Рейтинг</a></li>
+                <li class=""><a href="../edu/courses.html"><span class="edu-menu-item">Edu</span></a></li>
+                <li class=""><a href="../apiHelp.html">API</a></li>
+                <li class=""><a href="../calendar.html">Календарь</a></li>
+                <li class=""><a href="../help.html">Помощь</a></li>
+    </ul>
+        <form method="post" action="https://codeforces.com/search"><input type='hidden' name='csrf_token' value='5c3a727da9c04e3f2ae2e748fadeede5'/>
+            <input class="search" name="query" data-isPlaceholder="true" value=""/>
+        </form>
+    <br style="clear: both;"/>
+</div>
+
+    </div>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("input.search").focus(function () {
+                if ($(this).attr("data-isPlaceholder") === "true") {
+                    $(this).val("");
+                    $(this).removeAttr("data-isPlaceholder");
+                }
+            });
+        });
+    </script>
+        
+            <br style="height: 3em; clear: both;"/>
+
+        <div style="position: relative;">
+                <div id="pageContent">
+                    <div class="second-level-menu">
+
+<ul class="second-level-menu-list">
+        <li class="current selectedLava"><a
+                                        href="../problemset.html">Основной</a></li>
+        <li><a
+                                        href="https://codeforces.com/problemsets/acmsguru">acmsguru</a></li>
+</ul>
+<span style="position:relative;vertical-align:top;">|</span>
+
+<ul class="second-level-menu-list">
+        <li><a
+                                        href="../problemset.html">Задачи</a></li>
+        <li><a
+                                        href="https://codeforces.com/problemset/submit">Отослать</a></li>
+        <li class="current selectedLava"><a
+                                        href="status.html">Статус</a></li>
+        <li><a
+                                        href="standings.html">Положение</a></li>
+        <li><a
+                                        href="https://codeforces.com/problemset/customtest">Запуск</a></li>
+</ul>
+</div>
+
+    <script type="application/javascript">
+        $(function() {
+            $(".closeUserList").click(function() {
+                document.location = Codeforces.updateUrlParameter(document.location.href, "list", "");
+                return false;
+            });
+        })
+    </script>
+
+
+
+
+
+<style type="text/css">
+    .diagnosticsHint {
+        cursor: pointer;
+    }
+    .status-party-cell {
+        text-align:left;
+        padding-left:1em;
+    }
+</style>
+
+<div class="datatable"
+     
+     style="background-color: #E1E1E1; padding-bottom: 3px;">
+            <div class="lt">&nbsp;</div>
+            <div class="rt">&nbsp;</div>
+            <div class="lb">&nbsp;</div>
+            <div class="rb">&nbsp;</div>
+
+            <div style="padding: 4px 0 0 6px;font-size:1.4rem;position:relative;">
+                Статус соревнования
+                        <i style="cursor: pointer; font-size: 1.5rem; position: relative; top: 2px;" class="icon-list userListMarker"></i>
+
+                <div style="position:absolute;right:0.25em;top:0.35em;">
+                    <span style="padding:0;position:relative;bottom:2px;" class="rowCount"></span>
+
+                    <img class="closed" src="http://codeforces.com/codeforces.org/s/80531/images/icons/magnifier-medium.png"/>
+
+                    <span class="filter" style="display:none;">
+                        <img class="opened" src="http://codeforces.com/codeforces.org/s/80531/images/icons/control-270.png"/>
+                        <input style="padding:0 0 0 20px;position:relative;bottom:2px;border:1px solid #aaa;height:17px;font-size:1.3rem;"/>
+                    </span>
+                </div>
+            </div>
+            <div style="background-color: white;margin:0.3em 3px 0 3px;position:relative;">
+            <div class="ilt">&nbsp;</div>
+            <div class="irt">&nbsp;</div>
+            <table class="status-frame-datatable">
+<tr class="first-row">
+    <th style="width:6em;">№</th>
+    <th>Когда</th>
+    <th style="text-align:center;">Кто</th>
+    <th>Задача</th>
+    <th>Язык</th>
+    <th>Вердикт</th>
+        <th style="width: 1em;">Время</th>
+        <th style="width: 1em;">Память</th>
+</tr>
+
+
+<tr data-submission-id="381175321" data-a="4227420693228158976" partyMemberIds=";5217179;">
+    <td class="id-cell">
+                <a class="view-source" title="Исходный код" href="https://codeforces.com/problemset/submission/141/381175321" submissionId="381175321">381175321</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="ru">03.07.2026 22:20</span>
+    </td>
+    <td class="status-party-cell" data-participantId="240149558">
+<a href="https://codeforces.com/profile/nirel" title="Не в рейтинге, nirel" class="rated-user user-black">nirel</a>    </td>
+    <td class="status-small" data-problemId="746">
+                <a href="https://codeforces.com/problemset/problem/141/B">
+                    141B - Классики
+                </a>
+    </td>
+    <td>
+        C++20 (GCC 13-64)
+    </td>
+    <td partyMemberIds=";5217179;" class="status-cell status-small status-verdict-cell" submissionId="381175321" waiting="true">
+            В очереди
+    </td>
+        <td class="time-consumed-cell">
+                0&nbsp;мс
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;КБ
+        </td>
+</tr>
+
+
+<tr data-submission-id="381175320" data-a="4227420684638224385" partyMemberIds=";4683094;">
+    <td class="id-cell">
+                <a class="view-source" title="Исходный код" href="https://codeforces.com/problemset/submission/1372/381175320" submissionId="381175320">381175320</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="ru">03.07.2026 22:20</span>
+    </td>
+    <td class="status-party-cell" data-participantId="240209463">
+<a href="https://codeforces.com/profile/ahmed_hasnain" title="Новичок ahmed_hasnain" class="rated-user user-gray">ahmed_hasnain</a>    </td>
+    <td class="status-small" data-problemId="665583">
+                <a href="https://codeforces.com/problemset/problem/1372/B">
+                    1372B - Омкар и последний урок математики
+                </a>
+    </td>
+    <td>
+        C++20 (GCC 13-64)
+    </td>
+    <td partyMemberIds=";4683094;" class="status-cell status-small status-verdict-cell" submissionId="381175320" waiting="true">
+                <span class="submissionVerdictWrapper" submissionId="381175320" submissionVerdict="TESTING" contestType="CF" partyMemberIds=";4683094;"><span class='verdict-waiting'>Выполняется на тесте <span class="verdict-format-judged">1</span></span></span><!--
+                -->
+            <i title="Диагностическая подсказка" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                0&nbsp;мс
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;КБ
+        </td>
+</tr>
+
+
+<tr data-submission-id="381175319" data-a="4227420671753322497" partyMemberIds=";5467686;">
+    <td class="id-cell">
+                <a class="view-source" title="Исходный код" href="https://codeforces.com/problemset/submission/62/381175319" submissionId="381175319">381175319</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="ru">03.07.2026 22:20</span>
+    </td>
+    <td class="status-party-cell" data-participantId="238574415">
+<a href="https://codeforces.com/profile/Farrukh_" title="Ученик Farrukh_" class="rated-user user-green">Farrukh_</a>    </td>
+    <td class="status-small" data-problemId="331">
+                <a href="https://codeforces.com/problemset/problem/62/A">
+                    62A - Сон Студента
+                </a>
+    </td>
+    <td>
+        C++17 (GCC 7-32)
+    </td>
+    <td partyMemberIds=";5467686;" class="status-cell status-small status-verdict-cell" submissionId="381175319" waiting="true">
+                <span class="submissionVerdictWrapper" submissionId="381175319" submissionVerdict="TESTING" contestType="CF" partyMemberIds=";5467686;"><span class='verdict-waiting'>Выполняется на тесте <span class="verdict-format-judged">1</span></span></span><!--
+                -->
+            <i title="Диагностическая подсказка" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                0&nbsp;мс
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;КБ
+        </td>
+</tr>
+
+
+<tr data-submission-id="381175317" data-a="4227420590148943873" partyMemberIds=";4790359;">
+    <td class="id-cell">
+                <a class="view-source" title="Исходный код" href="https://codeforces.com/problemset/submission/2118/381175317" submissionId="381175317">381175317</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="ru">03.07.2026 22:20</span>
+    </td>
+    <td class="status-party-cell" data-participantId="212958707">
+<a href="https://codeforces.com/profile/BiggestFish06" title="Эксперт BiggestFish06" class="rated-user user-blue">BiggestFish06</a>    </td>
+    <td class="status-small" data-problemId="3434584">
+                <a href="https://codeforces.com/problemset/problem/2118/D2">
+                    2118D2 - Красный свет, зелёный свет (сложная версия)
+                </a>
+    </td>
+    <td>
+        C++23 (GCC 14-64, msys2)
+    </td>
+    <td partyMemberIds=";4790359;" class="status-cell status-small status-verdict-cell" submissionId="381175317" waiting="true">
+                <span class="submissionVerdictWrapper" submissionId="381175317" submissionVerdict="TESTING" contestType="CF" partyMemberIds=";4790359;"><span class='verdict-waiting'>Выполняется на тесте <span class="verdict-format-judged">1</span></span></span><!--
+                -->
+            <i title="Диагностическая подсказка" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                0&nbsp;мс
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;КБ
+        </td>
+</tr>
+
+
+<tr data-submission-id="381175315" data-a="4227420688933191682" partyMemberIds=";4797073;">
+    <td class="id-cell">
+                <a class="view-source" title="Исходный код" href="https://codeforces.com/problemset/submission/2021/381175315" submissionId="381175315">381175315</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="ru">03.07.2026 22:20</span>
+    </td>
+    <td class="status-party-cell" data-participantId="211268082">
+<a href="https://codeforces.com/profile/Artin2890" title="Ученик Artin2890" class="rated-user user-green">Artin2890</a>    </td>
+    <td class="status-small" data-problemId="2929692">
+                <a href="https://codeforces.com/problemset/problem/2021/B">
+                    2021B - Максимизируйте MEX
+                </a>
+    </td>
+    <td>
+        C++23 (GCC 14-64, msys2)
+    </td>
+    <td partyMemberIds=";4797073;" class="status-cell status-small status-verdict-cell" submissionId="381175315" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="381175315" submissionVerdict="MEMORY_LIMIT_EXCEEDED" contestType="CF" partyMemberIds=";4797073;"><span class='verdict-rejected'>Превышено ограничение памяти на тесте <span class=verdict-format-judged>2</span></span></span><!--
+                -->
+            <i title="Диагностическая подсказка" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                203&nbsp;мс
+        </td>
+        <td class="memory-consumed-cell">
+                262100&nbsp;КБ
+        </td>
+</tr>
+
+
+<tr data-submission-id="381175313" data-a="4227420585853976578" partyMemberIds=";766627;">
+    <td class="id-cell">
+                <a class="view-source" title="Исходный код" href="https://codeforces.com/problemset/submission/2237/381175313" submissionId="381175313">381175313</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="ru">03.07.2026 22:20</span>
+    </td>
+    <td class="status-party-cell" data-participantId="239238179">
+<a href="https://codeforces.com/profile/titia" title="Эксперт titia" class="rated-user user-blue">titia</a>    </td>
+    <td class="status-small" data-problemId="4174550">
+                <a href="https://codeforces.com/problemset/problem/2237/G">
+                    2237G - Отправь НОДы
+                </a>
+    </td>
+    <td>
+        PyPy 3-64
+    </td>
+    <td partyMemberIds=";766627;" class="status-cell status-small status-verdict-cell" submissionId="381175313" waiting="true">
+                <span class="submissionVerdictWrapper" submissionId="381175313" submissionVerdict="TESTING" contestType="CF" partyMemberIds=";766627;"><span class='verdict-waiting'>Выполняется на тесте <span class="verdict-format-judged">2</span></span></span><!--
+                -->
+            <i title="Диагностическая подсказка" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                0&nbsp;мс
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;КБ
+        </td>
+</tr>
+
+
+<tr data-submission-id="381175312" data-a="4227420487069728839" partyMemberIds=";4904882;">
+    <td class="id-cell">
+                <a class="view-source" title="Исходный код" href="https://codeforces.com/problemset/submission/208/381175312" submissionId="381175312">381175312</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="ru">03.07.2026 22:20</span>
+    </td>
+    <td class="status-party-cell" data-participantId="240210320">
+<a href="https://codeforces.com/profile/Nou11037" title="Новичок Nou11037" class="rated-user user-gray">Nou11037</a>    </td>
+    <td class="status-small" data-problemId="1577">
+                <a href="https://codeforces.com/problemset/problem/208/A">
+                    208A - Дабстеп
+                </a>
+    </td>
+    <td>
+        C++17 (GCC 7-32)
+    </td>
+    <td partyMemberIds=";4904882;" class="status-cell status-small status-verdict-cell" submissionId="381175312" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="381175312" submissionVerdict="OK" contestType="CF" partyMemberIds=";4904882;"><span class='verdict-accepted'>Полное решение</span></span><!--
+                -->
+            <i title="Диагностическая подсказка" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                92&nbsp;мс
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;КБ
+        </td>
+</tr>
+
+
+<tr data-submission-id="381175311" data-a="4227420542904303629" partyMemberIds=";5036764;">
+    <td class="id-cell">
+                <a class="view-source" title="Исходный код" href="https://codeforces.com/problemset/submission/2205/381175311" submissionId="381175311">381175311</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="ru">03.07.2026 22:20</span>
+    </td>
+    <td class="status-party-cell" data-participantId="232728082">
+<a href="https://codeforces.com/profile/decoder25" title="Новичок decoder25" class="rated-user user-gray">decoder25</a>    </td>
+    <td class="status-small" data-problemId="3962247">
+                <a href="https://codeforces.com/problemset/problem/2205/C">
+                    2205C - Симон и блоггинг
+                </a>
+    </td>
+    <td>
+        C++23 (GCC 14-64, msys2)
+    </td>
+    <td partyMemberIds=";5036764;" class="status-cell status-small status-verdict-cell" submissionId="381175311" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="381175311" submissionVerdict="OK" contestType="CF" partyMemberIds=";5036764;"><span class='verdict-accepted'>Полное решение</span></span><!--
+                -->
+            <i title="Диагностическая подсказка" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                281&nbsp;мс
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;КБ
+        </td>
+</tr>
+
+
+<tr data-submission-id="381175308" data-a="4227420658868420611" partyMemberIds=";3420885;">
+    <td class="id-cell">
+                <a class="view-source" title="Исходный код" href="https://codeforces.com/problemset/submission/1225/381175308" submissionId="381175308">381175308</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="ru">03.07.2026 22:20</span>
+    </td>
+    <td class="status-party-cell" data-participantId="240209793">
+<a href="https://codeforces.com/profile/krish.topg" title="Новичок krish.topg" class="rated-user user-gray">krish.topg</a>    </td>
+    <td class="status-small" data-problemId="451052">
+                <a href="https://codeforces.com/problemset/problem/1225/C">
+                    1225C - p-двоичные числа
+                </a>
+    </td>
+    <td>
+        C++20 (GCC 13-64)
+    </td>
+    <td partyMemberIds=";3420885;" class="status-cell status-small status-verdict-cell" submissionId="381175308" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="381175308" submissionVerdict="WRONG_ANSWER" contestType="CF" partyMemberIds=";3420885;"><span class='verdict-rejected'>Неправильный ответ на тесте <span class=verdict-format-judged>3</span></span></span><!--
+                -->
+            <i title="Диагностическая подсказка" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                31&nbsp;мс
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;КБ
+        </td>
+</tr>
+
+
+<tr data-submission-id="381175307" data-a="4227420663163387914" partyMemberIds=";4741314;">
+    <td class="id-cell">
+                <a class="view-source" title="Исходный код" href="https://codeforces.com/problemset/submission/1725/381175307" submissionId="381175307">381175307</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="ru">03.07.2026 22:20</span>
+    </td>
+    <td class="status-party-cell" data-participantId="240208137">
+<a href="https://codeforces.com/profile/Sedra1225" title="Новичок Sedra1225" class="rated-user user-gray">Sedra1225</a>    </td>
+    <td class="status-small" data-problemId="1529366">
+                <a href="https://codeforces.com/problemset/problem/1725/B">
+                    1725B - Basketball Together
+                </a>
+    </td>
+    <td>
+        C++20 (GCC 13-64)
+    </td>
+    <td partyMemberIds=";4741314;" class="status-cell status-small status-verdict-cell" submissionId="381175307" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="381175307" submissionVerdict="WRONG_ANSWER" contestType="ICPC" partyMemberIds=";4741314;"><span class='verdict-rejected'>Неправильный ответ на тесте <span class=verdict-format-judged>10</span></span></span><!--
+                -->
+            <i title="Диагностическая подсказка" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                31&nbsp;мс
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;КБ
+        </td>
+</tr>
+
+
+<tr data-submission-id="381175306" data-a="4227420237961625601" partyMemberIds=";5111465;">
+    <td class="id-cell">
+                <a class="view-source" title="Исходный код" href="https://codeforces.com/problemset/submission/1614/381175306" submissionId="381175306">381175306</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="ru">03.07.2026 22:20</span>
+    </td>
+    <td class="status-party-cell" data-participantId="240209432">
+<a href="https://codeforces.com/profile/hiteshkale271284" title="Новичок hiteshkale271284" class="rated-user user-gray">hiteshkale271284</a>    </td>
+    <td class="status-small" data-problemId="1203039">
+                <a href="https://codeforces.com/problemset/problem/1614/B">
+                    1614B - Divan и новый проект
+                </a>
+    </td>
+    <td>
+        C++23 (GCC 14-64, msys2)
+    </td>
+    <td partyMemberIds=";5111465;" class="status-cell status-small status-verdict-cell" submissionId="381175306" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="381175306" submissionVerdict="WRONG_ANSWER" contestType="CF" partyMemberIds=";5111465;"><span class='verdict-rejected'>Неправильный ответ на тесте <span class=verdict-format-judged>1</span></span></span><!--
+                -->
+            <i title="Диагностическая подсказка" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                31&nbsp;мс
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;КБ
+        </td>
+</tr>
+
+
+<tr data-submission-id="381175305" data-a="4227420401170382849" partyMemberIds=";1371583;">
+    <td class="id-cell">
+                <a class="view-source" title="Исходный код" href="https://codeforces.com/problemset/submission/2236/381175305" submissionId="381175305">381175305</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="ru">03.07.2026 22:20</span>
+    </td>
+    <td class="status-party-cell" data-participantId="239382022">
+<a href="https://codeforces.com/profile/karelispanagiotis" title="Ученик karelispanagiotis" class="rated-user user-green">karelispanagiotis</a>    </td>
+    <td class="status-small" data-problemId="4163422">
+                <a href="https://codeforces.com/problemset/problem/2236/B">
+                    2236B - Татарское телешоу
+                </a>
+    </td>
+    <td>
+        Rust 2024
+    </td>
+    <td partyMemberIds=";1371583;" class="status-cell status-small status-verdict-cell" submissionId="381175305" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="381175305" submissionVerdict="WRONG_ANSWER" contestType="ICPC" partyMemberIds=";1371583;"><span class='verdict-rejected'>Неправильный ответ на тесте <span class=verdict-format-judged>1</span></span></span><!--
+                -->
+            <i title="Диагностическая подсказка" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                31&nbsp;мс
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;КБ
+        </td>
+</tr>
+
+
+<tr data-submission-id="381175303" data-a="4227420057572999176" partyMemberIds=";3507435;">
+    <td class="id-cell">
+                <a class="view-source" title="Исходный код" href="https://codeforces.com/problemset/submission/1506/381175303" submissionId="381175303">381175303</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="ru">03.07.2026 22:20</span>
+    </td>
+    <td class="status-party-cell" data-participantId="240209609">
+<a href="https://codeforces.com/profile/MRDevansh_1" title="Ученик MRDevansh_1" class="rated-user user-green">MRDevansh_1</a>    </td>
+    <td class="status-small" data-problemId="935561">
+                <a href="https://codeforces.com/problemset/problem/1506/C">
+                    1506C - Двусторонние строки
+                </a>
+    </td>
+    <td>
+        C++17 (GCC 7-32)
+    </td>
+    <td partyMemberIds=";3507435;" class="status-cell status-small status-verdict-cell" submissionId="381175303" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="381175303" submissionVerdict="OK" contestType="ICPC" partyMemberIds=";3507435;"><span class='verdict-accepted'>Полное решение</span></span><!--
+                -->
+            <i title="Диагностическая подсказка" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                296&nbsp;мс
+        </td>
+        <td class="memory-consumed-cell">
+                100&nbsp;КБ
+        </td>
+</tr>
+
+
+<tr data-submission-id="381175302" data-a="4227420547199270914" partyMemberIds=";4552696;">
+    <td class="id-cell">
+                <a class="view-source" title="Исходный код" href="https://codeforces.com/problemset/submission/2183/381175302" submissionId="381175302">381175302</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="ru">03.07.2026 22:20</span>
+    </td>
+    <td class="status-party-cell" data-participantId="227909005">
+<a href="https://codeforces.com/profile/Freddy_01" title="Специалист Freddy_01" class="rated-user user-cyan">Freddy_01</a>    </td>
+    <td class="status-small" data-problemId="3867705">
+                <a href="https://codeforces.com/problemset/problem/2183/C">
+                    2183C - Военная стратегия
+                </a>
+    </td>
+    <td>
+        C++23 (GCC 14-64, msys2)
+    </td>
+    <td partyMemberIds=";4552696;" class="status-cell status-small status-verdict-cell" submissionId="381175302" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="381175302" submissionVerdict="WRONG_ANSWER" contestType="CF" partyMemberIds=";4552696;"><span class='verdict-rejected'>Неправильный ответ на тесте <span class=verdict-format-judged>2</span></span></span><!--
+                -->
+            <i title="Диагностическая подсказка" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                15&nbsp;мс
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;КБ
+        </td>
+</tr>
+
+
+<tr data-submission-id="381175300" data-a="4227419980263587865" partyMemberIds=";5838796;">
+    <td class="id-cell">
+                <a class="view-source" title="Исходный код" href="https://codeforces.com/problemset/submission/318/381175300" submissionId="381175300">381175300</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="ru">03.07.2026 22:20</span>
+    </td>
+    <td class="status-party-cell" data-participantId="240203306">
+<a href="https://codeforces.com/profile/aknnawi2010" title="Не в рейтинге, aknnawi2010" class="rated-user user-black">aknnawi2010</a>    </td>
+    <td class="status-small" data-problemId="3161">
+                <a href="https://codeforces.com/problemset/problem/318/A">
+                    318A - Чет и нечет
+                </a>
+    </td>
+    <td>
+        C++23 (GCC 14-64, msys2)
+    </td>
+    <td partyMemberIds=";5838796;" class="status-cell status-small status-verdict-cell" submissionId="381175300" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="381175300" submissionVerdict="OK" contestType="CF" partyMemberIds=";5838796;"><span class='verdict-accepted'>Полное решение</span></span><!--
+                -->
+            <i title="Диагностическая подсказка" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                62&nbsp;мс
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;КБ
+        </td>
+</tr>
+
+
+<tr data-submission-id="381175299" data-a="4227420143472345096" partyMemberIds=";2161293;">
+    <td class="id-cell">
+                <a class="view-source" title="Исходный код" href="https://codeforces.com/problemset/submission/271/381175299" submissionId="381175299">381175299</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="ru">03.07.2026 22:20</span>
+    </td>
+    <td class="status-party-cell" data-participantId="240188530">
+<a href="https://codeforces.com/profile/conceptualboy_vikash" title="Ученик conceptualboy_vikash" class="rated-user user-green">conceptualboy_vikash</a>    </td>
+    <td class="status-small" data-problemId="2620">
+                <a href="https://codeforces.com/problemset/problem/271/D">
+                    271D - Хорошие подстрочки
+                </a>
+    </td>
+    <td>
+        C++23 (GCC 14-64, msys2)
+    </td>
+    <td partyMemberIds=";2161293;" class="status-cell status-small status-verdict-cell" submissionId="381175299" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="381175299" submissionVerdict="TIME_LIMIT_EXCEEDED" contestType="CF" partyMemberIds=";2161293;"><span class='verdict-rejected'>Превышено ограничение времени на тесте <span class=verdict-format-judged>8</span></span></span><!--
+                -->
+            <i title="Диагностическая подсказка" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                2000&nbsp;мс
+        </td>
+        <td class="memory-consumed-cell">
+                69400&nbsp;КБ
+        </td>
+</tr>
+
+
+<tr data-submission-id="381175298" data-a="4227419933018947612" partyMemberIds=";2725305;">
+    <td class="id-cell">
+                <a class="view-source" title="Исходный код" href="https://codeforces.com/problemset/submission/2236/381175298" submissionId="381175298">381175298</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="ru">03.07.2026 22:20</span>
+    </td>
+    <td class="status-party-cell" data-participantId="240109597">
+<a href="https://codeforces.com/profile/residue" title="Специалист residue" class="rated-user user-cyan">residue</a>    </td>
+    <td class="status-small" data-problemId="4163425">
+                <a href="https://codeforces.com/problemset/problem/2236/E">
+                    2236E - Дружеские подарки
+                </a>
+    </td>
+    <td>
+        C++23 (GCC 14-64, msys2)
+    </td>
+    <td partyMemberIds=";2725305;" class="status-cell status-small status-verdict-cell" submissionId="381175298" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="381175298" submissionVerdict="OK" contestType="ICPC" partyMemberIds=";2725305;"><span class='verdict-accepted'>Полное решение</span></span><!--
+                -->
+            <i title="Диагностическая подсказка" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                359&nbsp;мс
+        </td>
+        <td class="memory-consumed-cell">
+                150300&nbsp;КБ
+        </td>
+</tr>
+
+
+<tr data-submission-id="381175294" data-a="4227419761220255766" partyMemberIds=";3200696;">
+    <td class="id-cell">
+                <a class="view-source" title="Исходный код" href="https://codeforces.com/problemset/submission/2241/381175294" submissionId="381175294">381175294</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="ru">03.07.2026 22:20</span>
+    </td>
+    <td class="status-party-cell" data-participantId="240004002">
+<a href="https://codeforces.com/profile/Leo11wasd" title="Ученик Leo11wasd" class="rated-user user-green">Leo11wasd</a>    </td>
+    <td class="status-small" data-problemId="4194122">
+                <a href="https://codeforces.com/problemset/problem/2241/B">
+                    2241B - Приумножь хорошее
+                </a>
+    </td>
+    <td>
+        C++20 (GCC 13-64)
+    </td>
+    <td partyMemberIds=";3200696;" class="status-cell status-small status-verdict-cell" submissionId="381175294" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="381175294" submissionVerdict="OK" contestType="ICPC" partyMemberIds=";3200696;"><span class='verdict-accepted'>Полное решение</span></span><!--
+                -->
+            <i title="Диагностическая подсказка" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                46&nbsp;мс
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;КБ
+        </td>
+</tr>
+
+
+<tr data-submission-id="381175291" data-a="4227419632371236884" partyMemberIds=";4794483;">
+    <td class="id-cell">
+                <a class="view-source" title="Исходный код" href="https://codeforces.com/problemset/submission/71/381175291" submissionId="381175291">381175291</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="ru">03.07.2026 22:20</span>
+    </td>
+    <td class="status-party-cell" data-participantId="240209918">
+<a href="https://codeforces.com/profile/olimohammad286" title="Не в рейтинге, olimohammad286" class="rated-user user-black">olimohammad286</a>    </td>
+    <td class="status-small" data-problemId="380">
+                <a href="https://codeforces.com/problemset/problem/71/A">
+                    71A - Слишком длинные слова
+                </a>
+    </td>
+    <td>
+        C++20 (GCC 13-64)
+    </td>
+    <td partyMemberIds=";4794483;" class="status-cell status-small status-verdict-cell" submissionId="381175291" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="381175291" submissionVerdict="OK" contestType="CF" partyMemberIds=";4794483;"><span class='verdict-accepted'>Полное решение</span></span><!--
+                -->
+            <i title="Диагностическая подсказка" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                31&nbsp;мс
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;КБ
+        </td>
+</tr>
+
+
+<tr data-submission-id="381175288" data-a="4227420100522672146" partyMemberIds=";2948677;">
+    <td class="id-cell">
+                <a class="view-source" title="Исходный код" href="https://codeforces.com/problemset/submission/2115/381175288" submissionId="381175288">381175288</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="ru">03.07.2026 22:20</span>
+    </td>
+    <td class="status-party-cell" data-participantId="211690495">
+<a href="https://codeforces.com/profile/AksLolCoding" title="Международный мастер AksLolCoding" class="rated-user user-orange">AksLolCoding</a>    </td>
+    <td class="status-small" data-problemId="3415145">
+                <a href="https://codeforces.com/problemset/problem/2115/C">
+                    2115C - Гелифиш и вечная фиалка
+                </a>
+    </td>
+    <td>
+        C++17 (GCC 7-32)
+    </td>
+    <td partyMemberIds=";2948677;" class="status-cell status-small status-verdict-cell" submissionId="381175288" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="381175288" submissionVerdict="TIME_LIMIT_EXCEEDED" contestType="CF" partyMemberIds=";2948677;"><span class='verdict-rejected'>Превышено ограничение времени на тесте <span class=verdict-format-judged>18</span></span></span><!--
+                -->
+            <i title="Диагностическая подсказка" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                2000&nbsp;мс
+        </td>
+        <td class="memory-consumed-cell">
+                415800&nbsp;КБ
+        </td>
+</tr>
+
+
+<tr data-submission-id="381175287" data-a="4227419353198362626" partyMemberIds=";4919462;">
+    <td class="id-cell">
+                <a class="view-source" title="Исходный код" href="https://codeforces.com/problemset/submission/1526/381175287" submissionId="381175287">381175287</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="ru">03.07.2026 22:19</span>
+    </td>
+    <td class="status-party-cell" data-participantId="240210421">
+<a href="https://codeforces.com/profile/FAZE_OSCAR" title="Не в рейтинге, FAZE_OSCAR" class="rated-user user-black">FAZE_OSCAR</a>    </td>
+    <td class="status-small" data-problemId="998296">
+                <a href="https://codeforces.com/problemset/problem/1526/C1">
+                    1526C1 - Настойки (простая версия)
+                </a>
+    </td>
+    <td>
+        Python 3
+    </td>
+    <td partyMemberIds=";4919462;" class="status-cell status-small status-verdict-cell" submissionId="381175287" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="381175287" submissionVerdict="WRONG_ANSWER" contestType="CF" partyMemberIds=";4919462;"><span class='verdict-rejected'>Неправильный ответ на тесте <span class=verdict-format-judged>2</span></span></span><!--
+                -->
+            <i title="Диагностическая подсказка" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                15&nbsp;мс
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;КБ
+        </td>
+</tr>
+
+
+<tr data-submission-id="381175286" data-a="4227419404737970187" partyMemberIds=";5973554;">
+    <td class="id-cell">
+                <a class="view-source" title="Исходный код" href="https://codeforces.com/problemset/submission/977/381175286" submissionId="381175286">381175286</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="ru">03.07.2026 22:19</span>
+    </td>
+    <td class="status-party-cell" data-participantId="240209975">
+<a href="https://codeforces.com/profile/Anshul416" title="Не в рейтинге, Anshul416" class="rated-user user-black">Anshul416</a>    </td>
+    <td class="status-small" data-problemId="181252">
+                <a href="https://codeforces.com/problemset/problem/977/A">
+                    977A - Неправильное вычитание
+                </a>
+    </td>
+    <td>
+        Python 3
+    </td>
+    <td partyMemberIds=";5973554;" class="status-cell status-small status-verdict-cell" submissionId="381175286" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="381175286" submissionVerdict="OK" contestType="ICPC" partyMemberIds=";5973554;"><span class='verdict-accepted'>Полное решение</span></span><!--
+                -->
+            <i title="Диагностическая подсказка" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                62&nbsp;мс
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;КБ
+        </td>
+</tr>
+
+
+<tr data-submission-id="381175284" data-a="4227419623781302323" partyMemberIds=";4364625;">
+    <td class="id-cell">
+                <a class="view-source" title="Исходный код" href="https://codeforces.com/problemset/submission/2203/381175284" submissionId="381175284">381175284</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="ru">03.07.2026 22:19</span>
+    </td>
+    <td class="status-party-cell" data-participantId="240184326">
+<a href="https://codeforces.com/profile/Vedantangra" title="Ученик Vedantangra" class="rated-user user-green">Vedantangra</a>    </td>
+    <td class="status-small" data-problemId="3962093">
+                <a href="https://codeforces.com/problemset/problem/2203/D">
+                    2203D - Игра в делимость
+                </a>
+    </td>
+    <td>
+        C++20 (GCC 13-64)
+    </td>
+    <td partyMemberIds=";4364625;" class="status-cell status-small status-verdict-cell" submissionId="381175284" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="381175284" submissionVerdict="OK" contestType="ICPC" partyMemberIds=";4364625;"><span class='verdict-accepted'>Полное решение</span></span><!--
+                -->
+            <i title="Диагностическая подсказка" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                1390&nbsp;мс
+        </td>
+        <td class="memory-consumed-cell">
+                62300&nbsp;КБ
+        </td>
+</tr>
+
+
+<tr data-submission-id="381175281" data-a="4227420031803195393" partyMemberIds=";5294034;">
+    <td class="id-cell">
+                <a class="view-source" title="Исходный код" href="https://codeforces.com/problemset/submission/1505/381175281" submissionId="381175281">381175281</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="ru">03.07.2026 22:19</span>
+    </td>
+    <td class="status-party-cell" data-participantId="231136295">
+<a href="https://codeforces.com/profile/Erkebulan-M-015-30" title="Новичок Erkebulan-M-015-30" class="rated-user user-gray">Erkebulan-M-015-30</a>    </td>
+    <td class="status-small" data-problemId="943623">
+                <a href="https://codeforces.com/problemset/problem/1505/A">
+                    1505A - Is it rated - 2
+                </a>
+    </td>
+    <td>
+        C++23 (GCC 14-64, msys2)
+    </td>
+    <td partyMemberIds=";5294034;" class="status-cell status-small status-verdict-cell" submissionId="381175281" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="381175281" submissionVerdict="IDLENESS_LIMIT_EXCEEDED" contestType="ICPC" partyMemberIds=";5294034;"><span class='verdict-rejected'>Решение «зависло» на тесте <span class=verdict-format-judged>1</span></span></span><!--
+                -->
+            <i title="Диагностическая подсказка" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                0&nbsp;мс
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;КБ
+        </td>
+</tr>
+
+
+<tr data-submission-id="381175280" data-a="4227419705385680898" partyMemberIds=";4593738;">
+    <td class="id-cell">
+                <a class="view-source" title="Исходный код" href="https://codeforces.com/problemset/submission/1256/381175280" submissionId="381175280">381175280</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="ru">03.07.2026 22:19</span>
+    </td>
+    <td class="status-party-cell" data-participantId="240209353">
+<a href="https://codeforces.com/profile/GODAJM" title="Новичок GODAJM" class="rated-user user-gray">GODAJM</a>    </td>
+    <td class="status-small" data-problemId="459825">
+                <a href="https://codeforces.com/problemset/problem/1256/B">
+                    1256B - Минимизация перестановки
+                </a>
+    </td>
+    <td>
+        Java 21
+    </td>
+    <td partyMemberIds=";4593738;" class="status-cell status-small status-verdict-cell" submissionId="381175280" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="381175280" submissionVerdict="WRONG_ANSWER" contestType="ICPC" partyMemberIds=";4593738;"><span class='verdict-rejected'>Неправильный ответ на тесте <span class=verdict-format-judged>2</span></span></span><!--
+                -->
+            <i title="Диагностическая подсказка" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                187&nbsp;мс
+        </td>
+        <td class="memory-consumed-cell">
+                100&nbsp;КБ
+        </td>
+</tr>
+
+
+<tr data-submission-id="381175279" data-a="4227419477752414209" partyMemberIds=";4588574;">
+    <td class="id-cell">
+                <a class="view-source" title="Исходный код" href="https://codeforces.com/problemset/submission/1877/381175279" submissionId="381175279">381175279</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="ru">03.07.2026 22:19</span>
+    </td>
+    <td class="status-party-cell" data-participantId="221587478">
+<a href="https://codeforces.com/profile/Ankit_.007" title="Ученик Ankit_.007" class="rated-user user-green">Ankit_.007</a>    </td>
+    <td class="status-small" data-problemId="2251954">
+                <a href="https://codeforces.com/problemset/problem/1877/C">
+                    1877C - Джойборд
+                </a>
+    </td>
+    <td>
+        C++17 (GCC 7-32)
+    </td>
+    <td partyMemberIds=";4588574;" class="status-cell status-small status-verdict-cell" submissionId="381175279" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="381175279" submissionVerdict="WRONG_ANSWER" contestType="CF" partyMemberIds=";4588574;"><span class='verdict-rejected'>Неправильный ответ на тесте <span class=verdict-format-judged>1</span></span></span><!--
+                -->
+            <i title="Диагностическая подсказка" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                31&nbsp;мс
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;КБ
+        </td>
+</tr>
+
+
+<tr data-submission-id="381175276" data-a="4227419159924834327" partyMemberIds=";4551973;">
+    <td class="id-cell">
+                <a class="view-source" title="Исходный код" href="https://codeforces.com/problemset/submission/2009/381175276" submissionId="381175276">381175276</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="ru">03.07.2026 22:19</span>
+    </td>
+    <td class="status-party-cell" data-participantId="212693238">
+<a href="https://codeforces.com/profile/atharva._21" title="Новичок atharva._21" class="rated-user user-gray">atharva._21</a>    </td>
+    <td class="status-small" data-problemId="2852157">
+                <a href="https://codeforces.com/problemset/problem/2009/G1">
+                    2009G1 - Запросы подмассивов Юнли (простая версия)
+                </a>
+    </td>
+    <td>
+        C++23 (GCC 14-64, msys2)
+    </td>
+    <td partyMemberIds=";4551973;" class="status-cell status-small status-verdict-cell" submissionId="381175276" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="381175276" submissionVerdict="OK" contestType="ICPC" partyMemberIds=";4551973;"><span class='verdict-accepted'>Полное решение</span></span><!--
+                -->
+            <i title="Диагностическая подсказка" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                421&nbsp;мс
+        </td>
+        <td class="memory-consumed-cell">
+                18000&nbsp;КБ
+        </td>
+</tr>
+
+
+<tr data-submission-id="381175274" data-a="4227419181399670908" partyMemberIds=";3378072;">
+    <td class="id-cell">
+                <a class="view-source" title="Исходный код" href="https://codeforces.com/problemset/submission/1316/381175274" submissionId="381175274">381175274</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="ru">03.07.2026 22:19</span>
+    </td>
+    <td class="status-party-cell" data-participantId="206280342">
+<a href="https://codeforces.com/profile/eulerson" title="Ученик eulerson" class="rated-user user-green">eulerson</a>    </td>
+    <td class="status-small" data-problemId="552824">
+                <a href="https://codeforces.com/problemset/problem/1316/E">
+                    1316E - Выбор команды
+                </a>
+    </td>
+    <td>
+        C++23 (GCC 14-64, msys2)
+    </td>
+    <td partyMemberIds=";3378072;" class="status-cell status-small status-verdict-cell" submissionId="381175274" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="381175274" submissionVerdict="OK" contestType="CF" partyMemberIds=";3378072;"><span class='verdict-accepted'>Полное решение</span></span><!--
+                -->
+            <i title="Диагностическая подсказка" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                734&nbsp;мс
+        </td>
+        <td class="memory-consumed-cell">
+                119700&nbsp;КБ
+        </td>
+</tr>
+
+
+<tr data-submission-id="381175272" data-a="4227418773377777689" partyMemberIds=";5123887;">
+    <td class="id-cell">
+                <a class="view-source" title="Исходный код" href="https://codeforces.com/problemset/submission/4/381175272" submissionId="381175272">381175272</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="ru">03.07.2026 22:19</span>
+    </td>
+    <td class="status-party-cell" data-participantId="219645944">
+<a href="https://codeforces.com/profile/g_chkadua" title="Новичок g_chkadua" class="rated-user user-gray">g_chkadua</a>    </td>
+    <td class="status-small" data-problemId="15">
+                <a href="https://codeforces.com/problemset/problem/4/C">
+                    4C - Система регистрации
+                </a>
+    </td>
+    <td>
+        C++17 (GCC 7-32)
+    </td>
+    <td partyMemberIds=";5123887;" class="status-cell status-small status-verdict-cell" submissionId="381175272" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="381175272" submissionVerdict="OK" contestType="ICPC" partyMemberIds=";5123887;"><span class='verdict-accepted'>Полное решение</span></span><!--
+                -->
+            <i title="Диагностическая подсказка" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                750&nbsp;мс
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;КБ
+        </td>
+</tr>
+
+
+<tr data-submission-id="381175271" data-a="4227419026780848130" partyMemberIds=";5272100;">
+    <td class="id-cell">
+                <a class="view-source" title="Исходный код" href="https://codeforces.com/problemset/submission/1696/381175271" submissionId="381175271">381175271</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="ru">03.07.2026 22:19</span>
+    </td>
+    <td class="status-party-cell" data-participantId="227949253">
+<a href="https://codeforces.com/profile/Aryan4100" title="Ученик Aryan4100" class="rated-user user-green">Aryan4100</a>    </td>
+    <td class="status-small" data-problemId="1440854">
+                <a href="https://codeforces.com/problemset/problem/1696/B">
+                    1696B - НИТ уничтожает вселенную
+                </a>
+    </td>
+    <td>
+        C++17 (GCC 7-32)
+    </td>
+    <td partyMemberIds=";5272100;" class="status-cell status-small status-verdict-cell" submissionId="381175271" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="381175271" submissionVerdict="WRONG_ANSWER" contestType="CF" partyMemberIds=";5272100;"><span class='verdict-rejected'>Неправильный ответ на тесте <span class=verdict-format-judged>2</span></span></span><!--
+                -->
+            <i title="Диагностическая подсказка" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                31&nbsp;мс
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;КБ
+        </td>
+</tr>
+
+
+<tr data-submission-id="381175270" data-a="4227418760492875806" partyMemberIds=";4190705;">
+    <td class="id-cell">
+                <a class="view-source" title="Исходный код" href="https://codeforces.com/problemset/submission/742/381175270" submissionId="381175270">381175270</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="ru">03.07.2026 22:19</span>
+    </td>
+    <td class="status-party-cell" data-participantId="240195677">
+<a href="https://codeforces.com/profile/shikharISM" title="Ученик shikharISM" class="rated-user user-green">shikharISM</a>    </td>
+    <td class="status-small" data-problemId="83315">
+                <a href="https://codeforces.com/problemset/problem/742/A">
+                    742A - Сложный экзамен Arpa и наивный чит Mehrdad
+                </a>
+    </td>
+    <td>
+        C++23 (GCC 14-64, msys2)
+    </td>
+    <td partyMemberIds=";4190705;" class="status-cell status-small status-verdict-cell" submissionId="381175270" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="381175270" submissionVerdict="OK" contestType="CF" partyMemberIds=";4190705;"><span class='verdict-accepted'>Полное решение</span></span><!--
+                -->
+            <i title="Диагностическая подсказка" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                46&nbsp;мс
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;КБ
+        </td>
+</tr>
+
+
+<tr data-submission-id="381175269" data-a="4227418988126142466" partyMemberIds=";5706495;">
+    <td class="id-cell">
+                <a class="view-source" title="Исходный код" href="https://codeforces.com/problemset/submission/1806/381175269" submissionId="381175269">381175269</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="ru">03.07.2026 22:19</span>
+    </td>
+    <td class="status-party-cell" data-participantId="238662230">
+<a href="https://codeforces.com/profile/_SpongeBob" title="Не в рейтинге, _SpongeBob" class="rated-user user-black">_SpongeBob</a>    </td>
+    <td class="status-small" data-problemId="1836406">
+                <a href="https://codeforces.com/problemset/problem/1806/A">
+                    1806A - Мастер перемещений
+                </a>
+    </td>
+    <td>
+        C++23 (GCC 14-64, msys2)
+    </td>
+    <td partyMemberIds=";5706495;" class="status-cell status-small status-verdict-cell" submissionId="381175269" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="381175269" submissionVerdict="WRONG_ANSWER" contestType="CF" partyMemberIds=";5706495;"><span class='verdict-rejected'>Неправильный ответ на тесте <span class=verdict-format-judged>2</span></span></span><!--
+                -->
+            <i title="Диагностическая подсказка" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                78&nbsp;мс
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;КБ
+        </td>
+</tr>
+
+
+<tr data-submission-id="381175268" data-a="4227418794852614148" partyMemberIds=";5732234;">
+    <td class="id-cell">
+                <a class="view-source" title="Исходный код" href="https://codeforces.com/problemset/submission/715/381175268" submissionId="381175268">381175268</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="ru">03.07.2026 22:19</span>
+    </td>
+    <td class="status-party-cell" data-participantId="240210879">
+<a href="https://codeforces.com/profile/kaique8au" title="Новичок kaique8au" class="rated-user user-gray">kaique8au</a>    </td>
+    <td class="status-small" data-problemId="71751">
+                <a href="https://codeforces.com/problemset/problem/715/B">
+                    715B - Дополни граф
+                </a>
+    </td>
+    <td>
+        C++23 (GCC 14-64, msys2)
+    </td>
+    <td partyMemberIds=";5732234;" class="status-cell status-small status-verdict-cell" submissionId="381175268" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="381175268" submissionVerdict="WRONG_ANSWER" contestType="CF" partyMemberIds=";5732234;"><span class='verdict-rejected'>Неправильный ответ на тесте <span class=verdict-format-judged>4</span></span></span><!--
+                -->
+            <i title="Диагностическая подсказка" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                31&nbsp;мс
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;КБ
+        </td>
+</tr>
+
+
+<tr data-submission-id="381175264" data-a="4227418958061371397" partyMemberIds=";5527478;">
+    <td class="id-cell">
+                <a class="view-source" title="Исходный код" href="https://codeforces.com/problemset/submission/1179/381175264" submissionId="381175264">381175264</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="ru">03.07.2026 22:19</span>
+    </td>
+    <td class="status-party-cell" data-participantId="240119483">
+<a href="https://codeforces.com/profile/whipl_ashh" title="Новичок whipl_ashh" class="rated-user user-gray">whipl_ashh</a>    </td>
+    <td class="status-small" data-problemId="361544">
+                <a href="https://codeforces.com/problemset/problem/1179/A">
+                    1179A - Валера и дек
+                </a>
+    </td>
+    <td>
+        C++23 (GCC 14-64, msys2)
+    </td>
+    <td partyMemberIds=";5527478;" class="status-cell status-small status-verdict-cell" submissionId="381175264" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="381175264" submissionVerdict="WRONG_ANSWER" contestType="CF" partyMemberIds=";5527478;"><span class='verdict-rejected'>Неправильный ответ на тесте <span class=verdict-format-judged>5</span></span></span><!--
+                -->
+            <i title="Диагностическая подсказка" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                15&nbsp;мс
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;КБ
+        </td>
+</tr>
+
+
+<tr data-submission-id="381175257" data-a="4227418236506865673" partyMemberIds=";3797473;">
+    <td class="id-cell">
+                <a class="view-source" title="Исходный код" href="https://codeforces.com/problemset/submission/2239/381175257" submissionId="381175257">381175257</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="ru">03.07.2026 22:19</span>
+    </td>
+    <td class="status-party-cell" data-participantId="239783568">
+<a href="https://codeforces.com/profile/ladnoo" title="Эксперт ladnoo" class="rated-user user-blue">ladnoo</a>    </td>
+    <td class="status-small" data-problemId="4188078">
+                <a href="https://codeforces.com/problemset/problem/2239/B">
+                    2239B - Гордыня
+                </a>
+    </td>
+    <td>
+        C++23 (GCC 14-64, msys2)
+    </td>
+    <td partyMemberIds=";3797473;" class="status-cell status-small status-verdict-cell" submissionId="381175257" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="381175257" submissionVerdict="OK" contestType="CF" partyMemberIds=";3797473;"><span class='verdict-accepted'>Полное решение</span></span><!--
+                -->
+            <i title="Диагностическая подсказка" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                203&nbsp;мс
+        </td>
+        <td class="memory-consumed-cell">
+                15700&nbsp;КБ
+        </td>
+</tr>
+
+
+<tr data-submission-id="381175256" data-a="4227418184967258115" partyMemberIds=";5872515;">
+    <td class="id-cell">
+                <a class="view-source" title="Исходный код" href="https://codeforces.com/problemset/submission/58/381175256" submissionId="381175256">381175256</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="ru">03.07.2026 22:19</span>
+    </td>
+    <td class="status-party-cell" data-participantId="240210303">
+<a href="https://codeforces.com/profile/rawatsomya2401" title="Не в рейтинге, rawatsomya2401" class="rated-user user-black">rawatsomya2401</a>    </td>
+    <td class="status-small" data-problemId="302">
+                <a href="https://codeforces.com/problemset/problem/58/A">
+                    58A - Чат
+                </a>
+    </td>
+    <td>
+        Java 8
+    </td>
+    <td partyMemberIds=";5872515;" class="status-cell status-small status-verdict-cell" submissionId="381175256" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="381175256" submissionVerdict="WRONG_ANSWER" contestType="CF" partyMemberIds=";5872515;"><span class='verdict-rejected'>Неправильный ответ на тесте <span class=verdict-format-judged>3</span></span></span><!--
+                -->
+            <i title="Диагностическая подсказка" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                125&nbsp;мс
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;КБ
+        </td>
+</tr>
+
+
+<tr data-submission-id="381175255" data-a="4227418227916931076" partyMemberIds=";4312276;">
+    <td class="id-cell">
+                <a class="view-source" title="Исходный код" href="https://codeforces.com/problemset/submission/2241/381175255" submissionId="381175255">381175255</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="ru">03.07.2026 22:19</span>
+    </td>
+    <td class="status-party-cell" data-participantId="240053196">
+<a href="https://codeforces.com/profile/erwinsmith_016" title="Ученик erwinsmith_016" class="rated-user user-green">erwinsmith_016</a>    </td>
+    <td class="status-small" data-problemId="4194123">
+                <a href="https://codeforces.com/problemset/problem/2241/C">
+                    2241C - УдалиладУ
+                </a>
+    </td>
+    <td>
+        C++23 (GCC 14-64, msys2)
+    </td>
+    <td partyMemberIds=";4312276;" class="status-cell status-small status-verdict-cell" submissionId="381175255" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="381175255" submissionVerdict="OK" contestType="ICPC" partyMemberIds=";4312276;"><span class='verdict-accepted'>Полное решение</span></span><!--
+                -->
+            <i title="Диагностическая подсказка" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                31&nbsp;мс
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;КБ
+        </td>
+</tr>
+
+
+<tr data-submission-id="381175254" data-a="4227418438370328580" partyMemberIds=";4683094;">
+    <td class="id-cell">
+                <a class="view-source" title="Исходный код" href="https://codeforces.com/problemset/submission/1372/381175254" submissionId="381175254">381175254</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="ru">03.07.2026 22:19</span>
+    </td>
+    <td class="status-party-cell" data-participantId="240209463">
+<a href="https://codeforces.com/profile/ahmed_hasnain" title="Новичок ahmed_hasnain" class="rated-user user-gray">ahmed_hasnain</a>    </td>
+    <td class="status-small" data-problemId="665583">
+                <a href="https://codeforces.com/problemset/problem/1372/B">
+                    1372B - Омкар и последний урок математики
+                </a>
+    </td>
+    <td>
+        C++20 (GCC 13-64)
+    </td>
+    <td partyMemberIds=";4683094;" class="status-cell status-small status-verdict-cell" submissionId="381175254" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="381175254" submissionVerdict="TIME_LIMIT_EXCEEDED" contestType="CF" partyMemberIds=";4683094;"><span class='verdict-rejected'>Превышено ограничение времени на тесте <span class=verdict-format-judged>4</span></span></span><!--
+                -->
+            <i title="Диагностическая подсказка" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                1000&nbsp;мс
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;КБ
+        </td>
+</tr>
+
+
+<tr data-submission-id="381175253" data-a="4227418099067912245" partyMemberIds=";5333700;">
+    <td class="id-cell">
+                <a class="view-source" title="Исходный код" href="https://codeforces.com/problemset/submission/112/381175253" submissionId="381175253">381175253</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="ru">03.07.2026 22:19</span>
+    </td>
+    <td class="status-party-cell" data-participantId="240204753">
+<a href="https://codeforces.com/profile/abhiiiuuuu" title="Не в рейтинге, abhiiiuuuu" class="rated-user user-black">abhiiiuuuu</a>    </td>
+    <td class="status-small" data-problemId="587">
+                <a href="https://codeforces.com/problemset/problem/112/A">
+                    112A - Петя и строки
+                </a>
+    </td>
+    <td>
+        C++17 (GCC 7-32)
+    </td>
+    <td partyMemberIds=";5333700;" class="status-cell status-small status-verdict-cell" submissionId="381175253" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="381175253" submissionVerdict="OK" contestType="CF" partyMemberIds=";5333700;"><span class='verdict-accepted'>Полное решение</span></span><!--
+                -->
+            <i title="Диагностическая подсказка" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                92&nbsp;мс
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;КБ
+        </td>
+</tr>
+
+
+<tr data-submission-id="381175252" data-a="4227418133427650579" partyMemberIds=";1718819;">
+    <td class="id-cell">
+                <a class="view-source" title="Исходный код" href="https://codeforces.com/problemset/submission/2209/381175252" submissionId="381175252">381175252</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="ru">03.07.2026 22:19</span>
+    </td>
+    <td class="status-party-cell" data-participantId="236457803">
+<a href="https://codeforces.com/profile/flechita_veloz" title="Ученик flechita_veloz" class="rated-user user-green">flechita_veloz</a>    </td>
+    <td class="status-small" data-problemId="4009675">
+                <a href="https://codeforces.com/problemset/problem/2209/C">
+                    2209C - Найдите ноль
+                </a>
+    </td>
+    <td>
+        C++20 (GCC 13-64)
+    </td>
+    <td partyMemberIds=";1718819;" class="status-cell status-small status-verdict-cell" submissionId="381175252" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="381175252" submissionVerdict="OK" contestType="CF" partyMemberIds=";1718819;"><span class='verdict-accepted'>Полное решение</span></span><!--
+                -->
+            <i title="Диагностическая подсказка" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                46&nbsp;мс
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;КБ
+        </td>
+</tr>
+
+
+<tr data-submission-id="381175251" data-a="4227418008873598996" partyMemberIds=";5511887;">
+    <td class="id-cell">
+                <a class="view-source" title="Исходный код" href="https://codeforces.com/problemset/submission/1632/381175251" submissionId="381175251">381175251</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="ru">03.07.2026 22:19</span>
+    </td>
+    <td class="status-party-cell" data-participantId="239459444">
+<a href="https://codeforces.com/profile/priyam_jswl" title="Новичок priyam_jswl" class="rated-user user-gray">priyam_jswl</a>    </td>
+    <td class="status-small" data-problemId="1278696">
+                <a href="https://codeforces.com/problemset/problem/1632/B">
+                    1632B - Постройка крыши
+                </a>
+    </td>
+    <td>
+        C++17 (GCC 7-32)
+    </td>
+    <td partyMemberIds=";5511887;" class="status-cell status-small status-verdict-cell" submissionId="381175251" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="381175251" submissionVerdict="OK" contestType="CF" partyMemberIds=";5511887;"><span class='verdict-accepted'>Полное решение</span></span><!--
+                -->
+            <i title="Диагностическая подсказка" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                62&nbsp;мс
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;КБ
+        </td>
+</tr>
+
+
+<tr data-submission-id="381175250" data-a="4227417957333991449" partyMemberIds=";5978986;">
+    <td class="id-cell">
+                <a class="view-source" title="Исходный код" href="https://codeforces.com/problemset/submission/281/381175250" submissionId="381175250">381175250</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="ru">03.07.2026 22:19</span>
+    </td>
+    <td class="status-party-cell" data-participantId="240210516">
+<a href="https://codeforces.com/profile/omkarwiz" title="Не в рейтинге, omkarwiz" class="rated-user user-black">omkarwiz</a>    </td>
+    <td class="status-small" data-problemId="2720">
+                <a href="https://codeforces.com/problemset/problem/281/A">
+                    281A - Капитализация слова
+                </a>
+    </td>
+    <td>
+        PyPy 3-64
+    </td>
+    <td partyMemberIds=";5978986;" class="status-cell status-small status-verdict-cell" submissionId="381175250" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="381175250" submissionVerdict="OK" contestType="CF" partyMemberIds=";5978986;"><span class='verdict-accepted'>Полное решение</span></span><!--
+                -->
+            <i title="Диагностическая подсказка" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                156&nbsp;мс
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;КБ
+        </td>
+</tr>
+
+
+<tr data-submission-id="381175249" data-a="4227417858549743619" partyMemberIds=";4383402;">
+    <td class="id-cell">
+                <a class="view-source" title="Исходный код" href="https://codeforces.com/problemset/submission/2185/381175249" submissionId="381175249">381175249</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="ru">03.07.2026 22:19</span>
+    </td>
+    <td class="status-party-cell" data-participantId="239717746">
+<a href="https://codeforces.com/profile/ilyushk" title="Не в рейтинге, ilyushk" class="rated-user user-black">ilyushk</a>    </td>
+    <td class="status-small" data-problemId="3887140">
+                <a href="https://codeforces.com/problemset/problem/2185/A">
+                    2185A - Совершенный корень
+                </a>
+    </td>
+    <td>
+        C++17 (GCC 7-32)
+    </td>
+    <td partyMemberIds=";4383402;" class="status-cell status-small status-verdict-cell" submissionId="381175249" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="381175249" submissionVerdict="OK" contestType="ICPC" partyMemberIds=";4383402;"><span class='verdict-accepted'>Полное решение</span></span><!--
+                -->
+            <i title="Диагностическая подсказка" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                31&nbsp;мс
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;КБ
+        </td>
+</tr>
+
+
+<tr data-submission-id="381175248" data-a="4227418468435099650" partyMemberIds=";5008754;">
+    <td class="id-cell">
+                <a class="view-source" title="Исходный код" href="https://codeforces.com/problemset/submission/1845/381175248" submissionId="381175248">381175248</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="ru">03.07.2026 22:19</span>
+    </td>
+    <td class="status-party-cell" data-participantId="239362383">
+<a href="https://codeforces.com/profile/Tanmay_1417" title="Не в рейтинге, Tanmay_1417" class="rated-user user-black">Tanmay_1417</a>    </td>
+    <td class="status-small" data-problemId="1986288">
+                <a href="https://codeforces.com/problemset/problem/1845/A">
+                    1845A - Запрещенное число
+                </a>
+    </td>
+    <td>
+        C++20 (GCC 13-64)
+    </td>
+    <td partyMemberIds=";5008754;" class="status-cell status-small status-verdict-cell" submissionId="381175248" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="381175248" submissionVerdict="WRONG_ANSWER" contestType="ICPC" partyMemberIds=";5008754;"><span class='verdict-rejected'>Неправильный ответ на тесте <span class=verdict-format-judged>2</span></span></span><!--
+                -->
+            <i title="Диагностическая подсказка" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                31&nbsp;мс
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;КБ
+        </td>
+</tr>
+
+
+<tr data-submission-id="381175247" data-a="4227418326701178882" partyMemberIds=";5718223;">
+    <td class="id-cell">
+                <a class="view-source" title="Исходный код" href="https://codeforces.com/problemset/submission/2230/381175247" submissionId="381175247">381175247</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="ru">03.07.2026 22:19</span>
+    </td>
+    <td class="status-party-cell" data-participantId="238076968">
+<a href="https://codeforces.com/profile/asa824" title="Новичок asa824" class="rated-user user-gray">asa824</a>    </td>
+    <td class="status-small" data-problemId="4120125">
+                <a href="https://codeforces.com/problemset/problem/2230/B">
+                    2230B - Цифровая строка
+                </a>
+    </td>
+    <td>
+        C++20 (GCC 13-64)
+    </td>
+    <td partyMemberIds=";5718223;" class="status-cell status-small status-verdict-cell" submissionId="381175247" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="381175247" submissionVerdict="WRONG_ANSWER" contestType="ICPC" partyMemberIds=";5718223;"><span class='verdict-rejected'>Неправильный ответ на тесте <span class=verdict-format-judged>2</span></span></span><!--
+                -->
+            <i title="Диагностическая подсказка" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                15&nbsp;мс
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;КБ
+        </td>
+</tr>
+
+
+<tr data-submission-id="381175245" data-a="4227417733995692042" partyMemberIds=";5445450;">
+    <td class="id-cell">
+                <a class="view-source" title="Исходный код" href="https://codeforces.com/problemset/submission/2241/381175245" submissionId="381175245">381175245</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="ru">03.07.2026 22:19</span>
+    </td>
+    <td class="status-party-cell" data-participantId="240206653">
+<a href="https://codeforces.com/profile/kgaurav3257" title="Новичок kgaurav3257" class="rated-user user-gray">kgaurav3257</a>    </td>
+    <td class="status-small" data-problemId="4194124">
+                <a href="https://codeforces.com/problemset/problem/2241/D">
+                    2241D - Очередной способ
+                </a>
+    </td>
+    <td>
+        C++17 (GCC 7-32)
+    </td>
+    <td partyMemberIds=";5445450;" class="status-cell status-small status-verdict-cell" submissionId="381175245" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="381175245" submissionVerdict="OK" contestType="ICPC" partyMemberIds=";5445450;"><span class='verdict-accepted'>Полное решение</span></span><!--
+                -->
+            <i title="Диагностическая подсказка" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                109&nbsp;мс
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;КБ
+        </td>
+</tr>
+
+
+<tr data-submission-id="381175244" data-a="4227417660981248027" partyMemberIds=";5938564;">
+    <td class="id-cell">
+                <a class="view-source" title="Исходный код" href="https://codeforces.com/problemset/submission/467/381175244" submissionId="381175244">381175244</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="ru">03.07.2026 22:19</span>
+    </td>
+    <td class="status-party-cell" data-participantId="240210827">
+<a href="https://codeforces.com/profile/.LG." title="Новичок .LG." class="rated-user user-gray">.LG.</a>    </td>
+    <td class="status-small" data-problemId="13808">
+                <a href="https://codeforces.com/problemset/problem/467/A">
+                    467A - Юра и заселение
+                </a>
+    </td>
+    <td>
+        C++23 (GCC 14-64, msys2)
+    </td>
+    <td partyMemberIds=";5938564;" class="status-cell status-small status-verdict-cell" submissionId="381175244" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="381175244" submissionVerdict="OK" contestType="CF" partyMemberIds=";5938564;"><span class='verdict-accepted'>Полное решение</span></span><!--
+                -->
+            <i title="Диагностическая подсказка" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                31&nbsp;мс
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;КБ
+        </td>
+</tr>
+
+
+<tr data-submission-id="381175243" data-a="4227417819895038024" partyMemberIds=";5010935;">
+    <td class="id-cell">
+                <a class="view-source" title="Исходный код" href="https://codeforces.com/problemset/submission/1559/381175243" submissionId="381175243">381175243</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="ru">03.07.2026 22:19</span>
+    </td>
+    <td class="status-party-cell" data-participantId="240208277">
+<a href="https://codeforces.com/profile/VS04" title="Не в рейтинге, VS04" class="rated-user user-black">VS04</a>    </td>
+    <td class="status-small" data-problemId="1078712">
+                <a href="https://codeforces.com/problemset/problem/1559/A">
+                    1559A - Mocha и математика
+                </a>
+    </td>
+    <td>
+        C++23 (GCC 14-64, msys2)
+    </td>
+    <td partyMemberIds=";5010935;" class="status-cell status-small status-verdict-cell" submissionId="381175243" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="381175243" submissionVerdict="OK" contestType="CF" partyMemberIds=";5010935;"><span class='verdict-accepted'>Полное решение</span></span><!--
+                -->
+            <i title="Диагностическая подсказка" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                46&nbsp;мс
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;КБ
+        </td>
+</tr>
+
+
+<tr data-submission-id="381175242" data-a="4227417613736607752" partyMemberIds=";5820406;">
+    <td class="id-cell">
+                <a class="view-source" title="Исходный код" href="https://codeforces.com/problemset/submission/2104/381175242" submissionId="381175242">381175242</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="ru">03.07.2026 22:19</span>
+    </td>
+    <td class="status-party-cell" data-participantId="240210152">
+<a href="https://codeforces.com/profile/RecursiveMoth" title="Ученик RecursiveMoth" class="rated-user user-green">RecursiveMoth</a>    </td>
+    <td class="status-small" data-problemId="3357538">
+                <a href="https://codeforces.com/problemset/problem/2104/B">
+                    2104B - Переместите в конец
+                </a>
+    </td>
+    <td>
+        C++23 (GCC 14-64, msys2)
+    </td>
+    <td partyMemberIds=";5820406;" class="status-cell status-small status-verdict-cell" submissionId="381175242" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="381175242" submissionVerdict="OK" contestType="ICPC" partyMemberIds=";5820406;"><span class='verdict-accepted'>Полное решение</span></span><!--
+                -->
+            <i title="Диагностическая подсказка" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                109&nbsp;мс
+        </td>
+        <td class="memory-consumed-cell">
+                4000&nbsp;КБ
+        </td>
+</tr>
+
+
+<tr class="last-row" data-submission-id="381175240" data-a="4227418335291113475" partyMemberIds=";2757595;">
+    <td class="id-cell">
+                <a class="view-source" title="Исходный код" href="https://codeforces.com/problemset/submission/2228/381175240" submissionId="381175240">381175240</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="ru">03.07.2026 22:19</span>
+    </td>
+    <td class="status-party-cell" data-participantId="237170914">
+<a href="https://codeforces.com/profile/Roma_the_king" title="Эксперт Roma_the_king" class="rated-user user-blue">Roma_the_king</a>    </td>
+    <td class="status-small" data-problemId="4117332">
+                <a href="https://codeforces.com/problemset/problem/2228/C2">
+                    2228C2 - Цирно и число (сложная версия)
+                </a>
+    </td>
+    <td>
+        C++23 (GCC 14-64, msys2)
+    </td>
+    <td partyMemberIds=";2757595;" class="status-cell status-small status-verdict-cell" submissionId="381175240" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="381175240" submissionVerdict="WRONG_ANSWER" contestType="CF" partyMemberIds=";2757595;"><span class='verdict-rejected'>Неправильный ответ на тесте <span class=verdict-format-judged>3</span></span></span><!--
+                -->
+            <i title="Диагностическая подсказка" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                109&nbsp;мс
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;КБ
+        </td>
+</tr>
+            </table>
+            </div>
+        </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+                // Create new ':containsIgnoreCase' selector for search
+                jQuery.expr[':'].containsIgnoreCase = function(a, i, m) {
+                    return jQuery(a).text().toUpperCase()
+                            .indexOf(m[3].toUpperCase()) >= 0;
+                };
+
+                if (window.updateDatatableFilter == undefined) {
+                    window.updateDatatableFilter = function(i) {
+                        var parent = $(i).parent().parent().parent().parent();
+                        $("tr.no-items", parent).remove();
+                        $("tr", parent).hide().removeClass('visible');
+                        var text = $(i).val();
+                        if (text) {
+                            $("tr" + ":containsIgnoreCase('" + text + "')", parent).show().addClass('visible');
+                        } else {
+                            parent.find(".rowCount").text("");
+                            $("tr", parent).show().addClass('visible');
+                        }
+
+                        var found = false;
+                        var visibleRowCount = 0;
+                        $("tr", parent).each(function () {
+                            if (!found) {
+                                if ($(this).find("th").size() > 0) {
+                                    $(this).show().addClass('visible');
+                                    found = true;
+                                }
+                            }
+                            if ($(this).hasClass('visible')) {
+                                visibleRowCount++;
+                            }
+                        });
+                        if (text) {
+                            parent.find(".rowCount").text("Совпадений: " + (visibleRowCount - (found ? 1 : 0)));
+                        }
+                        if (visibleRowCount == (found ? 1 : 0)) {
+                            $("<tr class='no-items visible'><td style=\"text-align:left;\"colspan=\"32\">Нет данных<\/td><\/tr>").appendTo($(parent).find('table'));
+                        }
+                        $(parent).find("tr td").removeClass("dark");
+                        $(parent).find("tr.visible:odd td").addClass("dark");
+                    }
+
+                    $(".datatable .closed").click(function () {
+                        var parent = $(this).parent();
+                        $(this).hide();
+                        $(".filter", parent).fadeIn(function () {
+                            $("input", parent).val("").focus().css("border", "1px solid #aaa");
+                        });
+                    });
+
+                    $(".datatable .opened").click(function () {
+                        var parent = $(this).parent().parent();
+                        $(".filter", parent).fadeOut(function () {
+                            $(".closed", parent).show();
+                            $("input", parent).val("").each(function () {
+                                window.updateDatatableFilter(this);
+                            });
+                        });
+                    });
+
+                    $(".datatable .filter input").keyup(function(e) {
+                        window.updateDatatableFilter(this);
+                        e.preventDefault();
+                        e.stopPropagation();
+                    });
+
+                    $(".datatable table").each(function () {
+                        var found = false;
+                        $("tr", this).each(function () {
+                            if (!found && $(this).find("th").size() == 0) {
+                                found = true;
+                            }
+                        });
+                        if (!found) {
+                            $("<tr class='no-items visible'><td style=\"text-align:left;\"colspan=\"32\">Нет данных<\/td><\/tr>").appendTo(this);
+                        }
+                    });
+
+                    // Applies styles to datatables.
+                    $(".datatable").each(function () {
+                        $(this).find("tr:first th").addClass("top");
+                        $(this).find("tr:last td").addClass("bottom");
+                        $(this).find("tr:odd td").addClass("dark");
+                        $(this).find("tr td:first-child, tr th:first-child").addClass("left");
+                        $(this).find("tr td:last-child, tr th:last-child").addClass("right");
+                    });
+
+                    $(".datatable table.tablesorter").each(function () {
+                        $(this).bind("sortEnd", function () {
+                            $(".datatable").each(function () {
+                                $(this).find("th, td")
+                                    .removeClass("top").removeClass("bottom")
+                                    .removeClass("left").removeClass("right")
+                                    .removeClass("dark");
+                                $(this).find("tr:first th").addClass("top");
+                                $(this).find("tr:last td").addClass("bottom");
+                                $(this).find("tr:odd td").addClass("dark");
+                                $(this).find("tr td:first-child, tr th:first-child").addClass("left");
+                                $(this).find("tr td:last-child, tr th:last-child").addClass("right");
+                            });
+                        });
+                    });
+                }
+        });
+    </script>
+
+    <div class="information-box" style="display: none;">
+        <h5>Протокол тестирования</h5>
+        <hr/>
+        <div class="protocol monospaced" style="font-size:1.0rem;margin:1em 0;width:50em;max-height:30em;overflow:auto;"><pre>&nbsp;</pre></div>
+    </div>
+
+<div class="test-for-popup-proto" style="display:none;">
+    <div class="test-header">
+        Test: #<span class="test">&nbsp;</span>,
+        время: <span class="time">&nbsp;</span> мс.,
+        память: <span class="memory">&nbsp;</span> КБ,
+        код возврата: <span class="exitCode">&nbsp;</span>,
+        код возврата чекера: <span class="checkerExitCode">&nbsp;</span>,
+        вердикт: <span class="verdict">&nbsp;</span>
+    </div>
+    <div style="font-size:1.1rem;">
+        <div class="file popup-input-div">
+            <div class="name">Ввод</div>
+            <pre class="input">&nbsp;</pre>
+        </div>
+        <div class="file popup-output-div">
+            <div class="name">Вывод</div>
+            <pre class="output">&nbsp;</pre>
+        </div>
+        <div class="file popup-answer-div">
+            <div class="name">Ответ</div>
+            <pre class="answer">&nbsp;</pre>
+        </div>
+        <div class="file popup-interaction-log-div" style="display: none">
+            <div class='copy-out copier-small'>Скопировать вывод</div>
+            <div class='copy-in copier-small'>Скопировать ввод</div>
+            <div class="name">Лог взаимодействия</div>
+            <div class="interaction-log interactionLog"></div>
+        </div>
+        <div class="file popup-model-solution-interaction-log-div" style="display: none">
+            <div class='copy-out copier-small'>Скопировать вывод</div>
+            <div class='copy-in copier-small'>Скопировать ввод</div>
+            <div class="name">Лог взаимодействия авторского решения</div>
+            <div class="model-solution-interaction-log interactionLog"></div>
+        </div>
+        <div class="file popup-checker-div">
+            <div class="name">Протокол тестирования</div>
+            <pre class="checker">&nbsp;</pre>
+        </div>
+        <div class="file popup-diagnostics-div">
+            <div class="name">Диагностика</div>
+            <pre class="diagnostics">&nbsp;</pre>
+        </div>
+    </div>
+</div>
+<div class="pagination next-or-prev-prototype" style="float:left; display:none">
+    <a class="arrow prev">&larr;</a>
+    <a class="arrow next">&rarr;</a>
+</div>
+<style>
+    .source-popup-diagnostics {
+        font-weight: bold;
+        margin-bottom: 1em;
+    }
+
+    .source-popup-diagnostics .diagnosticsMessageType {
+        color: #E65100;
+    }
+
+    #program-source-text-copy {
+        cursor:pointer;
+        color:blue;
+        text-decoration:underline;
+    }
+</style>
+<div class="source-popup"  style="display:none;width:950px;height:600px;overflow:auto;padding:1em;margin:1em;font-size:1.2rem;">
+    <span class="source-popup-header" style="">&nbsp;</span>
+    <pre style="background-color: #eff0f1;"><code class="source-popup-source prettyprint linenums"><img src="http://codeforces.com/codeforces.org/s/80531/images/indicator.gif"/></code></pre>
+</div>
+
+<script type="text/javascript">
+    var source = "";
+    $(document).ready(function () {
+        String.prototype.replaceAll = function (search, replace) {
+            return this.split(search).join(replace);
+        };
+
+        function setupCopyButton($copy, getText) {
+            const cpyId = ("id" + Math.random()).replaceAll(".", "0");
+            $copy.attr("id", cpyId);
+
+            const clipboard = new Clipboard('#' + cpyId, {
+                text: function(trigger) {
+                    return Codeforces.filterClipboardText(getText());
+                }
+            });
+            clipboard.on('success', function(e) {
+                Codeforces.showMessage("Скопировано в буффер обмена");
+                e.clearSelection();
+            });
+        }
+
+        function setupCopyButtons($popup) {
+            $popup.find(".file").each(function () {
+                if ($(this).find(".copier-small").length !== 0) {
+                    // interaction log
+                    const $log = $(this).find(".interactionLog");
+                    const get = direction => {
+                        let result = "";
+                        $log.find("." + direction).each(function () {
+                            const $line = $(this);
+                            $line.find(".line-content").each(function() {
+                                result += this.innerText;
+                                if ($line.find(".noNewLine").length === 0) {
+                                    result += "\n";
+                                }
+                            });
+                        });
+                        return result;
+                    };
+                    setupCopyButton($(this).find(".copy-in"), () => get("IN"));
+                    setupCopyButton($(this).find(".copy-out"), () => get("OUT"));
+                    return;
+                }
+                const textElement = $(this).find("pre");
+                const $copy = $("<div title='Скопировать' class='copier-small'>Скопировать</div>");
+                setupCopyButton($copy.insertBefore($(this).find(".name")), () => textElement.text());
+            });
+        }
+
+        function putInteractionLog($element, rawLog) {
+            let prevLinePre = undefined;
+            for (let line of rawLog.split(/\r?\n/)) {
+                let content;
+                if (line.startsWith("~")) {
+                    if (prevLinePre) {
+                        prevLinePre.append($('<span class="noNewLine" title="no new line">&nbsp;</span>'));
+                    }
+                    line = line.substring(1);
+                }
+                if (line.startsWith("< ")) {
+                    input = true;
+                    content = line.substring(2);
+                } else if (line.startsWith("> ")) {
+                    input = false;
+                    content = line.substring(2);
+                } else if (line.startsWith("...")) {
+                    $element.append($('<div class="truncatedNote">... (log truncated)</div>'))
+                    break;
+                } else {
+                    continue;
+                }
+                const linePre = $("<pre></pre>");
+                if (input) {
+                    linePre.addClass("IN");
+                } else {
+                    linePre.addClass("OUT");
+                }
+                linePre.append(
+                    $('<span class="direction"></span>')
+                        .text(input ? "< " : "  > ")
+                        .attr("title", input ? "input" : "output")
+                );
+                linePre.append($('<span class="line-content"></span>').text(content));
+                $element.append(linePre);
+                prevLinePre = linePre;
+            }
+        }
+        showSubmissionSourceCode = function(submissionId) {
+            $.post("/data/submitSource", {submissionId: submissionId}, function(data) {
+                var nop = $(".next-or-prev-prototype").clone().removeClass("next-or-prev-prototype").addClass("next-or-prev").css("display", "block");
+                Codeforces.facebox(".source-popup:first", "//codeforces.com/codeforces.org/s/80531");
+                var sourcePre = $("#facebox").find(".source-popup-source:first");
+                if (data["prettifyClass"]) {
+                    sourcePre.addClass(data["prettifyClass"]);
+                }
+                // sourcePre.empty();
+                // sourcePre.append($("<code></code>").text(data["source"]));
+                if (data.diagnosticsMessage) {
+                    var icon = "<i title=\"Диагностическая подсказка\" class=\"icon-warning-sign diagnostics-icon\"></i> ";
+                    $("#facebox .source-popup").prepend($("<div class=\"source-popup-diagnostics\"></div>").html(icon + data.diagnosticsMessage));
+                }
+                if (data["source"]) {
+                    sourcePre.text(data["source"]);
+                } else if (data["sourceHtml"]) {
+                    sourcePre.html(data["sourceHtml"]);
+                }
+                sourcePre.removeClass("prettyprinted");
+                var header = "От " + data["partyName"]
+                    + ", соревнование: " + data["contestName"]
+                    + ", задача: " + data["problemName"]
+                    + ", " + data["verdict"] + ", " + "<a title='прямая ссылка' href=\"" + data["href"] + "\">#</a>"
+                    + ", " + "<span id=\"program-source-text-copy\" title='Скопировать' href='#'>Скопировать</span>";
+                if (data["offerChallenge"] === "true") {
+                    header += ", <a href=\"" + data["challengeLink"] + "\">взломать!</a>";
+                }
+                header += "<hr/>";
+
+                $("#facebox").find(".source-popup-header").html(header);
+                source = data["source"];
+
+                if ($("#facebox").find(".footer .pagination").size() === 0) {
+                    $("#facebox").find(".footer").append(nop);
+                }
+                var p = $("#facebox").find(".footer .pagination");
+
+                if (data["prevId"]) {
+                    p.find(".prev").attr("href", "#").click(function () {
+                        showSubmissionSourceCode(data["prevId"]);
+                        return false;
+                    });
+                }
+                if (data["nextId"]) {
+                    p.find(".next").attr("href", "#").click(function () {
+                        showSubmissionSourceCode(data["nextId"]);
+                        return false;
+                    });
+                }
+
+                prettyPrint();
+                if (data.diagnosticsLine) {
+                    $("#facebox .source-popup code li:nth-child(" + data.diagnosticsLine + ")").css("background", "#E57373");
+                }
+
+                var testCount = data["testCount"] ? parseInt(data["testCount"]) : 0;
+                if (testCount > 0 || data["submissionProtocol"]) {
+                    $("#facebox").find(".source-popup").append("<hr/><h4>&rarr;Протокол тестирования</h4>");
+                }
+
+                if (data["submissionProtocol"]) {
+                    $("#facebox").find(".source-popup").append("<pre>" + data["submissionProtocol"] + "</pre>");
+                }
+
+                // TODO: temporary fix
+                testCount = 0;
+
+                const ACCEPTED_PREFIX = "accepted#";
+                const testIndices = [];
+                for (const key of Object.keys(data)) {
+                    if (key.indexOf(ACCEPTED_PREFIX) === 0) {
+                        testIndices.push(Number.parseInt(key.substring(ACCEPTED_PREFIX.length)));
+                        testCount++;
+                    }
+                }
+                testIndices.sort((a, b) => a - b);
+
+                for (var i = 0; i < testCount; i++) {
+                    var test = testIndices[i];
+                    if (data["verdict#" + test]) {
+                        var e = $("div.test-for-popup-proto").clone()
+                            .removeClass("test-for-popup-proto").addClass("test-for-popup")
+                            .css("display", "block");
+                        e.find(".test").text(test);
+                        e.find(".time").text(data["timeConsumed#" + test]);
+                        e.find(".memory").text(data["memoryConsumed#" + test] ? parseInt(data["memoryConsumed#" + test]) / 1024 : "");
+                        e.find(".exitCode").text(data["exitCode#" + test]);
+                        if (data["winntStatus#" + test]) {
+                            e.find(".exitCode").text(e.find(".exitCode").text() + " (" + data["winntStatus#" + test] + ")");
+                        }
+
+                        e.find(".checkerExitCode").text(data["checkerExitCode#" + test]);
+                        e.find(".verdict").text(data["verdict#" + test]);
+
+                        if (data["interactionLog#" + test]) {
+                            putInteractionLog(e.find(".interaction-log"), data["interactionLog#" + test]);
+                            e.find(".popup-interaction-log-div").show();
+                            e.find(".popup-input-div").hide();
+                            e.find(".popup-output-div").hide();
+                            e.find(".popup-answer-div").hide();
+                            if (data["modelSolutionInteractionLog#" + test]) {
+                                e.find(".popup-model-solution-interaction-log-div").show();
+                                putInteractionLog(e.find(".model-solution-interaction-log"), data["modelSolutionInteractionLog#" + test]);
+                            }
+                        } else {
+                            if (data["input#" + test]) {
+                                e.find(".input").text(data["input#" + test]);
+                            } else {
+                                e.find(".popup-input-div").hide();
+                            }
+                            if (data["output#" + test]) {
+                                e.find(".output").text(data["output#" + test]);
+                            } else {
+                                e.find(".popup-output-div").hide();
+                            }
+                            if (data["answer#" + test]) {
+                                e.find(".answer").text(data["answer#" + test]);
+                            } else {
+                                e.find(".popup-answer-div").hide();
+                            }
+                        }
+
+                        if (data["checkerStdoutAndStderr#" + test]) {
+                            e.find(".checker").text(data["checkerStdoutAndStderr#" + test] ? data["checkerStdoutAndStderr#" + test] : " ");
+                        } else {
+                            e.find(".popup-checker-div").hide();
+                        }
+
+                        if (data["diagnostics#" + test]) {
+                            e.find(".diagnostics").text(data["diagnostics#" + test]);
+                        } else {
+                            e.find(".popup-diagnostics-div").hide();
+                        }
+                        setupCopyButtons(e);
+                        $("#facebox").find(".source-popup").append(e);
+                    }
+                }
+            }, "json");
+        };
+
+        $(".prettyprint.source-popup-source").each(function() {
+            var clipboard = new Clipboard('#program-source-text-copy', {
+                text: function(trigger) {
+                    return source;
+                }
+            });
+
+            clipboard.on('success', function(e) {
+                Codeforces.showMessage("Исходный код был скопирован в буфер обмена");
+                e.clearSelection();
+            });
+        });
+
+        $(".change-participant-type-link").click(function () {
+            var contestId = $(this).attr("data-contestId");
+            var targetParticipantId = $(this).attr("data-participantId");
+
+            var changeParticipantType = function () {
+                $.post("/data/changeParticipantType",
+                        { contestId: contestId, targetParticipantId: targetParticipantId },
+                        function(response) {
+                            if (response.success == "true") {
+                                Codeforces.reload();
+                            } else {
+                                Codeforces.showMessage("Произошла ошибка при смене типа участия");
+                            }
+                        },
+                        "json"
+                );
+            };
+
+            Codeforces.confirm(
+                    "Вы уверены, что хотите перевести виртуального участника в режим дорешивания (эта операция необратима и может занять несколько секунд)?", changeParticipantType, function () { }, "ОК", "Нет"
+            );
+
+            return false;
+        });
+
+        $(".participant-devirtualize-link").click(function () {
+            var contestId = $(this).attr("data-contestId");
+            var targetParticipantId = $(this).attr("data-participantId");
+
+            var changeParticipantType = function () {
+                $.post("/data/changeParticipantType",
+                        { action: "devirtualize", contestId: contestId, targetParticipantId: targetParticipantId },
+                        function(response) {
+                            if (response.success == "true") {
+                                Codeforces.reload();
+                            } else {
+                                Codeforces.showMessage("Произошла ошибка при смене типа участия");
+                            }
+                        },
+                        "json"
+                );
+            };
+
+            Codeforces.confirm(
+                    "Вы уверены, что хотите девиртуализировать этого участника? (операция необратима)?", changeParticipantType, function () { }, "ОК", "Нет"
+            );
+
+            return false;
+        });
+    });
+</script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            window.diagnosticsIconHtml = "<i title=\"Диагностическая подсказка\" class=\"icon-warning-sign diagnosticsHint diagnostics-icon\"></i>";
+            window.diagnosticsWaitingIconHtml = "<i title=\"Waiting for diagnostics\" class=\"icon-question-sign\"></i>";
+
+            $("a.information-box-link").click(function () {
+                var submissionId = $(this).attr("submissionId");
+                $.post("/data/judgeProtocol", {submissionId: submissionId}, function (data) {
+                    if (data) {
+                        Codeforces.facebox(".information-box:first", "//codeforces.com/codeforces.org/s/80531");
+                        $("#facebox .information-box .protocol pre").text(data);
+                    }
+                }, "json");
+                return false;
+            });
+
+            function isWaitingVerdictString(verdictString) {
+                return !verdictString || verdictString == "null" || verdictString == "TESTING" || verdictString == "SUBMITTED";
+            }
+
+            function updateVerdictByKey(submission) {
+                if (submission.t != "s") {
+                    return;
+                }
+                var mode = "PROBLEMSET";
+
+                var a = submission.d[0];
+                var id = submission.d[1];
+                var contestId = submission.d[2];
+                var problemId = submission.d[3];
+                var testset = submission.d[4];
+                var points = submission.d[5];
+                var verdictString = submission.d[6];
+                var passedTestCount = submission.d[7];
+                var judgedTestCount = submission.d[8];
+                var timeConsumed = submission.d[9];
+                var memoryConsumed = submission.d[10];
+                var participantId = submission.d[11];
+                var verdict = preparedVerdictFormats[submission.d[12]];
+                var enCreationTime = submission.d[13];
+                var ruCreationTime = submission.d[14];
+                var relativeTime = submission.d[15];
+                var lang = submission.d[16];
+                var diagnostics = submission.d[17];
+                var creationTimeStr = ("ru" == "en" ? enCreationTime : ruCreationTime);
+
+                var onlyContestId = -1;
+
+                if ($(".status-frame-datatable tr[data-submission-id=" + id + "]").length == 0
+                    && false
+                    && (onlyContestId < 0 || contestId == onlyContestId)) {
+                    if (50 > 0 && (onlyContestId != -1 || !Codeforces.isGym(contestId))) {
+                        $.post("/data/contests", {action: "getProblemName", mode: mode, contestId: contestId, problemId: problemId, communityCode: ""}, function(result) {
+                            if (result["success"] == "true") {
+                                var problemName = result["problemName"];
+                                $.post("/data/contests", {action: "getPartyName", contestId: contestId, participantId: participantId}, function(result) {
+                                    if (result["success"] == "true") {
+                                        var partyName = result["partyName"];
+
+                                        var tdSubmissionId = "<td>" + id + "</td>";
+                                        var tdCreationTime = "<td class='status-small'>" + creationTimeStr + "</td>";
+                                        var tdPartyName = "<td class='status-party-cell' data-participantId='" + participantId + "'>" + partyName + "</td>";
+                                        var tdProblemName = "<td class='status-small' data-problemId='" + problemId + "'>" + problemName + "</td>";
+                                        var tdLang = "<td>" + lang + "</td>";
+                                        var tdVerdict = "<td class='status-cell status-small status-verdict-cell' submissionId='" + id + "'>" + verdict + "</td>";
+                                        var tdTime = "<td class='time-consumed-cell'>" + timeConsumed + "&nbsp;мс</td>";
+                                        var tdMemory = "<td class='memory-consumed-cell'>" + Math.floor(memoryConsumed / 1024) + "&nbsp;КБ</td>";
+
+                                        var tr = $("<tr data-submission-id='" + id + "' data-a='" + a + "'>"
+                                            + tdSubmissionId
+                                            + tdCreationTime
+                                            + tdPartyName
+                                            + tdProblemName
+                                            + tdLang
+                                            + tdVerdict
+                                            + tdTime
+                                            + tdMemory
+                                            + "</tr>");
+
+                                        if (judgedTestCount != null && judgedTestCount != undefined) {
+                                            tr.find(".verdict-format-judged").text(judgedTestCount);
+                                        }
+                                        if (passedTestCount != null && passedTestCount != undefined) {
+                                            tr.find(".verdict-format-passed").text(passedTestCount);
+                                        }
+                                        if (points != null && points != undefined) {
+                                            tr.find(".verdict-format-points").text(points);
+                                        }
+
+                                        tr.insertAfter($(".status-frame-datatable tr:first-child"));
+                                        $(".status-frame-datatable tr[data-submission-id=" + id + "]").slice(1).remove();
+                                        Codeforces.updateDatatables();
+
+                                        $(".datatable").each(function () {
+                                            while ($(this).find("tr").length > 50 + 1)
+                                                $(this).find("tr:last-child").remove();
+                                        });
+                                    }
+                                }, "json");
+                            }
+                        }, "json");
+                    }
+                } else {
+                    $(".status-frame-datatable tr[data-submission-id=" + id + "]").each(function () {
+                        if ($(this).attr("data-a") == undefined || $(this).attr("data-a") < a) {
+                            var verdictTd = $(this).find("td.status-verdict-cell");
+
+                            verdictTd.html(verdict);
+
+                            if (judgedTestCount != null && judgedTestCount != undefined) {
+                                verdictTd.find(".verdict-format-judged").text(judgedTestCount);
+                            }
+                            if (passedTestCount != null && passedTestCount != undefined) {
+                                verdictTd.find(".verdict-format-passed").text(passedTestCount);
+                            }
+                            if (points != null && points != undefined) {
+                                verdictTd.find(".verdict-format-points").text(points);
+                            }
+
+                            if (diagnostics === 1 || diagnostics === "1") {
+                                setTimeout(function () {
+                                    $.post("/data/diagnosticsResults", {action: "find", submissionIds: JSON.stringify([id])}, function (ids) {
+                                        for (var i = 0; i < ids.length; i++) {
+                                            verdictTd.html(verdictTd.html() + " " + window.diagnosticsIconHtml);
+                                            window.assignDiagnosticsHintsClickListeners();
+                                        }
+                                    });
+                                }, 1000);
+                            }
+
+                            if (diagnostics === 2 || diagnostics === "2") {
+                                verdictTd.html(verdictTd.html() + " " + window.diagnosticsWaitingIconHtml);
+                            }
+
+                            if (timeConsumed != null && timeConsumed != undefined)
+                                verdictTd.parent().find(".time-consumed-cell").text(timeConsumed + " мс");
+                            else
+                                verdictTd.parent().find(".time-consumed-cell").text("");
+
+                            if (memoryConsumed != null && memoryConsumed != undefined)
+                                verdictTd.parent().find(".memory-consumed-cell").text(Math.floor(memoryConsumed / 1024) + " КБ");
+                            else
+                                verdictTd.parent().find(".memory-consumed-cell").text("");
+
+                            var waiting = diagnostics === 2 || diagnostics === "2" || isWaitingVerdictString(verdictString);
+                            verdictTd.attr("waiting", waiting.toString());
+
+                            verdictTd.parent().attr("data-a", a);
+
+                            if ("COMPILATION_ERROR" === verdictString || "PARTIAL" === verdictString) {
+                                window.setVerdictClickable(verdictTd);
+                            }
+                        } else {
+                            // info("Skipped because of a=" + a + " <= " + $(this).attr("data-a"));
+                        }
+                    });
+                }
+            }
+
+            $(".change-time-limit-link").click(function () {
+                var parent = $(this).parent();
+                var contestId = $(this).attr("data-contestId");
+                var problemId = $(this).attr("data-problemId");
+                var newTimeLimit = $(this).attr("data-newTimeLimit");
+
+                var changeTimeLimit = function () {
+                    $.post("/data/changeTimeLimit",
+                        { contestId: contestId, problemId: problemId, newTimeLimit: newTimeLimit },
+                        function(response) {
+                            if (response.success == "true") {
+                                Codeforces.reload();
+                            } else {
+                                Codeforces.showMessage(response.message);
+                            }
+                        },
+                        "json"
+                    );
+                };
+
+                Codeforces.confirm(
+                    "Вы уверены, что хотите изменить ограничение времени?",
+                    changeTimeLimit, function () { },
+                    "Да", "Нет"
+                );
+
+                return false;
+            });
+
+            var waitingCount = $(".status-frame-datatable td[waiting=true]").length;
+            if (window.codeforcesOptions.subscribeServerUrl && waitingCount > 0) {
+                var channels = [];
+                if (Codeforces.getParticipantChannel()) {
+                    channels.push("s_" + Codeforces.getParticipantChannel());
+                }
+                if (Codeforces.getContestChannel()) {
+                    channels.push("s_" + Codeforces.getContestChannel());
+                }
+                if (Codeforces.getGlobalChannel()) {
+                    channels.push("s_" + Codeforces.getGlobalChannel());
+                }
+
+                if (channels.length > 0) {
+                    info("There are " + channels.length + " channels.");
+                    window.submissionsEventCatcher = new EventCatcher(window.codeforcesOptions.subscribeServerUrl, channels);
+                    channels.forEach(function(channel) {
+                        window.submissionsEventCatcher.subscribe(channel, function(json) {
+                            updateVerdictByKey(json);
+                        });
+                    });
+                    var interval = null;
+                    var testWaitingsDone = function () {
+                        var waitingCount = $(".status-frame-datatable td[waiting=true]").length;
+                        info("There are " + waitingCount + " waitings...");
+                        if (interval && waitingCount === 0) {
+                            info("Stopping submissionsEventCatcher.");
+                            window.submissionsEventCatcher.disconnect();
+                            info("Stopped submissionsEventCatcher.");
+                            clearInterval(interval);
+                            interval = null;
+                        }
+                    }
+                    interval = setInterval(testWaitingsDone, 10000);
+                }
+            }
+        });
+    </script>
+    <script type="application/javascript">
+        $(function() {
+            window.assignDiagnosticsHintsClickListeners = function() {
+                $(".diagnosticsHint").each(function () {
+                    const $icon = $(this);
+                    if (!$icon.attr("data-click")) {
+                        $icon.click(function () {
+                            showSubmissionSourceCode($icon.closest("tr").attr("data-submission-id"));
+                        });
+                        $icon.attr("data-click", "has");
+                    }
+                });
+            }
+            window.assignDiagnosticsHintsClickListeners();
+
+            window.setVerdictClickable = function($td) {
+                const submissionId = $td.attr("submissionId");
+                const text = $td.text();
+                const $a = $("<a href=\"#\"></a>").text(text);
+                $td.html("").append($a);
+                $a.click(function () {
+                    $.post("/data/judgeProtocol", {submissionId: submissionId}, function (data) {
+                        Codeforces.facebox(".information-box:first", "//codeforces.com/codeforces.org/s/80531");
+                        $("#facebox").find(".information-box .protocol pre").text(data);
+                    }, "json");
+                    return false;
+                });
+            };
+
+            const viewableSubmissionIds = [
+                        "381175321"
+                            ,
+                        "381175320"
+                            ,
+                        "381175319"
+                            ,
+                        "381175317"
+                            ,
+                        "381175315"
+                            ,
+                        "381175313"
+                            ,
+                        "381175312"
+                            ,
+                        "381175311"
+                            ,
+                        "381175308"
+                            ,
+                        "381175307"
+                            ,
+                        "381175306"
+                            ,
+                        "381175305"
+                            ,
+                        "381175303"
+                            ,
+                        "381175302"
+                            ,
+                        "381175300"
+                            ,
+                        "381175299"
+                            ,
+                        "381175298"
+                            ,
+                        "381175294"
+                            ,
+                        "381175291"
+                            ,
+                        "381175288"
+                            ,
+                        "381175287"
+                            ,
+                        "381175286"
+                            ,
+                        "381175284"
+                            ,
+                        "381175281"
+                            ,
+                        "381175280"
+                            ,
+                        "381175279"
+                            ,
+                        "381175276"
+                            ,
+                        "381175274"
+                            ,
+                        "381175272"
+                            ,
+                        "381175271"
+                            ,
+                        "381175270"
+                            ,
+                        "381175269"
+                            ,
+                        "381175268"
+                            ,
+                        "381175264"
+                            ,
+                        "381175257"
+                            ,
+                        "381175256"
+                            ,
+                        "381175255"
+                            ,
+                        "381175254"
+                            ,
+                        "381175253"
+                            ,
+                        "381175252"
+                            ,
+                        "381175251"
+                            ,
+                        "381175250"
+                            ,
+                        "381175249"
+                            ,
+                        "381175248"
+                            ,
+                        "381175247"
+                            ,
+                        "381175245"
+                            ,
+                        "381175244"
+                            ,
+                        "381175243"
+                            ,
+                        "381175242"
+                            ,
+                        "381175240"
+            ];
+
+            $(".hiddenSource").each(function() {
+                const tr = $(this).closest("tr");
+
+                const partyMemberIds = tr.attr("partyMemberIds");
+                let show = false;
+                const submissionId = tr.attr("data-submission-id");
+                if (
+                        viewableSubmissionIds.indexOf(submissionId) != -1) {
+                    show = true;
+                }
+                if (show) {
+                    const p = $(this).parent();
+                    $(this).remove();
+                    p.append($("<a class=\"view-source\" title=\"Исходный код\" href=\"#\" submissionId=\"" + submissionId + "\">" + submissionId + "</a>"));
+                }
+            });
+
+            $("a.view-source[submissionId]").each(function () {
+                const handled = $(this).attr("handled");
+                const e = $(this);
+                if (handled !== "true") {
+                    const handler = function () {
+                        showSubmissionSourceCode(e.attr("submissionId"));
+                        return false;
+                    };
+                    $(this).bind("click", handler);
+                    $(this).attr("handled", "true");
+                }
+            });
+
+                const tryDiagnosticsSubmissionIds = [];
+                $(".status-frame-datatable .id-cell a").each(function () {
+                    const tr = $(this).closest("tr");
+                    const submissionId = tr.attr("data-submission-id");
+                    tryDiagnosticsSubmissionIds.push(submissionId);
+                });
+
+                if (tryDiagnosticsSubmissionIds.length > 0) {
+                    $.post("/data/diagnosticsResults", {action: "find", submissionIds: JSON.stringify(tryDiagnosticsSubmissionIds)}, function (ids) {
+                        for (let i = 0; i < ids.length; i++) {
+                            $(".status-frame-datatable tr[data-submission-id='" + ids[i] + "'] .diagnosticsHint").css("display", "inline");
+                        }
+                    });
+                }
+        });
+    </script>
+
+
+    <div style="margin-top:1em;">
+
+<div class="pagination">
+    <ul>
+            <span class="inactive">&larr;</span>
+        <li>
+                <span class="page-index active" pageIndex="1"><a href="https://codeforces.com/problemset/status/page/1?order=BY_ARRIVED_DESC">1</a></span>
+        </li>
+        <li>
+                <span class="page-index" pageIndex="2"><a href="https://codeforces.com/problemset/status/page/2?order=BY_ARRIVED_DESC">2</a></span>
+        </li>
+        <li>
+                <span class="page-index" pageIndex="3"><a href="https://codeforces.com/problemset/status/page/3?order=BY_ARRIVED_DESC">3</a></span>
+        </li>
+        <li>
+                <span class="page-index" pageIndex="4"><a href="https://codeforces.com/problemset/status/page/4?order=BY_ARRIVED_DESC">4</a></span>
+        </li>
+        <li>
+                <span class="page-index" pageIndex="5"><a href="https://codeforces.com/problemset/status/page/5?order=BY_ARRIVED_DESC">5</a></span>
+        </li>
+            <li><a href="https://codeforces.com/problemset/status/page/2?order=BY_ARRIVED_DESC" class="arrow">&rarr;</a></li>
+    </ul>
+</div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+function handlePaginationKeyboardEvent(right) {
+    var pageIndex = parseInt($(".pagination").find("span.active").attr("pageIndex"));
+    if (right) {
+        pageIndex++;
+    } else {
+        pageIndex--;
+    }
+    $(".pagination").find("span[pageIndex=" + pageIndex + "]").each(function () {
+        Codeforces.redirect($(this).find("a").attr("href"));
+    });
+}
+
+$(document).bind('keydown', 'ctrl+left', function() {
+    handlePaginationKeyboardEvent(false);
+});
+
+$(document).bind('keydown', 'ctrl+right', function() {
+    handlePaginationKeyboardEvent(true);
+});
+        });
+    </script>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+    $(".choose-order input").change(function () {
+        $(".choose-order").submit();
+    });
+
+    $("input[name=friends]").click(function () {
+        $("form.friendsEnabledSwitch").find("input[name=csrf_token]").remove();
+        $("form.friendsEnabledSwitch").submit();
+    });
+
+    $("input[name=my]").click(function () {
+        $("form.myEnabledSwitch").find("input[name=csrf_token]").remove();
+        $("form.myEnabledSwitch").submit();
+    });
+        });
+    </script>
+                </div>
+        </div>
+            <br style="clear: both;"/>
+            <div id="footer">
+                <div><a href="../index.html">Codeforces</a> (c) Copyright 2010-2026 Михаил Мирзаянов</div>
+                <div>Соревнования по программированию 2.0</div>
+                    <div>Время на сервере: <span class="format-timewithseconds" data-locale="ru">03.07.2026 22:20:30</span> (g2).</div>
+                    <div>Десктопная версия, переключиться на <a rel="nofollow" class="switchToMobile" href="https://codeforces.com/problemset/status?mobile=true">мобильную</a>.</div>
+                <div class="smaller">
+                    <a href="../privacy.html">Privacy Policy</a>
+                    |
+                    <a href="../terms.html">Terms and Conditions</a>
+                </div>
+
+                    <div style="margin-top: 25px;">
+                        При поддержке
+                    </div>
+                    <div class="footer-logo-div footer-logo-div-ru" style="">
+                        <a href="https://ton.org/"><img style="margin-right: 2em; width: 60px;" src="http://codeforces.com/codeforces.org/s/80531/images/ton-100x100.png" alt="TON" title="TON"/></a>
+                        <div class="sep">&nbsp;</div>
+                        <a href="https://itmo.ru/ru/" class="itmo-logo"><img style="width: 140px;" src="http://codeforces.com/codeforces.org/s/80531/images/itmo_small_ru-logo.png" alt="Университет ИТМО" title="Университет ИТМО"/></a>
+                    </div>
+            </div>
+        <script type="text/javascript">
+            $(function() {
+                $(".switchToMobile").click(function() {
+                    Codeforces.redirect(Codeforces.updateUrlParameter(document.location.href, "mobile", "true"));
+                    return false;
+                });
+                $(".switchToDesktop").click(function() {
+                    Codeforces.redirect(Codeforces.updateUrlParameter(document.location.href, "mobile", "false"));
+                    return false;
+                });
+            });
+        </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            if ($(window).width() < 1600) {
+                $('.button-up').css('width', '30px').css('line-height', '30px').css('font-size', '20px');
+            }
+
+            if ($(window).width() >= 1200) {
+                $ (window).scroll (function () {
+                    if ($ (this).scrollTop () > 100) {
+                        $ ('.button-up').fadeIn();
+                    } else {
+                        $ ('.button-up').fadeOut();
+                    }
+                });
+
+                $('.button-up').click(function () {
+                    $('body,html').animate({
+                        scrollTop: 0
+                    }, 500);
+                    return false;
+                });
+
+                $('.button-up').hover(function () {
+                    $(this).animate({
+                        'opacity':'1'
+                    }).css({'background-color':'#e7ebf0','color':'#6a86a4'});
+                }, function () {
+                    $(this).animate({
+                        'opacity':'0.7'
+                    }).css({'background':'none','color':'#d3dbe4'});;
+                });
+            }
+
+            Codeforces.focusOnError();
+
+            Codeforces.setCopiedToClipboardText("Скопировано в буффер обмена");
+            Codeforces.listenCopyable();
+        });
+    </script>
+    <div class="userListsFacebox" style="display:none;">
+        <div style="padding: 0.5em; width: 600px; max-height: 200px; overflow-y: auto">
+<div class="datatable"
+     
+     style="background-color: #E1E1E1; padding-bottom: 3px;">
+            <div class="lt">&nbsp;</div>
+            <div class="rt">&nbsp;</div>
+            <div class="lb">&nbsp;</div>
+            <div class="rb">&nbsp;</div>
+
+            <div style="padding: 4px 0 0 6px;font-size:1.4rem;position:relative;">
+                Списки пользователей
+
+                <div style="position:absolute;right:0.25em;top:0.35em;">
+                    <span style="padding:0;position:relative;bottom:2px;" class="rowCount"></span>
+
+                    <img class="closed" src="http://codeforces.com/codeforces.org/s/80531/images/icons/magnifier-medium.png"/>
+
+                    <span class="filter" style="display:none;">
+                        <img class="opened" src="http://codeforces.com/codeforces.org/s/80531/images/icons/control-270.png"/>
+                        <input style="padding:0 0 0 20px;position:relative;bottom:2px;border:1px solid #aaa;height:17px;font-size:1.3rem;"/>
+                    </span>
+                </div>
+            </div>
+            <div style="background-color: white;margin:0.3em 3px 0 3px;position:relative;">
+            <div class="ilt">&nbsp;</div>
+            <div class="irt">&nbsp;</div>
+            <table class="">
+                <thead>
+                <tr>
+                    <th>Название</th>
+                </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+            </div>
+        </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+                // Create new ':containsIgnoreCase' selector for search
+                jQuery.expr[':'].containsIgnoreCase = function(a, i, m) {
+                    return jQuery(a).text().toUpperCase()
+                            .indexOf(m[3].toUpperCase()) >= 0;
+                };
+
+                if (window.updateDatatableFilter == undefined) {
+                    window.updateDatatableFilter = function(i) {
+                        var parent = $(i).parent().parent().parent().parent();
+                        $("tr.no-items", parent).remove();
+                        $("tr", parent).hide().removeClass('visible');
+                        var text = $(i).val();
+                        if (text) {
+                            $("tr" + ":containsIgnoreCase('" + text + "')", parent).show().addClass('visible');
+                        } else {
+                            parent.find(".rowCount").text("");
+                            $("tr", parent).show().addClass('visible');
+                        }
+
+                        var found = false;
+                        var visibleRowCount = 0;
+                        $("tr", parent).each(function () {
+                            if (!found) {
+                                if ($(this).find("th").size() > 0) {
+                                    $(this).show().addClass('visible');
+                                    found = true;
+                                }
+                            }
+                            if ($(this).hasClass('visible')) {
+                                visibleRowCount++;
+                            }
+                        });
+                        if (text) {
+                            parent.find(".rowCount").text("Совпадений: " + (visibleRowCount - (found ? 1 : 0)));
+                        }
+                        if (visibleRowCount == (found ? 1 : 0)) {
+                            $("<tr class='no-items visible'><td style=\"text-align:left;\"colspan=\"32\">Нет данных<\/td><\/tr>").appendTo($(parent).find('table'));
+                        }
+                        $(parent).find("tr td").removeClass("dark");
+                        $(parent).find("tr.visible:odd td").addClass("dark");
+                    }
+
+                    $(".datatable .closed").click(function () {
+                        var parent = $(this).parent();
+                        $(this).hide();
+                        $(".filter", parent).fadeIn(function () {
+                            $("input", parent).val("").focus().css("border", "1px solid #aaa");
+                        });
+                    });
+
+                    $(".datatable .opened").click(function () {
+                        var parent = $(this).parent().parent();
+                        $(".filter", parent).fadeOut(function () {
+                            $(".closed", parent).show();
+                            $("input", parent).val("").each(function () {
+                                window.updateDatatableFilter(this);
+                            });
+                        });
+                    });
+
+                    $(".datatable .filter input").keyup(function(e) {
+                        window.updateDatatableFilter(this);
+                        e.preventDefault();
+                        e.stopPropagation();
+                    });
+
+                    $(".datatable table").each(function () {
+                        var found = false;
+                        $("tr", this).each(function () {
+                            if (!found && $(this).find("th").size() == 0) {
+                                found = true;
+                            }
+                        });
+                        if (!found) {
+                            $("<tr class='no-items visible'><td style=\"text-align:left;\"colspan=\"32\">Нет данных<\/td><\/tr>").appendTo(this);
+                        }
+                    });
+
+                    // Applies styles to datatables.
+                    $(".datatable").each(function () {
+                        $(this).find("tr:first th").addClass("top");
+                        $(this).find("tr:last td").addClass("bottom");
+                        $(this).find("tr:odd td").addClass("dark");
+                        $(this).find("tr td:first-child, tr th:first-child").addClass("left");
+                        $(this).find("tr td:last-child, tr th:last-child").addClass("right");
+                    });
+
+                    $(".datatable table.tablesorter").each(function () {
+                        $(this).bind("sortEnd", function () {
+                            $(".datatable").each(function () {
+                                $(this).find("th, td")
+                                    .removeClass("top").removeClass("bottom")
+                                    .removeClass("left").removeClass("right")
+                                    .removeClass("dark");
+                                $(this).find("tr:first th").addClass("top");
+                                $(this).find("tr:last td").addClass("bottom");
+                                $(this).find("tr:odd td").addClass("dark");
+                                $(this).find("tr td:first-child, tr th:first-child").addClass("left");
+                                $(this).find("tr td:last-child, tr th:last-child").addClass("right");
+                            });
+                        });
+                    });
+                }
+        });
+    </script>
+        </div>
+    </div>
+    <script type="application/javascript">
+        $(function() {
+            $(".userListMarker").click(function() {
+                $.post("/data/lists", {action: "findTouched"}, function(json) {
+                    Codeforces.facebox(".userListsFacebox");
+                    var tbody = $("#facebox tbody");
+                    tbody.empty();
+                    for (var i in json) {
+                        tbody.append(
+                            $("<tr></tr>").append(
+                                $("<td></td>").attr("data-readKey", json[i].readKey).text(json[i].name)
+                            )
+                        );
+                    }
+                    Codeforces.updateDatatables();
+                    tbody.find("td").css("cursor", "pointer").click(function() {
+                        document.location = Codeforces.updateUrlParameter(document.location.href, "list", $(this).attr("data-readKey"));
+                    });
+                }, "json");
+            });
+        });
+    </script>
+</div>
+    <script type="application/javascript">
+        if ('serviceWorker' in navigator && 'fetch' in window && 'caches' in window) {
+            navigator.serviceWorker.register('../service-worker-80531.js')
+                .then(function (registration) {
+                    console.log('Service worker registered: ', registration);
+                })
+                .catch(function (error) {
+                    console.log('Registration failed: ', error);
+                });
+        }
+    </script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"316c29dfa3804effb5a91c52a59b5bd0","server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a1583f6d4a1fd961',t:'MTc4MzEwNjQyOQ=='};var a=document.createElement('script');a.src='https://codeforces.com/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+
+<!-- Mirrored from codeforces.com/problemset/status by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 03 Jul 2026 19:20:42 GMT -->
+</html>

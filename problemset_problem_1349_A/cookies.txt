@@ -1,0 +1,7 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+codeforces.com	TRUE	/	FALSE	1999999999	JSESSIONID	3EBC1A553EB8AA21C9B45B0F87E4BAB1
+codeforces.com	TRUE	/	FALSE	1999999999	SameSite	Lax
+codeforces.com	TRUE	/	FALSE	1999999999	39ce7	CFr2uIzV
+codeforces.com	TRUE	/	FALSE	1999999999	nocturne.language	ru
+
