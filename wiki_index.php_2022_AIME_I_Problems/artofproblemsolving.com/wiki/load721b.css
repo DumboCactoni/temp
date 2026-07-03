@@ -1,0 +1,1 @@
+#f-poweredbyico{display:none}

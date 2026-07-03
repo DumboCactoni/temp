@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+
+<!-- Mirrored from artofproblemsolving.com/wiki/index.php?title=2022_AIME_I_Problems/Problem_1 by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 03 Jul 2026 02:57:46 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="UTF-8">
+<title>2022 AIME I Problems/Problem 1 - AoPS Wiki</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"aY43-UE5DQ5zCtbH_fiY4wAAAsg","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"2022_AIME_I_Problems/Problem_1","wgTitle":"2022 AIME I Problems/Problem 1","wgCurRevisionId":202949,"wgRevisionId":202949,"wgArticleId":21029,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"2022_AIME_I_Problems/Problem_1","wgRelevantArticleId":21029,"wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]};RLSTATE={"site.styles":"ready","user.styles":"ready","user":"ready","user.options":"loading","skins.aopsp.css":"ready"};
+RLPAGEMODULES=["site","mediawiki.page.ready","mediawiki.toc","skins.aopsp.js"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+}];});});</script>
+<link rel="stylesheet" href="load2388.html?lang=en&amp;modules=skins.aopsp.css&amp;only=styles&amp;skin=aopsp">
+<script async="" src="loadec6f.html?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=aopsp"></script>
+<meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="load721b.css?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=aopsp">
+<meta name="generator" content="MediaWiki 1.44.2">
+<meta name="robots" content="max-image-preview:standard">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=1120">
+<link rel="search" type="application/opensearchdescription+xml" href="rest.php/v1/search.html" title="AoPS Wiki (en)">
+<link rel="EditURI" type="application/rsd+xml" href="api-result251f.xml?action=rsd">
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-2022_AIME_I_Problems_Problem_1 rootpage-2022_AIME_I_Problems_Problem_1 skin-aopsp action-view"><!DOCTYPE html>
+<html>
+	<head>
+		
+<script>AoPS = {
+	start_time : new Date().getTime()
+};</script>
+
+<script>
+	AoPS.bootstrap_data = [];
+	AoPS.bd = AoPS.bootstrap_data; // Alias!
+	AoPS.session = {"user_id":1,"platform_user_id":"","username":"Anonymous","avatar":"\/\/avatar.artofproblemsolving.com\/avatar_1.png?t=1","email":"","role":"","logged_in":false,"initialized":false,"needs_coppa_approval":false,"admin":false,"national_staff":false,"wikiname":"","hasFreeResourceAccess":false,"hasLimitedUsers":null,"has_new_parent_portal":false,"identifies_as_parent":false,"identifies_as_student":false,"ebooks":false,"classes":[],"classroom":false};
+	AoPS.bd.assetVersion = 1;
+	AoPS.bd.environment = 'production';
+	AoPS.protected_url = 'https://mediawiki.artofproblemsolving.com/';
+	AoPS.aops_url = '../index.html';
+	AoPS.academy_url = 'https://aopsacademy.org/';
+</script>
+		<!-- GA plugin and Enhanced Ecommerce -->
+		<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-1905305-1', 'auto', {allowLinker: true}); // GA Property ID
+		ga('send', 'pageview');
+		</script>
+		<!-- End GA plugin and Enhanced Ecommerce -->
+		<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer', 'GTM-59JWRGZ')</script>
+		<!-- End Google Tag Manager -->
+
+		<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="initial-scale=1">
+		<meta name="referrer" content="origin">
+
+		<meta name="facebook-domain-verification" content="zmmwg7oqqsqvf8ihckwvzoo85b08gx" />
+
+		
+		<link rel="apple-touch-icon" href="https://assets.artofproblemsolving.com/images/apple-touch-icon.png">
+		<title>Art of Problem Solving</title>
+
+		
+		<link href="../assets/fonts/font-awesome/css/all.css" rel="stylesheet">
+
+		<link rel="stylesheet" href="../assets/css/sharedsite.css">
+		<link rel="stylesheet" href="../assets/css/navheader.css">
+		<link rel="stylesheet" href="../assets/css/footer.css">
+		<link rel="stylesheet" href="../assets/css/main-head.css">
+		<link rel="icon" href="../online-favicon5e1f.html?v=2">
+
+		
+		<script>
+  if (!window.console) console = {log: function() {}, dir: function() {}};
+  $$ = function( selector ) { return document.getElementById( selector ); }
+</script>
+
+							<script src="http://assets.artofproblemsolving.com/js/jquery360.min.js"></script>
+							<script src="http://artofproblemsolving.com/assets/vendor/jquery/3.6.0/jquery-migrate.min.js"></script>
+					<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          // customised options
+          // • auto-render specific keys, e.g.:
+          delimiters: [
+              {left: '[katex]', right: '[/katex]', display: false},
+			  {left: '[katex display=true]', right: '[/katex]', display: true} 
+          ],
+          // • rendering keys, e.g.:
+          throwOnError : false
+        });
+    });
+</script>
+
+<script>
+MathJax = {
+  tex: {
+	inlineMath: [['[mathjax]', '[/mathjax]'], ['\\(', '\\)']],
+	displayMath: [['[mathjax display=true]', '[/mathjax]']]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
+<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"> </script>
+
+							</head>
+		<body class="production mediawiki ltr sitedir-ltr ns-0 ns-subject skin-AopsP resources">
+
+					<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-59JWRGZ"
+			height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		
+		<div id="page-wrapper">
+			<!-- search:off -->
+			
+			<!-- The gray bar at top -->
+			<!-- see shared-site.css -->
+			<div id="top-bar" class="sharedsite-wrapper no-select">
+				<div class="sharedsitebar">
+					<a href="../index.html" class="mobile-title"></a>
+					<div class="sharedsite-links">
+						<a class="site-link main" href="../company.html">
+							Art of Problem Solving
+						</a>
+						<div class="site">
+							<a class="site-link selected" href="../index.html">
+								<img src="../assets/images/logos/icon-online.svg" class="site-icon">
+								<span class="site-name">AoPS Online</span>
+							</a>
+							<!-- Rich dropdown -->
+							<div class="site-dropdown-wrapper">
+								<div class="site-dropdown">
+									<div class="site-info">
+										<div class="site-logo">
+											<img src="../assets/images/logos/aops-online.svg"/>
+										</div>
+										<div class="site-snippet">
+											Math texts, online classes, and more
+											<br/>for students in grades 5-12.
+										</div>
+										<a target="_blank" class="site-visit aops-primary" href="../index.html">
+											Visit AoPS Online <span class="aops-font">‚</span>
+										</a>
+									</div>
+									<div class="site-quick-nav">
+										<a target="_blank" href="../store.html" class="btn btn-primary aops-btn">
+											Books for Grades 5-12
+										</a>
+										<a target="_blank" href="../school.html" class="btn btn-primary aops-btn">
+											Online Courses
+										</a>
+									</div>
+								</div>
+							</div>
+							<!-- End rich dropdown -->
+						</div>
+						<div class="site">
+							<a class="site-link" href="https://beastacademy.com/">
+								<img src="../assets/images/logos/icon-ba.svg" class="site-icon">
+								<span class="site-name">Beast Academy</span>
+							</a>
+							<div class="site-dropdown-wrapper">
+								<div class="site-dropdown">
+									<div class="site-info">
+										<div class="site-logo">
+											<img src="../assets/images/logos/aops-ba.svg"/>
+										</div>
+										<div class="site-snippet">
+											Engaging math books and online learning
+											<br/>for students ages 6-13.
+										</div>
+										<a target="_blank" class="site-visit ba-primary" href="https://beastacademy.com/">
+											Visit Beast Academy <span class="aops-font">‚</span>
+										</a>
+									</div>
+									<div class="site-quick-nav">
+										<a target="_blank" href="https://beastacademy.com/books" class="btn btn-primary ba-btn">
+											Books for Ages 6-13
+										</a>
+										<a target="_blank" href="https://beastacademy.com/online" class="btn btn-primary ba-btn">
+											Beast Academy Online
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="site">
+							<a class="site-link" href="https://aopsacademy.org/">
+								<img src="../assets/images/logos/icon-academy.svg" class="site-icon">
+								<span class="site-name">AoPS Academy</span>
+							</a>
+							<div class="site-dropdown-wrapper">
+								<div class="site-dropdown">
+									<div class="site-info">
+										<div class="site-logo">
+											<img src="../assets/images/logos/aops-academy.svg"/>
+										</div>
+										<div class="site-snippet">
+											Small live classes for advanced math
+											<br/>and language arts learners in grades 2-12.
+										</div>
+										<a target="_blank" class="site-visit academy-primary" href="https://aopsacademy.org/">
+											Visit AoPS Academy <span class="aops-font">‚</span>
+										</a>
+									</div>
+									<div class="site-quick-nav">
+										<a target="_blank" href="https://aopsacademy.org/campuses" class="btn btn-primary academy-btn">
+											Find a Physical Campus
+										</a>
+										<a target="_blank" href="https://virtual.aopsacademy.org/" class="btn btn-primary academy-btn">
+											Visit the Virtual Campus
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div id="header-wrapper" class="no-select">
+				<div class="header-underlay">
+					<div id="header">
+
+						<!-- The white area where main menu options appear -->
+
+						<!-- The menu links -->
+						<div id="main-menubar">
+							<div class="menubar-content">
+								<div class="menubar-logo online">
+									<img class="menubar-hamburger" src="../assets/images/hamburger.svg"/>
+									<a class="logo-img-link" href="../online.html">
+										<img class="logo-img" src="../assets/images/logos/aops-online.svg"/>
+										<img class="logo-img-mobile" src="../assets/images/logos/aops-online-mobile.svg"/>
+										<img class="logo-img-small" src="../assets/images/logos/aops-online-mobile.svg"/>
+									</a>
+								</div>
+								<div class="menubar-links-outer">
+									<!-- The login links -->
+									<div class="menu-login-wrapper online">
+										<div class="menu-login-item">
+												<div 
+		id="header-login"
+		class="no-select not-signed-in"
+		style="display:flex">
+
+				<a class="online-login-button solid-rounded-button" style="color:white;" href="https://login.artofproblemsolving.com/login?application=wiki&amp;redirect=https%3A%2F%2Fartofproblemsolving.com%2Fsignin%3FrequestedPage%3D%25252Fwiki%25252Findex.php%25253Ftitle%25253D2022_AIME_I_Problems%25252FProblem_1">Sign&nbsp;In</a>
+
+		<div class="online-register-button">Register</div>
+	</div>
+										</div>
+
+										
+									</div>
+									<div class="menubar-labels online">
+										<div class="menubar-label school">
+											<div class="menubar-label-link-outer">
+												<a class="menubar-label-link" href="../school.html">
+													online school
+												</a>
+											</div>
+											<div class="menubar-dropdown">
+												<div class="triangle"></div>
+												<div class="dropdown-content">
+													<!-- These have IDs for A/B testing purposes. T27691 -->
+													<a id="online-school-menu-schedule" href="../school/schedule.html"> Class Schedule </a>
+													<a id="online-school-menu-recommmendations" href="../school/recommendations.html"> Recommendations </a>
+													<a id="online-school-menu-woot-courses" href="https://artofproblemsolving.com/school/woot?gtmlist=School_Nav"> Olympiad Courses </a>
+													<a id="online-school-menu-mathjams" href="../school/mathjams.html"> Free Sessions </a>
+												</div>
+											</div>
+										</div>
+										<div class="menubar-label store">
+											<div class="menubar-label-link-outer">
+												<a class="menubar-label-link" href="../store.html">
+													books<span class="menubar-link-ext">tore </span>
+												</a>
+											</div>
+											<div class="menubar-dropdown">
+												<div class="triangle"></div>
+												<div class="dropdown-content">
+													<a href="../store/list/aops-curriculum.html">AoPS Curriculum</a>
+													<a href="../store/list/beast-academy.html">Beast Academy</a>
+													<a href="../store/online.html">Online Books</a>
+													<a href="../store/recommendations.html">Recommendations</a>
+													<a href="../store/list/other-products.html">Other Books &amp; Gear</a>
+													<a href="../store/list/all-products.html">All Products</a>
+													<a href="https://artofproblemsolving.com/store/gift-certificates?gtmlist=Bookstore_Nav">Gift Certificates</a>
+												</div>
+											</div>
+										</div>
+										<div class="menubar-label community">
+											<div class="menubar-label-link-outer">
+												<a class="menubar-label-link" href="../community.html">
+													community
+												</a>
+											</div>
+											<div class="menubar-dropdown">
+												<div class="triangle"></div>
+												<div class="dropdown-content">
+																										<a data-cmty href="../community.html">Forums</a>
+													<a data-cmty href="../community/c13_contests.html">Contests</a>
+													<a data-cmty href="../community/search.html">Search</a>
+													<a data-cmty href="../community/faq.html">Help</a>
+																																						</div>
+											</div>
+										</div>
+										<div class="menubar-label resources">
+											<div class="menubar-label-link-outer">
+												<a class="menubar-label-link selected" href="../resources.html">
+													resources
+												</a>
+											</div>
+											<div class="menubar-dropdown">
+												<div class="triangle"></div>
+												<div class="dropdown-content">
+													<div class="dropdown-columns">
+														<div class="dropdown-category">
+															<span class="dropdown-category-label">math training & tools</span>
+															<a href="../alcumus.html">Alcumus</a>
+															<a href="../videos.html">Videos</a>
+															<a href="../ftw.html">For the Win!</a>
+															<a href="../mathcounts_trainer.html">MATHCOUNTS Trainer</a>
+															<a href="../contests/practice.html">AoPS Practice Contests</a>
+															<a href="index4875.html?title=Main_Page">AoPS Wiki</a>
+															<a href="../texer.html">LaTeX TeXeR</a>
+															<a href="../polymath.html">MIT PRIMES/CrowdMath</a>
+															<a href="../keeplearning.html">Keep Learning</a>
+															<a href="https://beastacademy.com/all-ten">All Ten</a>
+																													</div>
+														<div class="dropdown-column">
+															<div class="dropdown-category category-in-column">
+																<span class="dropdown-category-label">contests on aops</span>
+																<a href="../contests/practice.html">Practice Math Contests</a>
+															</div>
+															<div class="dropdown-category category-in-column">
+																<span class="dropdown-category-label">news</span>
+																<a href="https://artofproblemsolving.com/blog">AoPS Blog</a>
+																<a href="../blog/webinars/aopswebinars.html">Webinars</a>
+															</div>
+														</div>
+													</div>
+													<div class="dropdown-view-more-link-container">
+														<a href="../resources.html" class="dropdown-view-more-link">view all <span class="aops-icon">0</span></a>
+													</div>
+												</div>
+											</div>
+										</div>
+																				<div class="menubar-label menu-login-item">
+												<div 
+		id="header-login"
+		class="no-select not-signed-in"
+		style="display:flex">
+
+				<a class="online-login-button solid-rounded-button" style="color:white;" href="https://login.artofproblemsolving.com/login?application=wiki&amp;redirect=https%3A%2F%2Fartofproblemsolving.com%2Fsignin%3FrequestedPage%3D%25252Fwiki%25252Findex.php%25253Ftitle%25253D2022_AIME_I_Problems%25252FProblem_1">Sign&nbsp;In</a>
+
+		<div class="online-register-button">Register</div>
+	</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+												<noscript>
+					<div class="infobar">JavaScript is not enabled. JavaScript is required to fully utilize the site.</div>
+				</noscript>
+
+									<div id="breadcrumbs-wrapper">
+						<div id="submenu-icon"></div>
+						<div id="breadcrumbs">
+														<!-- ignore-security-checks -->
+							<div class="title-wrapper"><div class="title"><a href="https://artofproblemsolving.com/wiki">AoPS Wiki</a></div></div>
+														<div class="crumb-wrapper">
+																										<span class="crumb crumb-1">
+																			<!-- ignore-security-checks -->
+										<a href="../resources.html">Resources</a>
+																		</span>
+																											<i class="aops-font aops-angle-double-right"></i>
+																		<span class="crumb crumb-2">
+																			<!-- ignore-security-checks -->
+										<a href="https://artofproblemsolving.com/wiki">Aops Wiki</a>
+																		</span>
+																											<i class="aops-font aops-angle-double-right"></i>
+																		<span class="crumb crumb-3">
+																			<span class="mw-page-title-main">2022 AIME I Problems/Problem 1</span>																		</span>
+															</div>
+						</div>
+					</div>
+							</div>
+
+			<!-- /search:off -->
+
+<div id="main-content" class="left-navigation wiki">
+	<div id="side-column-wrapper">
+		<div id="side-column">
+						<div id="content-actions" class="menu open">
+				<div class="submenu">
+					<h1>Page</h1>
+					<div class="submenu-wrapper">
+						<span id="ca-nstab-main" class="selected mw-list-item"><a href="indexa27b.html?title=2022_AIME_I_Problems/Problem_1" title="View the content page " accesskey="c">Article</a></span><span id="ca-talk" class="new mw-list-item"><a href="https://artofproblemsolving.com/wiki/index.php?title=Talk:2022_AIME_I_Problems/Problem_1&amp;action=edit&amp;redlink=1" rel="discussion" class="new" title="Discussion about the content page (page does not exist) " accesskey="t">Discussion</a></span><span id="ca-view" class="selected mw-list-item"><a href="indexa27b.html?title=2022_AIME_I_Problems/Problem_1">Read</a></span><span id="ca-viewsource" class="mw-list-item"><a href="https://artofproblemsolving.com/wiki/index.php?title=2022_AIME_I_Problems/Problem_1&amp;action=edit" title="This page is protected.&#10;You can view its source " accesskey="e">View source</a></span><span id="ca-history" class="mw-list-item"><a href="https://artofproblemsolving.com/wiki/index.php?title=2022_AIME_I_Problems/Problem_1&amp;action=history" title="Past revisions of this page " accesskey="h">View history</a></span>					</div>
+				</div>
+			</div>
+			<div id="toolbox" class="menu open">
+				<div class="submenu">
+					<h1>Toolbox</h1>
+					<div class="submenu-wrapper">
+						<span id="n-recentchanges" class="mw-list-item"><a href="indexa414.html?title=Special:RecentChanges" title="A list of recent changes in the wiki " accesskey="r">Recent changes</a></span><span id="n-randompage" class="mw-list-item"><a href="indexfc2e.html?title=Special:Random" title="Load a random page " accesskey="x">Random page</a></span><span id="n-help" class="mw-list-item"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></span><span id="t-whatlinkshere" class="mw-list-item"><a href="https://artofproblemsolving.com/wiki/index.php?title=Special:WhatLinksHere/2022_AIME_I_Problems/Problem_1" title="A list of all wiki pages that link here " accesskey="j">What links here</a></span><span id="n-specialpages" class="mw-list-item"><a href="indexc7ac.html?title=Special:SpecialPages">Special pages</a></span>					</div>
+				</div>
+			</div>
+			
+			<div id="search" class="menu open">
+				<h1>Search</h1>
+				<div class="submenu-wrapper" style="margin-bottom:5px;">
+					<form action="https://artofproblemsolving.com/wiki/index.php" id="searchform" class="mw-search">
+						<input type="hidden" name="title" value="Special:Search">
+						<input type="search" name="search" placeholder="Search" value="" accesskey="f" id="searchInput">
+						<div style="margin:0 5px 5px 5px;text-align:right;"><input class="btn btn-primary searchButton" type="submit" name="fulltext" title="Search the pages for this text" id="mw-searchButton" value="Search"></div>
+					</form>
+				</div>
+			</div>
+
+			<!--
+			<div class="menu open">
+				<h1>Note</h1>
+				<div class="submenu-wrapper" style="padding:10px;color:#444;">
+					Please do not discuss the 2015 AMC 8 Competition on any website until November 25th.
+				</div>
+			</div>
+			-->
+		</div>
+	</div>
+
+	<div id="main-column" style="margin-top:10px">
+				<div class="page-wrapper">
+						<div id="mw-js-message" style="display:none;"></div>
+			<h1 id="firstHeading" class="firstHeading"><span class="mw-page-title-main">2022 AIME I Problems/Problem 1</span></h1>
+
+						
+			<div class="mw-body">
+													<div id="contentSub"><div id="mw-content-subtitle"></div></div>
+								
+				<div id="mw-content-text" class="mw-body-content"><div class="mw-content-ltr mw-parser-output" lang="en" dir="ltr"><div id="toc" class="toc" role="navigation" aria-labelledby="mw-toc-heading"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="en" dir="ltr"><h2 id="mw-toc-heading">Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Problem"><span class="tocnumber">1</span> <span class="toctext">Problem</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Solution_1_(Linear_Polynomials)"><span class="tocnumber">2</span> <span class="toctext">Solution 1 (Linear Polynomials)</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Solution_2_(Quadratic_Polynomials)"><span class="tocnumber">3</span> <span class="toctext">Solution 2 (Quadratic Polynomials)</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Solution_3_(Similar_to_Solution_2)"><span class="tocnumber">4</span> <span class="toctext">Solution 3 (Similar to Solution 2)</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Solution_4_(Brute_Force)"><span class="tocnumber">5</span> <span class="toctext">Solution 4 (Brute Force)</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Solution_5"><span class="tocnumber">6</span> <span class="toctext">Solution 5</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#Video_Solution_(Mathematical_Dexterity)"><span class="tocnumber">7</span> <span class="toctext">Video Solution (Mathematical Dexterity)</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#Video_Solution_by_MRENTHUSIASM_(English_&amp;_Chinese)"><span class="tocnumber">8</span> <span class="toctext">Video Solution by MRENTHUSIASM (English &amp; Chinese)</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#Video_Solution"><span class="tocnumber">9</span> <span class="toctext">Video Solution</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#Video_Solution_2"><span class="tocnumber">10</span> <span class="toctext">Video Solution</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#Video_Solution_3"><span class="tocnumber">11</span> <span class="toctext">Video Solution</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#See_Also"><span class="tocnumber">12</span> <span class="toctext">See Also</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Problem">Problem</span></h2>
+<p>Quadratic polynomials <img src="http://latex.artofproblemsolving.com/6/e/f/6efaaf74e576202fad965134bc49c6a34aac4c30.png" class="latex" alt="$P(x)$" style="vertical-align: -5px" width="41" height="20" /> and <img src="http://latex.artofproblemsolving.com/d/9/d/d9dfe7c7a0b887097fa2227a230fc915ba2e5477.png" class="latex" alt="$Q(x)$" style="vertical-align: -5px" width="41" height="20" /> have leading coefficients <img src="http://latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" style="vertical-align: -1px" width="11" height="14" /> and <img src="http://latex.artofproblemsolving.com/8/a/f/8afe6a98f0632a1d5ffbadbcb97205578e7a3dd5.png" class="latex" alt="$-2,$" style="vertical-align: -3px" width="27" height="15" /> respectively. The graphs of both polynomials pass through the two points <img src="http://latex.artofproblemsolving.com/f/b/5/fb51011e48a783a40e23d6e1a0a4b2f9a9b8ec73.png" class="latex" alt="$(16,54)$" style="vertical-align: -5px" width="60" height="20" /> and <img src="http://latex.artofproblemsolving.com/d/9/1/d9194f5a744476ee9eb8b7349a4aa37ad56d982d.png" class="latex" alt="$(20,53).$" style="vertical-align: -5px" width="65" height="20" /> Find <img src="http://latex.artofproblemsolving.com/a/d/b/adbb2cfc6d430736112efd0c138450fe574a0d52.png" class="latex" alt="$P(0) + Q(0).$" style="vertical-align: -5px" width="104" height="20" />
+</p>
+<h2><span id="Solution_1_.28Linear_Polynomials.29"></span><span class="mw-headline" id="Solution_1_(Linear_Polynomials)">Solution 1 (Linear Polynomials)</span></h2>
+<p>Let <img src="http://latex.artofproblemsolving.com/7/d/0/7d08a6fd8a39aa04a265b78b446dfd12cb4453f8.png" class="latex" alt="$R(x)=P(x)+Q(x).$" style="vertical-align: -5px" width="169" height="20" /> Since the <img src="http://latex.artofproblemsolving.com/7/6/b/76b2878564ab19b80abb21ba964abe90fe120846.png" class="latex" alt="$x^2$" width="16" height="15" />-terms of <img src="http://latex.artofproblemsolving.com/6/e/f/6efaaf74e576202fad965134bc49c6a34aac4c30.png" class="latex" alt="$P(x)$" style="vertical-align: -5px" width="41" height="20" /> and <img src="http://latex.artofproblemsolving.com/d/9/d/d9dfe7c7a0b887097fa2227a230fc915ba2e5477.png" class="latex" alt="$Q(x)$" style="vertical-align: -5px" width="41" height="20" /> cancel, we conclude that <img src="http://latex.artofproblemsolving.com/a/3/e/a3eeefa367883375994fd2e1f575d088bce9d8b1.png" class="latex" alt="$R(x)$" style="vertical-align: -5px" width="40" height="20" /> is a linear polynomial.
+</p><p>Note that
+<img src="http://latex.artofproblemsolving.com/6/d/c/6dc0b12d4c3c31646a4ab30f28d643f03dea5faf.png" class="latexcenter" alt="\begin{alignat*}{8} R(16) &amp;= P(16)+Q(16) &amp;&amp;= 54+54 &amp;&amp;= 108, \\ R(20) &amp;= P(20)+Q(20) &amp;&amp;= 53+53 &amp;&amp;= 106, \end{alignat*}" width="323" height="43" />
+so the slope of <img src="http://latex.artofproblemsolving.com/a/3/e/a3eeefa367883375994fd2e1f575d088bce9d8b1.png" class="latex" alt="$R(x)$" style="vertical-align: -5px" width="40" height="20" /> is <img src="http://latex.artofproblemsolving.com/3/7/a/37a2b89ecc458d2b2f662abc0c1692dd81c45084.png" class="latex" alt="$\frac{106-108}{20-16}=-\frac12.$" style="vertical-align: -15px" width="139" height="40" />
+</p><p>It follows that the equation of <img src="http://latex.artofproblemsolving.com/a/3/e/a3eeefa367883375994fd2e1f575d088bce9d8b1.png" class="latex" alt="$R(x)$" style="vertical-align: -5px" width="40" height="20" /> is <img src="http://latex.artofproblemsolving.com/6/a/d/6adcbdd8b7cc19f0781d3730753fb4997be8eee9.png" class="latexcenter" alt="\[R(x)=-\frac12x+c\]" width="130" height="37" /> for some constant <img src="http://latex.artofproblemsolving.com/4/2/1/421dbe5ac249bea2c9d25145a7eb9b73644c5c61.png" class="latex" alt="$c,$" style="vertical-align: -3px" width="12" height="11" /> and we wish to find <img src="http://latex.artofproblemsolving.com/e/4/9/e4953c1cceeb9e9903d985bb3868cf88dcb0c7a1.png" class="latex" alt="$R(0)=c.$" style="vertical-align: -5px" width="76" height="20" />
+</p><p>We substitute <img src="http://latex.artofproblemsolving.com/1/c/f/1cf1342f460285dfd226094ac3973558576c9982.png" class="latex" alt="$x=20$" width="52" height="12" /> into this equation to get <img src="http://latex.artofproblemsolving.com/9/c/0/9c018e6ae90595ef219a62497f3e5ec51b78dd3e.png" class="latex" alt="$106=-\frac12\cdot20+c,$" style="vertical-align: -13px" width="147" height="38" /> from which <img src="http://latex.artofproblemsolving.com/d/c/b/dcb368fea40075b5ea1f1f5371af479cc2ac3e66.png" class="latex" alt="$c=\boxed{116}.$" style="vertical-align: -6px" width="78" height="25" />
+</p><p>~MRENTHUSIASM
+</p>
+<h2><span id="Solution_2_.28Quadratic_Polynomials.29"></span><span class="mw-headline" id="Solution_2_(Quadratic_Polynomials)">Solution 2 (Quadratic Polynomials)</span></h2>
+<p>Let
+<img src="http://latex.artofproblemsolving.com/f/1/d/f1d1740b4373f7b7edd9b7012f17fdbe02cdf339.png" class="latexcenter" alt="\begin{alignat*}{8} P(x) &amp;= &amp;2x^2 + ax + b, \\ Q(x) &amp;= &amp;\hspace{1mm}-2x^2 + cx + d, \end{alignat*}" width="179" height="47" />
+for some constants <img src="http://latex.artofproblemsolving.com/a/5/b/a5b29b358e825defa3e11b7d903d43ec31e5909a.png" class="latex" alt="$a,b,c$" style="vertical-align: -4px" width="43" height="18" /> and <img src="http://latex.artofproblemsolving.com/7/f/c/7fc20cbb9094799e89db1f2762f5f073abe9d1bd.png" class="latex" alt="$d.$" style="vertical-align: -1px" width="16" height="14" /> 
+</p><p>We are given that
+<img src="http://latex.artofproblemsolving.com/7/b/3/7b3ea589e77e0001a58cebc6428ae3638d908f07.png" class="latexcenter" alt="\begin{alignat*}{8} P(16) &amp;= &amp;512 + 16a + b &amp;= 54, \hspace{20mm}&amp;&amp;(1) \\ Q(16) &amp;= &amp;\hspace{1mm}-512 + 16c + d &amp;= 54, &amp;&amp;(2) \\ P(20) &amp;= &amp;800 + 20a + b &amp;= 53,  &amp;&amp;(3) \\ Q(20) &amp;= &amp;\hspace{1mm}-800 + 20c + d &amp;= 53, &amp;&amp;(4) \end{alignat*}" width="355" height="93" />
+and we wish to find <img src="http://latex.artofproblemsolving.com/a/a/7/aa7a88d8d3416f9e6ad2745cabef8d3a992d64d2.png" class="latexcenter" alt="\[P(0)+Q(0)=b+d.\]" width="164" height="18" />
+We need to cancel <img src="http://latex.artofproblemsolving.com/c/7/d/c7d457e388298246adb06c587bccd419ea67f7e8.png" class="latex" alt="$a$" style="vertical-align: -1px" width="11" height="10" /> and <img src="http://latex.artofproblemsolving.com/2/0/1/201a2eef545643b50b07fed5c09e894bcced5c58.png" class="latex" alt="$c.$" width="11" height="8" /> Since <img src="http://latex.artofproblemsolving.com/5/a/0/5a0ca9d17e14d0adc45c32a65186b429a037e9f2.png" class="latex" alt="$\operatorname{lcm}(16,20)=80,$" style="vertical-align: -5px" width="136" height="20" /> we subtract <img src="http://latex.artofproblemsolving.com/5/4/2/542accac0ef0176c10be1a9dde3767a34ee23b2e.png" class="latex" alt="$4\cdot[(3)+(4)]$" style="vertical-align: -5px" width="103" height="20" /> from <img src="http://latex.artofproblemsolving.com/2/7/b/27b5219f416150c967e6905377d37c2d1874ba20.png" class="latex" alt="$5\cdot[(1)+(2)]$" style="vertical-align: -5px" width="103" height="20" /> to get <img src="http://latex.artofproblemsolving.com/a/4/9/a4905e8f155a93ecc45101b300bb24601f7be0f3.png" class="latexcenter" alt="\[b+d=5\cdot(54+54)-4\cdot(53+53)=\boxed{116}.\]" width="341" height="23" />
+~MRENTHUSIASM
+</p>
+<h2><span id="Solution_3_.28Similar_to_Solution_2.29"></span><span class="mw-headline" id="Solution_3_(Similar_to_Solution_2)">Solution 3 (Similar to Solution 2)</span></h2>
+<p>Like Solution 2, we can begin by setting <img src="http://latex.artofproblemsolving.com/4/b/4/4b4cade9ca8a2c8311fafcf040bc5b15ca507f52.png" class="latex" alt="$P$" style="vertical-align: -1px" width="16" height="14" /> and <img src="http://latex.artofproblemsolving.com/9/8/6/9866e3a998d628ba0941eb4fea0666ac391d149a.png" class="latex" alt="$Q$" style="vertical-align: -4px" width="16" height="18" /> to the quadratic above, giving us
+<img src="http://latex.artofproblemsolving.com/7/b/3/7b3ea589e77e0001a58cebc6428ae3638d908f07.png" class="latexcenter" alt="\begin{alignat*}{8} P(16) &amp;= &amp;512 + 16a + b &amp;= 54, \hspace{20mm}&amp;&amp;(1) \\ Q(16) &amp;= &amp;\hspace{1mm}-512 + 16c + d &amp;= 54, &amp;&amp;(2) \\ P(20) &amp;= &amp;800 + 20a + b &amp;= 53,  &amp;&amp;(3) \\ Q(20) &amp;= &amp;\hspace{1mm}-800 + 20c + d &amp;= 53, &amp;&amp;(4) \end{alignat*}" width="355" height="93" />
+We can first add <img src="http://latex.artofproblemsolving.com/0/d/9/0d9c3b1c142cbd3f8217dabc160c57e4750df241.png" class="latex" alt="$(1)$" style="vertical-align: -4px" width="21" height="18" /> and <img src="http://latex.artofproblemsolving.com/6/2/f/62f62a19f0425d8e6121ca0c1cfd3ce96e43c9c5.png" class="latex" alt="$(2)$" style="vertical-align: -4px" width="21" height="18" /> to obtain <img src="http://latex.artofproblemsolving.com/6/9/3/6936bba3af91b17f2ebbe74fd8e8005c9ee9fef3.png" class="latex" alt="$16(a-c) + (b+d) = 108.$" style="vertical-align: -5px" width="206" height="20" /> 
+</p><p>Next, we can add <img src="http://latex.artofproblemsolving.com/b/8/8/b88ea3916e8089c7edbccc3ff91e58e01a6e2682.png" class="latex" alt="$(3)$" style="vertical-align: -4px" width="21" height="18" /> and <img src="http://latex.artofproblemsolving.com/1/0/4/104992efa4deaa9a2dfeeec9b331ad0bf628f80a.png" class="latex" alt="$(4)$" style="vertical-align: -5px" width="25" height="20" /> to obtain <img src="http://latex.artofproblemsolving.com/4/4/0/4400310b2c2bb9949e5921f6821f73d9b5d8c542.png" class="latex" alt="$20(a-c) + (b+d) = 106.$" style="vertical-align: -5px" width="206" height="20" /> By subtracting these two equations, we find that <img src="http://latex.artofproblemsolving.com/2/7/1/2712aa17e95d1fd867bd81ffe8a39dfe1d5a5fc3.png" class="latex" alt="$4(a-c) = -2,$" style="vertical-align: -5px" width="117" height="20" /> so substituting this into equation <img src="http://latex.artofproblemsolving.com/d/0/c/d0cdf064d17ed2120aa99a830fc2cf2a43492f2f.png" class="latex" alt="$[(1) + (2)],$" style="vertical-align: -5px" width="86" height="20" /> we know that <img src="http://latex.artofproblemsolving.com/e/7/0/e70ca4ca936395cc0bc5e764651f7c86d4411381.png" class="latex" alt="$4 \cdot (-2) + (b+d) = 108,$" style="vertical-align: -5px" width="194" height="20" /> so therefore <img src="http://latex.artofproblemsolving.com/2/e/f/2efb8133cd2da628d9ea14d6ac11574fe7989b29.png" class="latex" alt="$b+d = \boxed{116}.$" style="vertical-align: -6px" width="109" height="25" />
+</p><p>~jessiewang28
+</p>
+<h2><span id="Solution_4_.28Brute_Force.29"></span><span class="mw-headline" id="Solution_4_(Brute_Force)">Solution 4 (Brute Force)</span></h2>
+<p>Let
+<img src="http://latex.artofproblemsolving.com/f/1/d/f1d1740b4373f7b7edd9b7012f17fdbe02cdf339.png" class="latexcenter" alt="\begin{alignat*}{8} P(x) &amp;= &amp;2x^2 + ax + b, \\ Q(x) &amp;= &amp;\hspace{1mm}-2x^2 + cx + d, \end{alignat*}" width="179" height="47" />
+By substituting <img src="http://latex.artofproblemsolving.com/f/6/d/f6d3b8c1fd33542bf5122c8451a52a9bc05ea099.png" class="latex" alt="$(16, 54)$" style="vertical-align: -5px" width="60" height="20" /> and <img src="http://latex.artofproblemsolving.com/7/9/4/7946509a649dd8878d0f8669f52af6ee6b894efd.png" class="latex" alt="$(20, 53)$" style="vertical-align: -5px" width="60" height="20" /> into these equations, we can get:
+<img src="http://latex.artofproblemsolving.com/f/3/e/f3e64d17d54dd7230c9b40a9021a3839718fe063.png" class="latexcenter" alt="\begin{align*} 2(16)^2 + 16a + b &amp;= 54, \\ 2(20)^2 + 20a + b &amp;= 53. \end{align*}" width="174" height="47" />
+Hence, <img src="http://latex.artofproblemsolving.com/6/8/2/6820f98804da0c012a5ac1791427700afa7e4333.png" class="latex" alt="$a = -72.25$" style="vertical-align: -2px" width="91" height="15" /> and <img src="http://latex.artofproblemsolving.com/9/3/1/931c4b8c11c115c68024c0b49c58ab726a5f25e7.png" class="latex" alt="$b = 698.$" style="vertical-align: -1px" width="66" height="14" />
+</p><p>Similarly,
+<img src="http://latex.artofproblemsolving.com/5/f/4/5f4a353889a1b59d9bb430b7684bb8d7b0836d82.png" class="latexcenter" alt="\begin{align*} -2(16)^2 + 16c + d &amp;= 54, \\ -2(20)^2 + 20c + d &amp;= 53. \end{align*}" width="188" height="47" />
+Hence, <img src="http://latex.artofproblemsolving.com/3/e/3/3e34caab6958efddd34c98382366e37cf73bb401.png" class="latex" alt="$c = 71.75$" style="vertical-align: -1px" width="75" height="14" /> and <img src="http://latex.artofproblemsolving.com/0/c/1/0c1b7de0e95f45fe8465eb15244c0ecd53567834.png" class="latex" alt="$d = -582.$" style="vertical-align: -2px" width="82" height="16" />
+</p><p>Notice that <img src="http://latex.artofproblemsolving.com/b/5/e/b5eb26fe2f20d5ead4e795480229c35a6af81d6a.png" class="latex" alt="$b = P(0)$" style="vertical-align: -5px" width="71" height="20" /> and <img src="http://latex.artofproblemsolving.com/0/1/2/012098b15c71af6b2f09a7881070a135cdcac01a.png" class="latex" alt="$d = Q(0).$" style="vertical-align: -5px" width="78" height="20" />
+Therefore <img src="http://latex.artofproblemsolving.com/8/1/5/8154567bf59b4b71090995f4f2cfeea8a39550d9.png" class="latexcenter" alt="\[P(0) + Q(0) = 698 + (-582) = \boxed{116}.\]" width="292" height="23" />
+~Littlemouse
+</p>
+<h2><span class="mw-headline" id="Solution_5">Solution 5</span></h2>
+<p>Add the equations of the polynomials <img src="http://latex.artofproblemsolving.com/4/4/3/4438dcf3d574ac770276f6e585de5652eee7b371.png" class="latex" alt="$y=2x^2+ax+b$" style="vertical-align: -4px" width="135" height="20" /> and <img src="http://latex.artofproblemsolving.com/f/5/b/f5babba625bb00cfcaee472bc1a6690bd05041f9.png" class="latex" alt="$y=-2x^2+cx+d$" style="vertical-align: -4px" width="149" height="20" /> to get <img src="http://latex.artofproblemsolving.com/f/1/c/f1c1d3364198323686976ff92ec0147016537f6c.png" class="latex" alt="$2y=(a+c)x+(b+d)$" style="vertical-align: -5px" width="185" height="20" />. This equation must also pass through the two points <img src="http://latex.artofproblemsolving.com/f/b/5/fb51011e48a783a40e23d6e1a0a4b2f9a9b8ec73.png" class="latex" alt="$(16,54)$" style="vertical-align: -5px" width="60" height="20" /> and <img src="http://latex.artofproblemsolving.com/7/3/d/73d49527c37a1f8d8a2da6bbfd14a334514254f5.png" class="latex" alt="$(20,53)$" style="vertical-align: -5px" width="60" height="20" />.
+</p><p>Let <img src="http://latex.artofproblemsolving.com/5/9/d/59d34b53ee261d7e8737e6c8452d7b8a7c5c518e.png" class="latex" alt="$m=a+c$" style="vertical-align: -2px" width="82" height="14" /> and <img src="http://latex.artofproblemsolving.com/d/6/4/d640566e47e3c006dcd053461872b440ce1f2269.png" class="latex" alt="$n=b+d$" style="vertical-align: -2px" width="76" height="16" />. We then have two equations:
+<img src="http://latex.artofproblemsolving.com/4/6/6/4662ec70be598a086536f9e37014984fe037a06e.png" class="latexcenter" alt="\begin{align*} 108&amp;=16m+n, \\ 106&amp;=20m+n. \end{align*}" width="121" height="38" />
+We are trying to solve for <img src="http://latex.artofproblemsolving.com/5/6/7/5676b37d8f4c0b25307d72adffc5d065dbc7c9fc.png" class="latex" alt="$n=P(0)$" style="vertical-align: -5px" width="74" height="20" />. Using elimination:
+<img src="http://latex.artofproblemsolving.com/b/1/f/b1fcd49b9925b8be1b1ede8f55534573751c913a.png" class="latexcenter" alt="\begin{align*} 540&amp;=80m+5n, \\ 424&amp;=80m+4n. \end{align*}" width="131" height="39" />
+Subtracting both equations, we find that <img src="http://latex.artofproblemsolving.com/c/f/f/cff314245492c6a8c30fe1ebbf949d06c089318c.png" class="latex" alt="$n=\boxed{116}$" style="vertical-align: -6px" width="76" height="25" />.
+</p><p>~eevee9406
+</p>
+<h2><span id="Video_Solution_.28Mathematical_Dexterity.29"></span><span class="mw-headline" id="Video_Solution_(Mathematical_Dexterity)">Video Solution (Mathematical Dexterity)</span></h2>
+<p><a rel="nofollow" class="external free" href="https://www.youtube.com/watch?v=sUfbEBCQ6RY">https://www.youtube.com/watch?v=sUfbEBCQ6RY</a>
+</p>
+<h2><span id="Video_Solution_by_MRENTHUSIASM_.28English_.26_Chinese.29"></span><span class="mw-headline" id="Video_Solution_by_MRENTHUSIASM_(English_&amp;_Chinese)">Video Solution by MRENTHUSIASM (English &amp; Chinese)</span></h2>
+<p><a rel="nofollow" class="external free" href="https://www.youtube.com/watch?v=XcS5qcqsRyw&amp;ab_channel=MRENTHUSIASM">https://www.youtube.com/watch?v=XcS5qcqsRyw&amp;ab_channel=MRENTHUSIASM</a>
+</p><p>~MRENTHUSIASM
+</p>
+<h2><span class="mw-headline" id="Video_Solution">Video Solution</span></h2>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/MJ_M-xvwHLk?t=7">https://youtu.be/MJ_M-xvwHLk?t=7</a>
+</p><p>~ThePuzzlr
+</p>
+<h2><span class="mw-headline" id="Video_Solution_2">Video Solution</span></h2>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/eDZUzvwt4SE">https://youtu.be/eDZUzvwt4SE</a>
+</p><p>~savannahsolver
+</p>
+<h2><span class="mw-headline" id="Video_Solution_3">Video Solution</span></h2>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/D3sSHlZQIlE">https://youtu.be/D3sSHlZQIlE</a>
+</p><p>~AMC &amp; AIME Training
+</p>
+<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="index954b.html?title=2022_AIME_I" title="2022 AIME I">2022 AIME I</a></b> (<b><a href="indexc2a9.html?title=2022_AIME_I_Problems" title="2022 AIME I Problems">Problems</a></b> • <b><a href="indexdce6.html?title=2022_AIME_I_Answer_Key" title="2022 AIME I Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/Forum/resources.php?c=182&amp;cid=45&amp;year=2022">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b>First Problem</b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="indexc99b.html?title=2022_AIME_I_Problems/Problem_2" title="2022 AIME I Problems/Problem 2">Problem 2</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a class="mw-selflink selflink">1</a> <b>•</b> <a href="indexc99b.html?title=2022_AIME_I_Problems/Problem_2" title="2022 AIME I Problems/Problem 2">2</a> <b>•</b> <a href="index2287.html?title=2022_AIME_I_Problems/Problem_3" title="2022 AIME I Problems/Problem 3">3</a> <b>•</b> <a href="index8238.html?title=2022_AIME_I_Problems/Problem_4" title="2022 AIME I Problems/Problem 4">4</a> <b>•</b> <a href="index5fd0.html?title=2022_AIME_I_Problems/Problem_5" title="2022 AIME I Problems/Problem 5">5</a> <b>•</b> <a href="indexacb5.html?title=2022_AIME_I_Problems/Problem_6" title="2022 AIME I Problems/Problem 6">6</a> <b>•</b> <a href="index9cfb.html?title=2022_AIME_I_Problems/Problem_7" title="2022 AIME I Problems/Problem 7">7</a> <b>•</b> <a href="index47be.html?title=2022_AIME_I_Problems/Problem_8" title="2022 AIME I Problems/Problem 8">8</a> <b>•</b> <a href="index800b.html?title=2022_AIME_I_Problems/Problem_9" title="2022 AIME I Problems/Problem 9">9</a> <b>•</b> <a href="index5907.html?title=2022_AIME_I_Problems/Problem_10" title="2022 AIME I Problems/Problem 10">10</a> <b>•</b> <a href="indexe480.html?title=2022_AIME_I_Problems/Problem_11" title="2022 AIME I Problems/Problem 11">11</a> <b>•</b> <a href="indexf24e.html?title=2022_AIME_I_Problems/Problem_12" title="2022 AIME I Problems/Problem 12">12</a> <b>•</b> <a href="index84a5.html?title=2022_AIME_I_Problems/Problem_13" title="2022 AIME I Problems/Problem 13">13</a> <b>•</b> <a href="index6ff4.html?title=2022_AIME_I_Problems/Problem_14" title="2022 AIME I Problems/Problem 14">14</a> <b>•</b> <a href="indexfc13.html?title=2022_AIME_I_Problems/Problem_15" title="2022 AIME I Problems/Problem 15">15</a>
+</td></tr>
+<tr>
+<td align="center" colspan="3"><b><a href="index5b9d.html?title=AIME_Problems_and_Solutions" title="AIME Problems and Solutions"> All AIME Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<div class="print">
+<div style="display:flex;width:100%;justify-content:space-between;align-items:center">
+<div>
+<p><span class="mw-default-size" typeof="mw:File"><a href="index76cf.html?title=File:AMC_Logo.png" class="mw-file-description"><img src="images/d/d1/AMC_Logo.png" decoding="async" width="97" height="84" class="mw-file-element" /></a></span>
+</p>
+</div>
+<div style="flex-grow:1;text-align:right">
+<p>These problems are copyrighted &#169; by the <a rel="nofollow" class="external text" href="https://www.maa.org/">Mathematical Association of America</a>. 
+</p>
+</div>
+<div style="clear:both;"></div>
+</div></div>
+<!-- 
+NewPP limit report
+Cached time: 20260212192943
+Cache expiry: 86400
+Reduced expiry: false
+Complications: [show‐toc]
+CPU time usage: 0.064 seconds
+Real time usage: 0.085 seconds
+Preprocessor visited node count: 443/1000000
+Post‐expand include size: 1755/2097152 bytes
+Template argument size: 114/2097152 bytes
+Highest expansion depth: 3/100
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 13308/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   16.589      1 -total
+ 61.49%   10.200      1 Template:AIME_box
+ 36.28%    6.018      1 Template:MAA_Notice
+-->
+
+<!-- Saved in parser cache with key wiki-wiki_:pcache:21029:|#|:idhash:canonical and timestamp 20260212192943 and revision id 202949. Rendering was triggered because: page-view
+ -->
+</div></div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2022_AIME_I_Problems/Problem_1&amp;oldid=202949">https://artofproblemsolving.com/wiki/index.php?title=2022_AIME_I_Problems/Problem_1&amp;oldid=202949</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+
+<!-- search:off -->
+	<div class="clearfix"></div>
+
+	
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+					<a href="../online.html">
+						<img class="footer-mainLogo"
+						src="../assets/images/logos/aops-online-footer.svg"/>
+					</a>
+					<div class="footer-wasc">
+						<span>
+							Art of Problem Solving is an
+							<br class="wasc-break"/>
+							<span class="footer-accredited">ACS WASC Accredited School</span>
+						</span>
+						<img class="footer-wascLogo"
+						src="../assets/images/logos/wasc.png"/>
+					</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<div><a class="link" href="https://artofproblemsolving.comonline/">AoPS Online</a></div>
+					<div><a class="link" href="https://beastacademy.com/">Beast Academy</a></div>
+					<div><a class="link" href="https://aopsacademy.org/">AoPS Academy</a></div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<div><a class="link" href="../company/about.html">About AoPS</a></div>
+					<div><a class="link" href="../company/staff.html">Our Team</a></div>
+					<div><a class="link" href="../company/history.html">Our History</a></div>
+					<div><a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a></div>
+					<div><a class="link" href="https://artofproblemsolving.com/blog">AoPS Blog</a></div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<div><a class="link" href="../company/tos.html">Terms</a></div>
+					<div><a class="link" href="../company/privacy.html">Privacy</a></div>
+					<div><a class="link" href="../contact.html">Contact Us</a></div>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+						<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+							<img src="../assets/images/socialmedia/facebook.svg" class="sm-icon"/>
+						</a>
+						<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+							<img src="../assets/images/socialmedia/twitter.svg" class="sm-icon"/>
+						</a>
+						<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+							<img src="../assets/images/socialmedia/pinterest.svg" class="sm-icon"/>
+						</a>
+					</div>
+				</div>
+				<div class="footer-col subscribe">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="https://artofproblemsolving.com/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z"/>
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2026 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+			<a href="../online.html">
+				<img class="footer-mainLogo"
+				src="../assets/images/logos/aops-online-footer.svg"/>
+			</a>
+			<div class="copyright">
+				&copy; 2026 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="../company.html">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="../contact.html">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="../company/tos.html">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="../company/privacy.html">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<form id="registration-form" method="post" action="https://artofproblemsolving.com/user/register.php">
+	<input type="hidden" name="username" value="">
+	<input type="hidden" name="password" value="">
+	<input type="hidden" name="from-login" value="true">
+	</form>
+<div id="print-footer" class="printer">Copyright &copy; 2026 Art of Problem Solving</div>
+
+
+
+<div id="epicfail" class="aops-html-modal-epic-fail" style="display: none">
+	<div class="aops-html-modal-inner-epic-fail">
+		<div class="aops-html-modal-main-epic-fail">
+			<p>Something appears to not have loaded correctly.</p>
+		</div>
+		<div class="aops-html-modal-bottom-epic-fail">
+			<p><a onclick="location.reload(true);return false">Click to refresh</a>.</p>
+		</div>
+	</div>
+</div>
+<link rel="stylesheet" href="../assets/css/epic-fail.css">
+
+
+
+
+
+<!-- /search:off -->
+
+
+<!-- copied from contact page index, with edits -->
+<script id="footer-tpl-email-dialog" type="text/x-handlebars-template">
+	<div id="mail-dialog">
+		<h1>Email Art of Problem Solving</h1>
+		<p>
+			<input type="text" id="email" name="email" placeholder="Your email address">
+			<input type="text" id="subject" name="subject" placeholder="Subject of message">
+			<textarea id="message" name="message" placeholder="Enter your message"></textarea>
+			<div style="padding:5px 30px">
+				<input type="checkbox" id="email-copy" name="email_copy">
+				<label for="email-copy" id="email-copy-label">Send a copy to my email address.</label>
+			</div>
+			<div style="padding:5px 30px 20px">
+				<input id="footer-submit-btn" type="submit" class="btn btn-primary" value="Send">
+				<input id="footer-cancel-btn" type="submit" class="btn btn-default" value="Cancel">
+			</div>
+		</p>
+		<p id="email-error"></p>
+	</div>
+</script>
+
+
+<script id="footer-tpl-email-confirm" type="text/x-handlebars-template">
+	<div id="mail-dialog-confirm">
+		<h2>Email Sent</h2>
+		<p>Thank you for your email. We will respond to it soon.</p>
+	</div>
+</script>
+
+<!-- bing -->
+<script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"5105596"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","http://bat.bing.com/bat.js","uetq");</script><noscript><img src="http://bat.bing.com/action/0?ti=5105596&amp;Ver=2" height="0" width="0" style="display:none; visibility: hidden;" /></noscript>
+
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a1528e84f993055e',t:'MTc4MzA0Njc1NA=='};var a=document.createElement('script');a.src='https://artofproblemsolving.com/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a1528e84aa6b83fb',t:'MTc4MzA0Njc1NA=='};var a=document.createElement('script');a.src='https://artofproblemsolving.com/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<!-- Cached 20260212202841 -->
+
+<!-- Mirrored from artofproblemsolving.com/wiki/index.php?title=2022_AIME_I_Problems/Problem_1 by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 03 Jul 2026 02:57:46 GMT -->
+</html>
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":213,"wgPageParseReport":{"limitreport":{"cputime":"0.064","walltime":"0.085","ppvisitednodes":{"value":443,"limit":1000000},"postexpandincludesize":{"value":1755,"limit":2097152},"templateargumentsize":{"value":114,"limit":2097152},"expansiondepth":{"value":3,"limit":100},"expensivefunctioncount":{"value":0,"limit":100},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":13308,"limit":5000000},"timingprofile":["100.00%   16.589      1 -total"," 61.49%   10.200      1 Template:AIME_box"," 36.28%    6.018      1 Template:MAA_Notice"]},"cachereport":{"timestamp":"20260212192943","ttl":86400,"transientcontent":false}}});});</script>
+</body>
+<!-- Cached 20260212202841 -->
+</html>
