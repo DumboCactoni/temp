@@ -1,8 +1,0 @@
-# HTTrack Website Copier Cookie File
-# This file format is compatible with Netscape cookies
-login.artofproblemsolving.com	TRUE	/	FALSE	1999999999	platverifier	38ef000a4c8107e5445866049d160260be753d9879d147b1b2451f0f32ef30f82e40fbe8a9be26ed87d10f36ced46cc85d70641979c2325b25ba34b0428d99e7
-login.artofproblemsolving.com	TRUE	/	FALSE	1999999999	SameSite	Lax
-www.artofproblemsolving.com	TRUE	/	FALSE	1999999999	SameSite	None
-.artofproblemsolving.com	TRUE	/	FALSE	1999999999	cf_migration_target	current
-artofproblemsolving.com	TRUE	/	FALSE	1999999999	SameSite	None
-

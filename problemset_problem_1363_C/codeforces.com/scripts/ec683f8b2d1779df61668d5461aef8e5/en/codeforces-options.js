@@ -1,7 +1,0 @@
-window.codeforcesOptions = [];
-window.codeforcesOptions.subscribeServerUrl = "https://codeforces.com/problemset/problem/1363/pubsub.codeforces.com";
-window.codeforcesOptions.standaloneGroupDomain = "contest.codeforces.com";
-window.codeforcesOptions.timeZoneNoticeCaption = "in timezone UTC";
-window.codeforcesOptions.timeZoneTitleCaption = "timezone offset";
-window.codeforcesOptions.notPublicCaption = "not publicly available";
-window.codeforcesOptions.suggestHandleLink = "/data/handles";
